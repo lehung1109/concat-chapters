@@ -2,7 +2,7 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'vu-than-thien-ha-vu-phong', 'OEBPS', 'Text');
+const FOLDER_PATH = path.join(__dirname, 'than-de-vu-phong', 'OEBPS', 'Text');
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, 'combined-txt');
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
@@ -32,7 +32,7 @@ function countHTMLFiles(folderPath) {
   }
 
 function mergeHTMLBatch(startNum, endNum) {
-  let combinedText = '';
+  let combinedText = 'Cảm ơn anh em đã luôn đồng hành và ủng hộ kênh Minh An Đạo Trưởng! Nếu mọi người có gợi ý về những bộ truyện hay, hợp với kênh, thì cứ comment bên dưới nhé. Đạo Trưởng sẽ chọn ra bộ hay nhất để đưa lên kênh. ';
   
   for (let i = startNum; i <= endNum; i++) {
     const fileName = `C${i}.xhtml`;
@@ -46,11 +46,15 @@ function mergeHTMLBatch(startNum, endNum) {
     const html = fs.readFileSync(filePath, 'utf-8');
     const $ = cheerio.load(html);
     
-    $('h1').remove();
-    const bodyText = $('body').text().trim();
+    let bodyText = $('body').text().trim();
+
+    // remove multiple new line
+    bodyText = bodyText.replace(/\n\n/g, '\n');
+    bodyText = bodyText.replace(/\n/g, '. ');
+    bodyText = bodyText.replace(/../g, '.');
     
     if (bodyText) {
-      combinedText += bodyText + '\n';
+      combinedText += bodyText + '. ';
     }
     
     console.log(`✓ Đã xử lý ${fileName}`);
