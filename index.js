@@ -49,9 +49,11 @@ function mergeHTMLBatch(startNum, endNum) {
     let bodyText = $('body').text().trim();
 
     // remove multiple new line
+    bodyText = bodyText.replace(/-/g, ' ');
     bodyText = bodyText.replace(/\n\n/g, '\n');
     bodyText = bodyText.replace(/\n/g, '. ');
-    bodyText = bodyText.replace(/../g, '.');
+    bodyText = bodyText.replace(/\s+/g, ' ');
+    bodyText = bodyText.replace(/\.\./g, '.');
     
     if (bodyText) {
       combinedText += bodyText + '. ';
