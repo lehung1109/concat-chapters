@@ -2,9 +2,9 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'thinh-tien-sinh-cuu-ta', 'EPUB');
+const FOLDER_PATH = path.join(__dirname, 'van-co-de-nhat-than-phong-thanh-duong', 'OEBPS', 'Text');
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
-const prefixChapter = 'chap_';
+const prefixChapter = 'C';
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
