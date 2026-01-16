@@ -57,7 +57,7 @@ function mergeHTMLBatch(startNum, endNum) {
     bodyText = bodyText.replace(/\.\./g, '.');
     
     if (bodyText) {
-      combinedText += bodyText + '. ';
+      combinedText += bodyText + ' ';
     }
     
     console.log(`✓ Đã xử lý ${fileName}`);
