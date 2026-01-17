@@ -15,9 +15,9 @@ if (!fs.existsSync(OUTPUT_FOLDER)) {
 function countHTMLFiles(folderPath) {
     try {
       const files = fs.readdirSync(folderPath)
-        .filter(file => new RegExp(`^${prefixChapter}\\d+\\.${extension}$`).test(file)) // Chỉ lấy C1.html, C2.html...
+      // include page-0.html, page-1.html, page-2.html, ...
+        .filter(file => new RegExp(`^${prefixChapter}\\d+\\.${extension}$`).test(file))
         .sort((a, b) => {
-          // Sort theo số: C10.html, C2.html -> C2.html, C10.html
           const numA = parseInt(a.match(/\d+/)?.[0] || 0);
           const numB = parseInt(b.match(/\d+/)?.[0] || 0);
           return numA - numB;
@@ -80,7 +80,7 @@ function processAllBatches() {
 
   const batchSize = 20;
   
-  for (let start = 1; start <= totalFiles.length; start += batchSize) {
+  for (let start = 0; start <= totalFiles.length; start += batchSize) {
     const end = Math.min(start + batchSize - 1, totalFiles.length);
     mergeHTMLBatch(start, end);
   }
