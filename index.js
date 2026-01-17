@@ -54,8 +54,8 @@ function mergeHTMLBatch(startNum, endNum) {
     bodyText = bodyText.replace(/-/g, ' ');
     bodyText = bodyText.replace(/\n\n/g, '\n');
     bodyText = bodyText.replace(/\n/g, '. ');
+    bodyText = bodyText.replace(/\.\./g, '. ');
     bodyText = bodyText.replace(/\s+/g, ' ');
-    bodyText = bodyText.replace(/\.\./g, '.');
     
     if (bodyText) {
       combinedText += bodyText + ' ';
