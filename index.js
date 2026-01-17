@@ -50,7 +50,7 @@ function mergeHTMLBatch(startNum, endNum) {
     const $ = cheerio.load(html);
     
     const bodyText = $('p').map((index, element) => {
-      const text = $(element).text().replaceAll(/["'!?-]/g, '').replaceAll(/\.+/g, '.').replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ');
+      const text = $(element).text().replaceAll(/["'!?-]/g, '').replaceAll('《', '').replaceAll('》', '').replaceAll(/\.+/g, '.').replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ');
 
       return text === '.' ? '' : text;
     }).get().reduce((acc, line) => {
