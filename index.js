@@ -2,9 +2,10 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'van-co-de-nhat-than-phong-thanh-duong', 'OEBPS', 'Text');
+const FOLDER_PATH = path.join(__dirname, 'sieu-nang-luc-ta-co-mot-chiec-guong-sao-chep', 'OEBPS');
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
-const prefixChapter = 'C';
+const prefixChapter = 'page-';
+const extension = 'html';
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -14,7 +15,7 @@ if (!fs.existsSync(OUTPUT_FOLDER)) {
 function countHTMLFiles(folderPath) {
     try {
       const files = fs.readdirSync(folderPath)
-        .filter(file => new RegExp(`^${prefixChapter}\\d+\\.xhtml$`).test(file)) // Chỉ lấy C1.html, C2.html...
+        .filter(file => new RegExp(`^${prefixChapter}\\d+\\.${extension}$`).test(file)) // Chỉ lấy C1.html, C2.html...
         .sort((a, b) => {
           // Sort theo số: C10.html, C2.html -> C2.html, C10.html
           const numA = parseInt(a.match(/\d+/)?.[0] || 0);
@@ -22,7 +23,7 @@ function countHTMLFiles(folderPath) {
           return numA - numB;
         });
       
-      console.log(`📄 Tìm thấy ${files.length} file HTML: ${prefixChapter}*.xhtml`);
+      console.log(`📄 Tìm thấy ${files.length} file HTML: ${prefixChapter}*.${extension}`);
       console.log('📋 Danh sách (5 đầu):', files.slice(0, 5));
       
       return files.map(file => parseInt(file.match(/\d+/)?.[0] || 0));
@@ -36,7 +37,7 @@ function mergeHTMLBatch(startNum, endNum) {
   let combinedText = 'Cảm ơn anh em đã luôn đồng hành và ủng hộ kênh Minh An Đạo Trưởng! Nếu mọi người có gợi ý về những bộ truyện hay, hợp với kênh, thì cứ comment bên dưới nhé. Đạo Trưởng sẽ chọn ra bộ hay nhất để đưa lên kênh. ';
   
   for (let i = startNum; i <= endNum; i++) {
-    const fileName = `${prefixChapter}${i}.xhtml`;
+    const fileName = `${prefixChapter}${i}.${extension}`;
     const filePath = path.join(FOLDER_PATH, fileName);
     
     if (!fs.existsSync(filePath)) {
@@ -73,7 +74,7 @@ function processAllBatches() {
   const totalFiles = countHTMLFiles(FOLDER_PATH);
 
   if (totalFiles.length === 0) {
-    console.log(`❌ Không tìm thấy file ${prefixChapter}*.xhtml nào!`);
+    console.log(`❌ Không tìm thấy file ${prefixChapter}*.${extension} nào!`);
     return;
   }
 
