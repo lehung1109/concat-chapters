@@ -6,6 +6,7 @@ const FOLDER_PATH = path.join(__dirname, 'sieu-nang-luc-ta-co-mot-chiec-guong-sa
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
 const prefixChapter = 'page-';
 const extension = 'html';
+const batchSize = 5;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -48,18 +49,20 @@ function mergeHTMLBatch(startNum, endNum) {
     const html = fs.readFileSync(filePath, 'utf-8');
     const $ = cheerio.load(html);
     
-    let bodyText = $('body').text().trim();
+    const bodyText = $('p').map((index, element) => {
+      const text = $(element).text().replaceAll(/["'!?-]/g, '').replaceAll(/\.+/g, '.').replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ');
 
-    // remove multiple new line
-    bodyText = bodyText.replace(/-/g, ' ');
-    bodyText = bodyText.replace(/\n\n/g, '\n');
-    bodyText = bodyText.replace(/\n/g, '. ');
-    bodyText = bodyText.replace(/\.\./g, '. ');
-    bodyText = bodyText.replace(/"/g, '" ');
-    bodyText = bodyText.replace(/\s+/g, ' ');
+      return text === '.' ? '' : text;
+    }).get().reduce((acc, line) => {
+      if (line) {
+        return `${acc}${line === '.' ? ' ' : line}${line.endsWith('.') || line.endsWith(',') ? ' ' : '. '}`;
+      }
+
+      return acc + ' ';
+    }, '');
     
     if (bodyText) {
-      combinedText += bodyText + ' ';
+      combinedText += bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ');
     }
     
     console.log(`✓ Đã xử lý ${fileName}`);
@@ -79,8 +82,6 @@ function processAllBatches() {
     return;
   }
 
-  const batchSize = 20;
-  
   for (let start = 0; start <= totalFiles.length; start += batchSize) {
     const end = Math.min(start + batchSize - 1, totalFiles.length);
     mergeHTMLBatch(start, end);
