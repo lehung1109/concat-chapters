@@ -35,7 +35,7 @@ function countHTMLFiles(folderPath) {
   }
 
 function mergeHTMLBatch(startNum, endNum) {
-  let combinedText = 'Cảm ơn anh em đã luôn đồng hành và ủng hộ kênh Minh An Đạo Trưởng! Nếu mọi người có gợi ý về những bộ truyện hay, hợp với kênh, thì cứ comment bên dưới nhé. Đạo Trưởng sẽ chọn ra bộ hay nhất để đưa lên kênh. ';
+  let combinedText = 'Cảm ơn anh em đã luôn đồng hành và ủng hộ kênh Minh An Đạo Trưởng! Nếu mọi người có gợi ý về những bộ truyện hay, hợp với kênh thì cứ comment bên dưới nhé. Đạo Trưởng sẽ chọn ra bộ hay nhất để đưa lên kênh. ';
   
   for (let i = startNum; i <= endNum; i++) {
     const fileName = `${prefixChapter}${i}.${extension}`;
@@ -62,7 +62,7 @@ function mergeHTMLBatch(startNum, endNum) {
     }, '');
     
     if (bodyText) {
-      combinedText += bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ');
+      combinedText += xuLyVanBan(bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ').replaceAll("đi theo", "cuốn theo"));
     }
     
     console.log(`✓ Đã xử lý ${fileName}`);
@@ -72,6 +72,38 @@ function mergeHTMLBatch(startNum, endNum) {
   const outputFile = path.join(OUTPUT_FOLDER, `output_${prefixChapter}${startNum}-${prefixChapter}${endNum}.txt`);
   fs.writeFileSync(outputFile, combinedText.trim(), 'utf-8');
   console.log(`✅ Xuất ra: ${outputFile}`);
+}
+
+function xuLyVanBan(text, maxLen = 20) {
+  // Regex match nội dung + delimiter (bao gồm space sau)
+  const pattern = /([^.,:]+?)([.,:]\s*)/g;
+  let result = '';
+  let lastIndex = 0;
+  let match;
+
+  while ((match = pattern.exec(text)) !== null) {
+    const content = match[1].trim();
+    if (content.length < maxLen) {
+      // Câu ngắn: thay bằng content sạch (xóa dấu ngắt)
+      result += content + ' ';
+    } else {
+      // Câu dài: giữ nguyên toàn bộ match (content + dấu ngắt)
+      result += match[0];
+    }
+    lastIndex = pattern.lastIndex;
+  }
+
+  // Phần cuối không match
+  if (lastIndex < text.length) {
+    const lastPart = text.slice(lastIndex).trim();
+    if (lastPart.length < maxLen) {
+      result += lastPart;
+    } else {
+      result += text.slice(lastIndex);
+    }
+  }
+
+  return result.trim();
 }
 
 function processAllBatches() {
