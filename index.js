@@ -2,10 +2,10 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'sieu-nang-luc-ta-co-mot-chiec-guong-sao-chep', 'OEBPS');
+const FOLDER_PATH = path.join(__dirname, 'toan-cau-thang-cap-ta-thuc-tinh-tram-van-thuoc-tinh-diem', 'EPUB');
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
-const prefixChapter = 'page-';
-const extension = 'html';
+const prefixChapter = 'chap_';
+const extension = 'xhtml';
 const batchSize = 20;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
