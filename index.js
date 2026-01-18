@@ -50,7 +50,20 @@ function mergeHTMLBatch(startNum, endNum) {
     const $ = cheerio.load(html);
     
     const bodyText = $('p').map((index, element) => {
-      const text = $(element).text().replaceAll(/["'!?-]/g, '').replaceAll('《', '').replaceAll('》', '').replaceAll(/\.+/g, '.').replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ');
+      let text = $(element).text();
+
+      text = text.replaceAll(/["'!?-]/g, '');
+      text = text.replaceAll('《', '');
+      text = text.replaceAll('【', '');
+      text = text.replaceAll('】', '');
+      text = text.replaceAll('》', '');
+      text = text.replaceAll('–', '');
+      text = text.replaceAll('…', '');
+      text = text.replaceAll(/\.+/g, '.');
+      text = text.replaceAll(/ \./g, ' ');
+      text = text.replaceAll(/\s+/g, ' ');
+      text = text.replaceAll('“', '');
+      text = text.replaceAll('”', '');
 
       return text === '.' ? '' : text;
     }).get().reduce((acc, line) => {
@@ -70,7 +83,7 @@ function mergeHTMLBatch(startNum, endNum) {
   
   // Tạo output file trong cùng thư mục
   const outputFile = path.join(OUTPUT_FOLDER, `output_${prefixChapter}${startNum}-${prefixChapter}${endNum}.txt`);
-  fs.writeFileSync(outputFile, combinedText.trim(), 'utf-8');
+  fs.writeFileSync(outputFile, combinedText.replaceAll(/\s+/g, ' ').trim(), 'utf-8');
   console.log(`✅ Xuất ra: ${outputFile}`);
 }
 
