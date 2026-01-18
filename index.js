@@ -62,7 +62,7 @@ function mergeHTMLBatch(startNum, endNum) {
     }, '');
     
     if (bodyText) {
-      combinedText += xuLyVanBan(bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ').replaceAll("đi theo", "đi thẹo"));
+      combinedText = combinedText + ' ' + xuLyVanBan(bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ').replaceAll("đi theo", "đi thẹo"));
     }
     
     console.log(`✓ Đã xử lý ${fileName}`);
