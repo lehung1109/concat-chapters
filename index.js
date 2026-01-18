@@ -6,7 +6,7 @@ const FOLDER_PATH = path.join(__dirname, 'sieu-nang-luc-ta-co-mot-chiec-guong-sa
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
 const prefixChapter = 'page-';
 const extension = 'html';
-const batchSize = 5;
+const batchSize = 20;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -62,7 +62,7 @@ function mergeHTMLBatch(startNum, endNum) {
     }, '');
     
     if (bodyText) {
-      combinedText += xuLyVanBan(bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ').replaceAll("đi theo", "đi tới"));
+      combinedText += xuLyVanBan(bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ').replaceAll("đi theo", "đi thẹo"));
     }
     
     console.log(`✓ Đã xử lý ${fileName}`);
