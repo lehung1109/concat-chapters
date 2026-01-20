@@ -49,7 +49,7 @@ function mergeHTMLBatch(startNum, endNum) {
     const html = fs.readFileSync(filePath, 'utf-8');
     const $ = cheerio.load(html);
     
-    const bodyText = $('p').map((index, element) => {
+    const bodyText = $('p, h1').map((index, element) => {
       let text = $(element).text();
 
       text = text.replaceAll(/["'!?-]/g, '');
