@@ -2,9 +2,9 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'toan-cau-thang-cap-ta-thuc-tinh-tram-van-thuoc-tinh-diem', 'EPUB');
+const FOLDER_PATH = path.join(__dirname, 'van-co-de-nhat-than-phong-thanh-duong', 'OEBPS', "Text");
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
-const prefixChapter = 'chap_';
+const prefixChapter = 'C';
 const extension = 'xhtml';
 const batchSize = 20;
 
@@ -64,6 +64,11 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll(/\s+/g, ' ');
       text = text.replaceAll('“', '');
       text = text.replaceAll('”', '');
+      text = text.replaceAll(':', '');
+      text = text.replaceAll('‘', '');
+      text = text.replaceAll('’', '');
+      text = text.replaceAll('(', '');
+      text = text.replaceAll(')', '');
 
       return text === '.' ? '' : text;
     }).get().reduce((acc, line) => {
@@ -75,7 +80,7 @@ function mergeHTMLBatch(startNum, endNum) {
     }, '');
     
     if (bodyText) {
-      combinedText = combinedText + ' ' + xuLyVanBan(bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' ').replaceAll("đi theo", "đi thẹo"));
+      combinedText = combinedText + ' ' + xuLyVanBan(bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' '));
     }
     
     console.log(`✓ Đã xử lý ${fileName}`);
