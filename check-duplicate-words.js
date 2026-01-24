@@ -165,13 +165,23 @@ function fixDuplicateWords(text) {
 }
 
 /**
- * Ghi lỗi vào file error-duplicate.txt
+ * Ghi lỗi vào file error-duplicate.txt (append mode)
  * @param {string} fileName - Tên file có lỗi
  * @param {Array} duplicates - Mảng các câu có từ trùng
+ * @param {boolean} isFirstError - Có phải lỗi đầu tiên không (để xóa file cũ)
  */
-function writeErrorToFile(fileName, duplicates) {
-  let errorContent = `❌ LỖI: Tìm thấy ${duplicates.length} câu có từ trùng trong file "${fileName}"\n`;
-  errorContent += '='.repeat(60) + '\n\n';
+function writeErrorToFile(fileName, duplicates, isFirstError = false) {
+  let errorContent = '';
+  
+  if (isFirstError) {
+    // Xóa file cũ và bắt đầu mới
+    errorContent = `❌ BÁO CÁO LỖI TỪ TRÙNG\n`;
+    errorContent += `Thời gian: ${new Date().toLocaleString('vi-VN')}\n`;
+    errorContent += '='.repeat(60) + '\n\n';
+  }
+  
+  errorContent += `❌ LỖI: Tìm thấy ${duplicates.length} câu có từ trùng trong file "${fileName}"\n`;
+  errorContent += '─'.repeat(60) + '\n\n';
 
   duplicates.forEach(result => {
     errorContent += `Câu ${result.sentenceIndex}:\n`;
@@ -183,11 +193,13 @@ function writeErrorToFile(fileName, duplicates) {
     errorContent += '\n';
   });
 
-  errorContent += '='.repeat(60) + '\n';
-  errorContent += `Thời gian: ${new Date().toLocaleString('vi-VN')}\n`;
+  errorContent += '─'.repeat(60) + '\n\n';
 
-  fs.writeFileSync(ERROR_FILE, errorContent, 'utf-8');
-  console.error(`\n📝 Đã ghi lỗi vào file: ${ERROR_FILE}`);
+  if (isFirstError) {
+    fs.writeFileSync(ERROR_FILE, errorContent, 'utf-8');
+  } else {
+    fs.appendFileSync(ERROR_FILE, errorContent, 'utf-8');
+  }
 }
 
 /**
@@ -217,6 +229,11 @@ function checkAllOutputFiles() {
 
   console.log(`📁 Tìm thấy ${files.length} file(s) để kiểm tra\n`);
 
+  let totalErrors = 0;
+  let filesWithErrors = 0;
+  let filesFixed = 0;
+  let isFirstError = true;
+
   for (const file of files) {
     const filePath = path.join(OUTPUT_FOLDER, file);
     const content = fs.readFileSync(filePath, 'utf-8');
@@ -229,6 +246,9 @@ function checkAllOutputFiles() {
     if (duplicates.length === 0) {
       console.log('✅ Không có từ trùng trong file này');
     } else {
+      filesWithErrors++;
+      totalErrors += duplicates.length;
+      
       console.error(`\n⚠️  Tìm thấy ${duplicates.length} câu có từ trùng trong file "${file}":\n`);
 
       duplicates.forEach(result => {
@@ -244,19 +264,33 @@ function checkAllOutputFiles() {
       console.log('\n🔧 Đang tự động sửa lỗi...');
       const fixedContent = fixDuplicateWords(content);
       fs.writeFileSync(filePath, fixedContent, 'utf-8');
+      filesFixed++;
       console.log('✅ Đã sửa và lưu lại file');
 
       // Ghi lỗi vào file
-      writeErrorToFile(file, duplicates);
-
-      console.error('\n' + '='.repeat(60));
-      console.error('❌ Dừng kiểm tra do phát hiện từ trùng!');
-      process.exit(1);
+      writeErrorToFile(file, duplicates, isFirstError);
+      isFirstError = false;
     }
   }
 
+  // Ghi tổng kết vào file lỗi
+  if (filesWithErrors > 0) {
+    let summary = '\n' + '='.repeat(60) + '\n';
+    summary += `📊 TỔNG KẾT:\n`;
+    summary += `  - Tổng số file có lỗi: ${filesWithErrors}/${files.length}\n`;
+    summary += `  - Tổng số câu có lỗi: ${totalErrors}\n`;
+    summary += `  - Số file đã sửa: ${filesFixed}\n`;
+    summary += '='.repeat(60) + '\n';
+    fs.appendFileSync(ERROR_FILE, summary, 'utf-8');
+    console.error(`\n📝 Đã ghi tất cả lỗi vào file: ${ERROR_FILE}`);
+  }
+
   console.log('\n' + '='.repeat(60));
-  console.log('🎉 Tất cả file đều không có từ trùng!');
+  if (filesWithErrors === 0) {
+    console.log('🎉 Tất cả file đều không có từ trùng!');
+  } else {
+    console.log(`📊 Hoàn thành kiểm tra: ${filesWithErrors} file có lỗi, ${filesFixed} file đã được sửa`);
+  }
 }
 
 /**
@@ -298,11 +332,10 @@ function checkSingleFile(fileName) {
     console.log('✅ Đã sửa và lưu lại file');
 
     // Ghi lỗi vào file
-    writeErrorToFile(fileName, duplicates);
+    writeErrorToFile(fileName, duplicates, true);
 
     console.error('\n' + '='.repeat(60));
-    console.error('❌ Phát hiện từ trùng!');
-    process.exit(1);
+    console.error('⚠️  Phát hiện từ trùng và đã sửa!');
   }
 }
 
