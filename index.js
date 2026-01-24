@@ -7,7 +7,7 @@ const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
 const prefixChapter = 'C';
 const extension = 'xhtml';
 const batchSize = 20;
-const startChapter = 1;
+const startChapter = 0;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -93,7 +93,7 @@ function mergeHTMLBatch(startNum, endNum) {
   console.log(`✅ Xuất ra: ${outputFile}`);
 }
 
-function xuLyVanBan(text, maxLen = 10) {
+function xuLyVanBan(text, maxLen = 8) {
   // Regex match nội dung + delimiter (bao gồm space sau)
   const pattern = /([^.,:]+?)([.,:]\s*)/g;
   let result = '';
