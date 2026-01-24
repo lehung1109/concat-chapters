@@ -2,11 +2,12 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'van-co-de-nhat-than-phong-thanh-duong', 'OEBPS', "Text");
+const FOLDER_PATH = path.join(__dirname, 'than-de-vu-phong', 'OEBPS', "Text");
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
 const prefixChapter = 'C';
 const extension = 'xhtml';
 const batchSize = 20;
+const startChapter = 1;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -35,7 +36,7 @@ function countHTMLFiles(folderPath) {
   }
 
 function mergeHTMLBatch(startNum, endNum) {
-  let combinedText = 'Cảm ơn anh em đã luôn đồng hành và ủng hộ kênh Minh An Đạo Trưởng! Nếu mọi người có gợi ý về những bộ truyện hay, hợp với kênh thì cứ comment bên dưới nhé. Đạo Trưởng sẽ chọn ra bộ hay nhất để đưa lên kênh. ';
+  let combinedText = 'Cảm ơn anh em đã luôn đồng hành và ủng hộ kênh Minh An Đạo Trưởng, Nếu mọi người có gợi ý về những bộ truyện hay, hợp với kênh thì cứ bình luận bên dưới nhé. Đạo Trưởng sẽ chọn ra bộ hay nhất để đưa lên kênh. ';
   
   for (let i = startNum; i <= endNum; i++) {
     const fileName = `${prefixChapter}${i}.${extension}`;
@@ -132,7 +133,7 @@ function processAllBatches() {
     return;
   }
 
-  for (let start = 0; start <= totalFiles.length; start += batchSize) {
+  for (let start = startChapter; start <= totalFiles.length; start += batchSize) {
     const end = Math.min(start + batchSize - 1, totalFiles.length);
     mergeHTMLBatch(start, end);
   }
