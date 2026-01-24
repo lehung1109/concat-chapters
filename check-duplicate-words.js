@@ -88,6 +88,83 @@ function checkDuplicateWords(text) {
 }
 
 /**
+ * Sửa lỗi từ trùng bằng cách thêm dấu phẩy vào cuối từ ở giữa
+ * @param {string} text - Văn bản cần sửa
+ * @returns {string} - Văn bản đã được sửa
+ */
+function fixDuplicateWords(text) {
+  // Tách câu dựa trên dấu . hoặc ,
+  const sentences = text.split(/([.,])/).reduce((acc, part) => {
+    if (part === '.' || part === ',') {
+      if (acc.length > 0) {
+        acc[acc.length - 1] += part;
+      }
+    } else if (part.trim()) {
+      acc.push(part.trim());
+    }
+    return acc;
+  }, []).filter(s => s.length > 0);
+
+  const fixedSentences = sentences.map(sentence => {
+    // Loại bỏ dấu câu ở cuối để tách từ
+    const cleanSentence = sentence.replace(/[.,]$/, '');
+    const originalWords = cleanSentence.split(/\s+/).filter(word => word.length > 0);
+    
+    // Tách thành các từ (chuyển về chữ thường để so sánh)
+    const words = originalWords.map(word => word.toLowerCase());
+    
+    // Lưu vị trí của mỗi từ
+    const wordPositions = {};
+    words.forEach((word, pos) => {
+      if (!wordPositions[word]) {
+        wordPositions[word] = [];
+      }
+      wordPositions[word].push(pos);
+    });
+
+    // Tìm các vị trí cần thêm dấu phẩy (từ ở giữa 2 từ trùng cách nhau 1 từ)
+    const positionsToFix = new Set();
+    
+    Object.keys(wordPositions).forEach(word => {
+      const positions = wordPositions[word];
+      if (positions.length >= 2) {
+        for (let i = 0; i < positions.length - 1; i++) {
+          const distance = positions[i + 1] - positions[i] - 1;
+          if (distance === 1) {
+            // Thêm dấu phẩy vào cuối từ ở giữa (từ thứ 2 trong cặp 3 từ)
+            // Ví dụ: "khối xanh khối" -> thêm phẩy vào "xanh" (vị trí positions[i] + 1)
+            positionsToFix.add(positions[i] + 1);
+          }
+        }
+      }
+    });
+
+    // Sửa lại các từ: thêm dấu phẩy vào cuối từ ở các vị trí cần sửa
+    const fixedWords = originalWords.map((word, index) => {
+      if (positionsToFix.has(index)) {
+        // Kiểm tra xem từ đã có dấu phẩy ở cuối chưa
+        if (!word.endsWith(',')) {
+          return word + ',';
+        }
+      }
+      return word;
+    });
+
+    // Ghép lại câu và thêm lại dấu câu ở cuối nếu có
+    let fixedSentence = fixedWords.join(' ');
+    const lastChar = sentence.slice(-1);
+    if (lastChar === '.' || lastChar === ',') {
+      fixedSentence += lastChar;
+    }
+    
+    return fixedSentence;
+  });
+
+  // Ghép lại tất cả các câu
+  return fixedSentences.join(' ');
+}
+
+/**
  * Ghi lỗi vào file error-duplicate.txt
  * @param {string} fileName - Tên file có lỗi
  * @param {Array} duplicates - Mảng các câu có từ trùng
@@ -152,7 +229,7 @@ function checkAllOutputFiles() {
     if (duplicates.length === 0) {
       console.log('✅ Không có từ trùng trong file này');
     } else {
-      console.error(`\n❌ LỖI: Tìm thấy ${duplicates.length} câu có từ trùng trong file "${file}":\n`);
+      console.error(`\n⚠️  Tìm thấy ${duplicates.length} câu có từ trùng trong file "${file}":\n`);
 
       duplicates.forEach(result => {
         console.error(`\n  Câu ${result.sentenceIndex}:`);
@@ -162,6 +239,12 @@ function checkAllOutputFiles() {
           console.error(`    - "${word}" (xuất hiện ${count} lần)`);
         });
       });
+
+      // Tự động sửa lỗi
+      console.log('\n🔧 Đang tự động sửa lỗi...');
+      const fixedContent = fixDuplicateWords(content);
+      fs.writeFileSync(filePath, fixedContent, 'utf-8');
+      console.log('✅ Đã sửa và lưu lại file');
 
       // Ghi lỗi vào file
       writeErrorToFile(file, duplicates);
@@ -197,7 +280,7 @@ function checkSingleFile(fileName) {
   if (duplicates.length === 0) {
     console.log('✅ Không có từ trùng trong file này');
   } else {
-    console.error(`\n❌ LỖI: Tìm thấy ${duplicates.length} câu có từ trùng:\n`);
+    console.error(`\n⚠️  Tìm thấy ${duplicates.length} câu có từ trùng:\n`);
 
     duplicates.forEach(result => {
       console.error(`\n  Câu ${result.sentenceIndex}:`);
@@ -207,6 +290,12 @@ function checkSingleFile(fileName) {
         console.error(`    - "${word}" (xuất hiện ${count} lần)`);
       });
     });
+
+    // Tự động sửa lỗi
+    console.log('\n🔧 Đang tự động sửa lỗi...');
+    const fixedContent = fixDuplicateWords(content);
+    fs.writeFileSync(filePath, fixedContent, 'utf-8');
+    console.log('✅ Đã sửa và lưu lại file');
 
     // Ghi lỗi vào file
     writeErrorToFile(fileName, duplicates);
@@ -229,4 +318,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = { checkDuplicateWords, checkAllOutputFiles, checkSingleFile };
+module.exports = { checkDuplicateWords, checkAllOutputFiles, checkSingleFile, fixDuplicateWords };

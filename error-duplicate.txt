@@ -1,353 +1,346 @@
-❌ LỖI: Tìm thấy 68 câu có từ trùng trong file "output_C261-C280.txt"
+❌ LỖI: Tìm thấy 68 câu có từ trùng trong file "output_C301-C320.txt"
 ============================================================
 
-Câu 65:
-"trên thân toàn là khối xanh khối đỏ,"
+Câu 20:
+"Hắc Minh Phi Tích càng nhìn càng thấy lạ."
 Từ trùng:
-  - "khối" (xuất hiện 2 lần)
+  - "càng" (xuất hiện 2 lần)
 
-Câu 256:
-"có thể có được một loại lực lượng linh hồn để tôi luyện linh hồn bản thân,"
+Câu 74:
+"nói ở gần đây có thể có nhân loại xuất hiện,"
 Từ trùng:
   - "có" (xuất hiện 2 lần)
 
-Câu 270:
-"nếu đi hấp thu linh hồn linh hồn,"
+Câu 179:
+"ít nhiều có thể có lợi hơn so với tình hình hiện any."
 Từ trùng:
-  - "linh" (xuất hiện 2 lần)
-  - "hồn" (xuất hiện 2 lần)
+  - "có" (xuất hiện 2 lần)
 
-Câu 430:
-"tám ngươi các ngươi chia nhau tìm kiếm địa phương tu hành,"
+Câu 208:
+"có lẽ có thể giúp đỡ được một tay."
 Từ trùng:
-  - "ngươi" (xuất hiện 2 lần)
+  - "có" (xuất hiện 2 lần)
+
+Câu 262:
+"Cách đó không xa có nơi có năng lực thiên địa nồng đậm,"
+Từ trùng:
+  - "có" (xuất hiện 2 lần)
+
+Câu 359:
+"trong áp lực kèm theo một loại yêu khí Yêu tộc,"
+Từ trùng:
+  - "yêu" (xuất hiện 2 lần)
+
+Câu 383:
+"Các ngươi tới đâu tới."
+Từ trùng:
+  - "tới" (xuất hiện 2 lần)
+
+Câu 427:
+"có Yêu tộc nhìn thấy có nhân loại chạy trốn chắc hẳn là chính là các ngươi đúng không."
+Từ trùng:
+  - "là" (xuất hiện 2 lần)
+
+Câu 450:
+"nói Không nói dối gì tiền bối,"
+Từ trùng:
+  - "nói" (xuất hiện 2 lần)
+
+Câu 456:
+"ánh mắt đảo qua đảo lại,"
+Từ trùng:
+  - "đảo" (xuất hiện 2 lần)
+
+Câu 558:
+"làm sao có thể rơi vào tình trạng trốn đông trốn tây như bây giờ được,"
+Từ trùng:
+  - "trốn" (xuất hiện 2 lần)
+
+Câu 570:
+"không thể lấy lại công đạo công đạo cho mình,"
+Từ trùng:
+  - "công" (xuất hiện 2 lần)
+  - "đạo" (xuất hiện 2 lần)
+
+Câu 666:
+"Không thể không nói,"
+Từ trùng:
+  - "không" (xuất hiện 2 lần)
+
+Câu 694:
+"Cái ngươi gọi là Thiên Yêu tông hôm nay có kẻ địch lớn bên ngoài nên phải trốn đông trốn tây giống như chó nhà có tang,"
+Từ trùng:
+  - "trốn" (xuất hiện 2 lần)
 
 Câu 750:
-"Mọi người là người tu luyện,"
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 778:
-"Đi đầu là một thanh niên chừng hai mươi hai mốt tuổi,"
-Từ trùng:
-  - "hai" (xuất hiện 2 lần)
-
-Câu 790:
-"đều chỉ chừng mười sáu mười bảy,"
-Từ trùng:
-  - "mười" (xuất hiện 2 lần)
-
-Câu 898:
-"Một thiếu niên tuổi chừng mười sáu mười bảy bên cạnh Hổ Minh quét nhìn mấy người Thượng Quan Tú,"
-Từ trùng:
-  - "mười" (xuất hiện 2 lần)
-
-Câu 929:
-"đừng lề mà lề mề,"
-Từ trùng:
-  - "lề" (xuất hiện 2 lần)
-
-Câu 953:
-"Đánh thì đánh,"
-Từ trùng:
-  - "đánh" (xuất hiện 2 lần)
-
-Câu 973:
-"giờ này ngày này hắn đủ sức để đối phó Thượng Quan Nham."
-Từ trùng:
-  - "này" (xuất hiện 2 lần)
-
-Câu 987:
-"Tên đã trên dây không thể không phát,"
+"nhưng lúc này vì Thiên Yêu tông hắn cũng không thể không làm."
 Từ trùng:
   - "không" (xuất hiện 2 lần)
 
-Câu 1109:
-"Tô Dật lại không vội không chậm,"
+Câu 856:
+"Hổ Kình vừa cười vừa nói."
+Từ trùng:
+  - "vừa" (xuất hiện 2 lần)
+
+Câu 878:
+"Hắn biết tính cách của đại ca Xích Kình bằng không sẽ không an bài như vậy."
 Từ trùng:
   - "không" (xuất hiện 2 lần)
 
-Câu 1128:
-"dưới ánh mắt mỗi người mỗi khác của song phương,"
+Câu 914:
+"nhưng so với ở lứa tuổi cùng trình độ tu vi này thì biết co biết giãn có đúng mực,"
 Từ trùng:
-  - "mỗi" (xuất hiện 2 lần)
+  - "biết" (xuất hiện 2 lần)
 
-Câu 1152:
-"Giờ này khắc này,"
+Câu 1054:
+"hắn không thể lại để xuất hiện bất kỳ bất ngờ nào."
 Từ trùng:
-  - "này" (xuất hiện 2 lần)
+  - "bất" (xuất hiện 2 lần)
 
-Câu 1183:
-"thanh âm càng lúc càng xa."
-Từ trùng:
-  - "càng" (xuất hiện 2 lần)
-
-Câu 1233:
-"thân ảnh như huyễn như thật,"
-Từ trùng:
-  - "như" (xuất hiện 2 lần)
-
-Câu 1287:
-"tiểu tử này ném hai người Hổ Khâu Hổ Diệp xuống núi ngay trước mắt hắn,"
-Từ trùng:
-  - "hổ" (xuất hiện 2 lần)
-
-Câu 1308:
-"hai đạo lưu quang một trước một sau lập tức lướt ra."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 1317:
-"là một đao một kiếm trên lưng do Tô Dật ném mạnh ra."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 1371:
-"tốc chiến tốc thắng,"
-Từ trùng:
-  - "tốc" (xuất hiện 2 lần)
-
-Câu 1374:
-"chọn cách lấy cứng đối cứng,"
-Từ trùng:
-  - "cứng" (xuất hiện 2 lần)
-
-Câu 1470:
-"ai cũng biết có tương sinh tương khắc."
-Từ trùng:
-  - "tương" (xuất hiện 2 lần)
-
-Câu 1502:
-"từng đợt từng đợt khí tức nóng bỏng như sóng lửa trực tiếp tuôn ra."
-Từ trùng:
-  - "từng" (xuất hiện 2 lần)
-  - "đợt" (xuất hiện 2 lần)
-
-Câu 1508:
-"Tô Dật chủ động lấy cứng đối cứng,"
-Từ trùng:
-  - "cứng" (xuất hiện 2 lần)
-
-Câu 1524:
-"chính diện cứng đối cứng không khỏi chịu chút thiệt nhỏ."
-Từ trùng:
-  - "cứng" (xuất hiện 2 lần)
-
-Câu 1551:
-"Ngươi càng lúc càng khiến ta giật mình,"
+Câu 1085:
+"càng nhanh càng tốt."
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 1594:
-"sắc mặt Hổ Minh càng lúc càng tối sầm."
+Câu 1088:
+"Chỉ là dây cung ở sâu trong lòng Tô Dật càng lúc càng căng lên."
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 1599:
-"tên tiểu tử tu vị Nguyên Huyền cảnh bát trọng trước mắt vẫn trực tiếp lấy cứng đối cứng chống lại,"
+Câu 1097:
+"Nửa tin nửa không,"
 Từ trùng:
-  - "cứng" (xuất hiện 2 lần)
+  - "nửa" (xuất hiện 2 lần)
 
-Câu 1646:
-"Hơi nước càng lúc càng nồng nặc,"
+Câu 1101:
+"nhiều nhất chỉ là nửa tin nửa ngờ Xích Kình này mà thôi,"
 Từ trùng:
-  - "càng" (xuất hiện 2 lần)
+  - "nửa" (xuất hiện 2 lần)
 
-Câu 1673:
-"Từng vòng từng vòng năng lượng nguyên khí thuộc tính Thổ màu đen cuốn thốc ra như gợn sóng,"
-Từ trùng:
-  - "từng" (xuất hiện 2 lần)
-  - "vòng" (xuất hiện 2 lần)
-
-Câu 1705:
-"Nguyên Huyền cảnh bát trọng lại có thể có được thực lực như thế."
+Câu 1117:
+"có lẽ có thể tưởng tượng được,"
 Từ trùng:
   - "có" (xuất hiện 2 lần)
 
-Câu 1741:
-"ánh sáng càng lúc càng thâm thúy,"
+Câu 1142:
+"mượn lực hóa lực,"
 Từ trùng:
-  - "càng" (xuất hiện 2 lần)
+  - "lực" (xuất hiện 2 lần)
 
-Câu 1772:
-"như rồng như giao,"
-Từ trùng:
-  - "như" (xuất hiện 2 lần)
-
-Câu 1806:
-"bộc phát từng mảnh từng mảnh ánh sáng."
-Từ trùng:
-  - "từng" (xuất hiện 2 lần)
-  - "mảnh" (xuất hiện 2 lần)
-
-Câu 1926:
-"cự hổ cự hùng hai bên cửa đá phát sáng,"
-Từ trùng:
-  - "cự" (xuất hiện 2 lần)
-
-Câu 1951:
-"ánh sáng càng lúc càng ảm đạm,"
-Từ trùng:
-  - "càng" (xuất hiện 2 lần)
-
-Câu 1952:
-"năng lượng đặc biệt quanh bốn phía lại càng lúc càng nồng nặc."
-Từ trùng:
-  - "càng" (xuất hiện 2 lần)
-
-Câu 1968:
-"có rắn có cổ báo,"
+Câu 1213:
+"Bạch Ngọc Huyền Điểu có thể có chút rèn luyện."
 Từ trùng:
   - "có" (xuất hiện 2 lần)
 
-Câu 1993:
-"Khí tức càng lúc càng nồng nặc,"
+Câu 1264:
+"bằng không giết không tha."
+Từ trùng:
+  - "không" (xuất hiện 2 lần)
+
+Câu 1517:
+"Một người một thú chiến đấu với nhau,"
+Từ trùng:
+  - "một" (xuất hiện 2 lần)
+
+Câu 1572:
+"có phần có tin nói với Xích Kình."
+Từ trùng:
+  - "có" (xuất hiện 2 lần)
+
+Câu 1603:
+"Ta cũng càng lúc càng thấy tò mò về Thiên Yêu tông,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2037:
-"đặc biệt là sau khi nhìn thấy sự tiến bộ của đám người Hổ Minh Hổ Khâu,"
-Từ trùng:
-  - "hổ" (xuất hiện 2 lần)
-
-Câu 2092:
-"hình thái tiểu thái dương của linh hồn khẽ chớp động,"
-Từ trùng:
-  - "thái" (xuất hiện 2 lần)
-
-Câu 2118:
-"ánh sáng càng lúc càng loá mắt,"
+Câu 1812:
+"càng nhanh càng tốt."
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2139:
-"khiến linh hồn càng lúc càng ngưng thực và cường đại,"
+Câu 1927:
+"Mỗi thôn dân Thôn Linh Cổ,"
+Từ trùng:
+  - "thôn" (xuất hiện 2 lần)
+
+Câu 1942:
+"Tuy nhiên Tô Dật không phải không lo lắng Yêu Hoàng Xích Kình có ý muốn lấy mấy loại công pháp Thiên Hổ Quyết,"
+Từ trùng:
+  - "không" (xuất hiện 2 lần)
+
+Câu 1970:
+"một người một thú tiến hành quyết đấu kịch liệt,"
+Từ trùng:
+  - "một" (xuất hiện 2 lần)
+
+Câu 1987:
+"nên trở nên chuẩn bị gia nhập vào đám yêu đột phá Linh cảnh tam trọng."
+Từ trùng:
+  - "nên" (xuất hiện 2 lần)
+
+Câu 1996:
+"dọc đường đi đều phải trốn đông trốn tây,"
+Từ trùng:
+  - "trốn" (xuất hiện 2 lần)
+
+Câu 2033:
+"Điều này làm cho Tô Dật không thể không cố gắng,"
+Từ trùng:
+  - "không" (xuất hiện 2 lần)
+
+Câu 2147:
+"toàn thân Tô Dật có năng lượng dao động kèm theo một loại yêu khí yêu mà không tà,"
+Từ trùng:
+  - "yêu" (xuất hiện 2 lần)
+
+Câu 2171:
+"Yêu khí trên cơ thể Tô Dật càng ngày càng dày đặc,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2265:
-"ánh sáng bao quanh thân Tô Dật càng lúc càng sáng chói,"
+Câu 2172:
+"cơ thể cũng càng lúc càng sáng,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2323:
-"ý niệm trở thành càng lúc càng kiên định,"
+Câu 2262:
+"Trong nháy mắt ánh mắt Xích Kình nhìn chằm chằm vào bên trong sơn động,"
+Từ trùng:
+  - "mắt" (xuất hiện 2 lần)
+
+Câu 2276:
+"Năng lượng của thiên địa càng lúc càng kịch liệt,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2324:
-"càng lúc càng không thể lay động."
+Câu 2278:
+"Mây đen càng lúc càng nhiều kèm theo những tia chớp ngang dọc,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2357:
-"Ầm ầm Khí tức đó càng lúc càng nồng nặc,"
+Câu 2299:
+"lúc này chẳng biết tại sao bọn chúng ở trong uy áp đáng sợ và động tĩnh này lại dường như không bị áp lực áp chế."
+Từ trùng:
+  - "áp" (xuất hiện 3 lần)
+
+Câu 2359:
+"càng lúc càng điên cuồng,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2378:
-"ẩn ẩn có một thú ảnh như hổ như sư tử,"
+Câu 2362:
+"tiếng thú gào rít gào đinh tai nhức óc không ngừng vang lên kèm theo tiếng sấm kinh thiên động địa."
 Từ trùng:
-  - "như" (xuất hiện 2 lần)
+  - "gào" (xuất hiện 2 lần)
 
 Câu 2379:
-"như rồng như phượng hiển lộ,"
-Từ trùng:
-  - "như" (xuất hiện 2 lần)
-
-Câu 2518:
-"nương theo đó là từng đạo từng đạo phù văn bay múa,"
-Từ trùng:
-  - "từng" (xuất hiện 2 lần)
-  - "đạo" (xuất hiện 2 lần)
-
-Câu 2687:
-"sao ta sao có thể bỏ lại tộc nhân mình."
-Từ trùng:
-  - "sao" (xuất hiện 2 lần)
-
-Câu 2703:
-"Không ta không thể rời đi."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 2706:
-"Hổ Trì Hổ Mạch cắn răng nói."
-Từ trùng:
-  - "hổ" (xuất hiện 2 lần)
-
-Câu 2971:
-"Không đi không nổi."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 2990:
-"những tia nắng sau cùng hòa lẫn với sương chiều xám xịt như ẩn như hiện,"
-Từ trùng:
-  - "như" (xuất hiện 2 lần)
-
-Câu 3195:
-"càng lúc càng ngưng thực,"
+"cảm giác áp lực bên trong sơn động đang càng lúc càng đáng sợ."
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 3209:
-"Còn có thân ảnh cường đại như ẩn như hiện trên hư không,"
-Từ trùng:
-  - "như" (xuất hiện 2 lần)
-
-Câu 3309:
-"khí tức cường đại như ẩn như hiện."
-Từ trùng:
-  - "như" (xuất hiện 2 lần)
-
-Câu 3344:
-"thân ảnh cường đại như ẩn như hiện giữa hư không,"
-Từ trùng:
-  - "như" (xuất hiện 2 lần)
-
-Câu 3364:
-"từng đạo từng đạo ánh sáng quanh người tản ra,"
-Từ trùng:
-  - "từng" (xuất hiện 2 lần)
-  - "đạo" (xuất hiện 2 lần)
-
-Câu 3530:
-"từng đạo từng đạo đao quang quỷ dị lơ lửng phá không,"
-Từ trùng:
-  - "từng" (xuất hiện 2 lần)
-  - "đạo" (xuất hiện 2 lần)
-
-Câu 3596:
-"Hổ Trì Hổ Minh Hổ Mạch của bộ lạc Liệp Hổ,"
-Từ trùng:
-  - "hổ" (xuất hiện 4 lần)
-
-Câu 3650:
-"Đám người Hùng Chiến lung la lung lay,"
-Từ trùng:
-  - "lung" (xuất hiện 2 lần)
-
-Câu 3676:
-"cùng lão giả loan đao một trước một sau bao vây thôn trưởng Thượng Quan Trình Nhã."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 3685:
-"từng đạo từng đạo thân ảnh quen thuộc bị đánh giết giữa trời,"
-Từ trùng:
-  - "từng" (xuất hiện 2 lần)
-  - "đạo" (xuất hiện 2 lần)
-
-Câu 3773:
-"những đại địch trước mắt xa không phải Hắc Diêu Hắc Sát môn lúc trước có thể so,"
-Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
-
-Câu 3838:
-"Đó là một thiếu niên bộ dáng chừng mười lăm mười sáu tuổi,"
+Câu 2398:
+"chừng mười lăm mười sáu tuổi,"
 Từ trùng:
   - "mười" (xuất hiện 2 lần)
 
+Câu 2445:
+"mãnh liệt lại vô cùng vô tận."
+Từ trùng:
+  - "vô" (xuất hiện 2 lần)
+
+Câu 2529:
+"cũng không thể không ra ngoài nghênh đón số kiếp."
+Từ trùng:
+  - "không" (xuất hiện 2 lần)
+
+Câu 2548:
+"những tiếng sấm chớp rền vang đang đánh loạn trong những đám mây dày mây đen,"
+Từ trùng:
+  - "mây" (xuất hiện 2 lần)
+
+Câu 2553:
+"chỉ còn lại có những tia chớp khiến người ta sởn tóc gáy đang không ngừng xuyên qua xuyên lại."
+Từ trùng:
+  - "xuyên" (xuất hiện 2 lần)
+
+Câu 2596:
+"ba loại uy thế của thế,"
+Từ trùng:
+  - "thế" (xuất hiện 2 lần)
+
+Câu 2655:
+"hàng nghìn hàng vạn ảo ảnh yêu thú thay thế biến hóa,"
+Từ trùng:
+  - "hàng" (xuất hiện 2 lần)
+
+Câu 2663:
+"Ảo ảnh của hàng nghìn hàng vạn yêu thú thể hiện ra rồi tan biến,"
+Từ trùng:
+  - "hàng" (xuất hiện 2 lần)
+
+Câu 2770:
+"đến lúc đó sợ rằng có hỏi cũng hỏi không ra được."
+Từ trùng:
+  - "hỏi" (xuất hiện 2 lần)
+
+Câu 2975:
+"Thái độ của ba vị trưởng lão đối với Tô Dật càng lúc càng tốt,"
+Từ trùng:
+  - "càng" (xuất hiện 2 lần)
+
+Câu 3000:
+"Mấy ngày trước hắn còn gây ra động tĩnh đáng sợ như vậy khiến bọn họ càng lúc càng dao động."
+Từ trùng:
+  - "càng" (xuất hiện 2 lần)
+
+Câu 3076:
+"con ngươi thản nhiên nhìn Tô Dật nói không ngừng ngã trước ngã sau."
+Từ trùng:
+  - "ngã" (xuất hiện 2 lần)
+
+Câu 3093:
+"Thương Lan thành biến thành màu tím sẫm,"
+Từ trùng:
+  - "thành" (xuất hiện 2 lần)
+
+Câu 3111:
+"nhưng cơ thể lại càng lúc càng cao."
+Từ trùng:
+  - "càng" (xuất hiện 2 lần)
+
+Câu 3145:
+"lúc cao lúc thấp,"
+Từ trùng:
+  - "lúc" (xuất hiện 2 lần)
+
+Câu 3146:
+"lúc trái lúc phải giống như một con chim bay vào buổi sáng sớm."
+Từ trùng:
+  - "lúc" (xuất hiện 2 lần)
+
+Câu 3203:
+"Cho dù tư chất có tốt có là thiên tài tuyệt đỉnh,"
+Từ trùng:
+  - "có" (xuất hiện 2 lần)
+
+Câu 3287:
+"giống như có ảo ảnh của một Xích Long như ẩn như hiện."
+Từ trùng:
+  - "như" (xuất hiện 3 lần)
+
+Câu 3367:
+"Tô Dật có đã có thu hoạch."
+Từ trùng:
+  - "có" (xuất hiện 2 lần)
+
+Câu 3463:
+"Đừng nói là Tô Dật đã cảnh cáo nó không thể gây sự ở trong Thương Lan thành bằng không sẽ không có cách nào bảo vệ nó,"
+Từ trùng:
+  - "không" (xuất hiện 3 lần)
+
+Câu 3498:
+"các ngươi cũng có thể có tiến bước."
+Từ trùng:
+  - "có" (xuất hiện 2 lần)
+
 ============================================================
-Thời gian: 23:13:29 24/1/2026
+Thời gian: 23:24:03 24/1/2026
