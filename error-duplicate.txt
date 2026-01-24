@@ -1,2598 +1,353 @@
-❌ LỖI: Tìm thấy 503 câu có từ trùng trong file "output_C1001-C1020.txt"
+❌ LỖI: Tìm thấy 68 câu có từ trùng trong file "output_C261-C280.txt"
 ============================================================
 
-Câu 9:
-"chỉ có điều với tính cách cao ngạo của cường giả yêu tộc cảnh giới Yêu Hoàng,"
+Câu 65:
+"trên thân toàn là khối xanh khối đỏ,"
 Từ trùng:
-  - "yêu" (xuất hiện 2 lần)
+  - "khối" (xuất hiện 2 lần)
 
-Câu 17:
-"Tô Dật muốn mạnh mẽ bố trí một đạo linh hồn ấn ký trong thú hồn,"
+Câu 256:
+"có thể có được một loại lực lượng linh hồn để tôi luyện linh hồn bản thân,"
 Từ trùng:
+  - "có" (xuất hiện 2 lần)
+
+Câu 270:
+"nếu đi hấp thu linh hồn linh hồn,"
+Từ trùng:
+  - "linh" (xuất hiện 2 lần)
   - "hồn" (xuất hiện 2 lần)
 
-Câu 30:
-"tính cách cố chấp càng làm cho hắn không cách nào cúi đầu trước mặt Tô Dật."
-Từ trùng:
-  - "cách" (xuất hiện 2 lần)
-
-Câu 35:
-"muốn chém giết muốn róc thịt,"
-Từ trùng:
-  - "muốn" (xuất hiện 2 lần)
-
-Câu 42:
-"mấy người trong không gian thần bí cũng không nhịn được cảm thấy sợ hãi."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 44:
-"cũng không biết suy xét Đều là ỷ vào bản thể của hắn là băng tủy phệ linh trùng,"
-Từ trùng:
-  - "là" (xuất hiện 2 lần)
-
-Câu 49:
-"đôi mắt nhìn chằm chằm Phệ Linh Hoàng nói."
-Từ trùng:
-  - "chằm" (xuất hiện 2 lần)
-
-Câu 57:
-"Ngươi thật sự cho rằng ta không có cách nào đối phó ngươi sao."
+Câu 430:
+"tám ngươi các ngươi chia nhau tìm kiếm địa phương tu hành,"
 Từ trùng:
   - "ngươi" (xuất hiện 2 lần)
-
-Câu 59:
-"hắn cũng không tin mình không trị được Phệ Linh Hoàng này."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 64:
-"ngươi là rồng hay là hổ cũng phải nằm yên cho ta Cho dù ngươi là một Yêu Hoàng,"
-Từ trùng:
-  - "là" (xuất hiện 3 lần)
-  - "cho" (xuất hiện 2 lần)
-  - "ngươi" (xuất hiện 2 lần)
-
-Câu 65:
-"đồng dạng cũng sẽ bị ta áp chế Ta không thiếu thủ đoạn khiến ngươi phải đàng hoàng."
-Từ trùng:
-  - "ta" (xuất hiện 2 lần)
-
-Câu 82:
-"hiện giờ hắn vẫn chưa có cách nào chủ động điều động lực lượng ở đây,"
-Từ trùng:
-  - "động" (xuất hiện 2 lần)
-
-Câu 95:
-"ánh mắt chớp chớp,"
-Từ trùng:
-  - "chớp" (xuất hiện 2 lần)
-
-Câu 109:
-"giữa Âm Dương Minh Hoàng và Phệ Linh Hoàng vốn tồn tại một chút ân oán,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 113:
-"chứng tỏ hắn có thể có nắm chắc nhất định,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 118:
-"Âm Dương Minh Hoàng và Phệ Linh Hoàng bắt đầu nói chuyện."
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 128:
-"Âm Dương Minh Hoàng khẳng định không phải nói chuyện đạo lý với Phệ Linh Hoàng,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 163:
-"trong linh hồn của Thanh Hoàng và Âm Dương Minh Hoàng đều có khế ước yêu linh,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-  - "linh" (xuất hiện 2 lần)
-
-Câu 164:
-"lần này lại một lần nữa thi triển ra,"
-Từ trùng:
-  - "lần" (xuất hiện 2 lần)
-
-Câu 172:
-"Linh hồn lực cường đại ngưng tụ thành ấn trong đầu Phệ Linh Hoàng,"
-Từ trùng:
-  - "linh" (xuất hiện 2 lần)
-
-Câu 187:
-"không có chân nhưng có cánh mỏng như cánh ve,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-  - "cánh" (xuất hiện 2 lần)
-
-Câu 202:
-"Rầm rầm Khí tức mênh mông cuồn cuộn kinh người,"
-Từ trùng:
-  - "rầm" (xuất hiện 2 lần)
-
-Câu 204:
-"trực tiếp rót lên thân thể băng tủy phệ linh trùng của Phệ Linh Hoàng."
-Từ trùng:
-  - "phệ" (xuất hiện 2 lần)
-  - "linh" (xuất hiện 2 lần)
-
-Câu 206:
-"vết thương ban đầu Phệ Linh Hoàng bị Thanh Hoàng và Âm Dương Minh Hoàng đả thương,"
-Từ trùng:
-  - "hoàng" (xuất hiện 3 lần)
-  - "thương" (xuất hiện 2 lần)
-
-Câu 218:
-"tự nói Hắn đã trải qua những chuyện tương tự,"
-Từ trùng:
-  - "tự" (xuất hiện 2 lần)
-
-Câu 227:
-"hắn biết Phệ Linh Hoàng bởi vì khế ước yêu linh,"
-Từ trùng:
-  - "linh" (xuất hiện 2 lần)
-
-Câu 235:
-"Tô Tiểu Soái đứng trên vai Tô Dật,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 244:
-"đồng thời còn có rung động vô cùng vô tận."
-Từ trùng:
-  - "vô" (xuất hiện 2 lần)
-
-Câu 246:
-"chỗ tốt vừa lấy được khiến cho hắn đến bây giờ còn chưa lấy lại bình tĩnh."
-Từ trùng:
-  - "lấy" (xuất hiện 2 lần)
-
-Câu 247:
-"Có thể có được chỗ tốt như vậy,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 258:
-"Nếu như sớm biết có thể có được chỗ tốt như vậy,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-  - "như" (xuất hiện 2 lần)
-
-Câu 262:
-"ta không lừa ngươi chứ Giờ muốn chết hay muốn sống."
-Từ trùng:
-  - "muốn" (xuất hiện 2 lần)
-
-Câu 268:
-"tất cả mọi người là đều là người mình,"
-Từ trùng:
-  - "là" (xuất hiện 2 lần)
-  - "người" (xuất hiện 2 lần)
-
-Câu 284:
-"bằng không cung không đủ cầu."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 295:
-"có thể cảm giác được trong bình ngọc kia có năng lượng mênh mông ba động,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 296:
-"trong nháy mắt liền đoán được trong đó tuyệt đối trang bị bảo vật,"
-Từ trùng:
-  - "trong" (xuất hiện 2 lần)
-
-Câu 305:
-"Tô Dật cảm thấy Phệ Linh Hoàng có thể có đột phá."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 306:
-"Không dám nói có thể đặt chân lên tầng thứ đồng dạng với Thanh Hoàng và Âm Dương Minh Hoàng,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 326:
-"đại khái là vì giải thưởng hai mươi vạn nhị tinh nguyên thạch của Thất Tinh Kiếm,"
-Từ trùng:
-  - "tinh" (xuất hiện 2 lần)
-
-Câu 329:
-"bởi vì Tô Dật lúc này đã dùng dịch dung thuật thay đổi dung mạo,"
-Từ trùng:
-  - "dung" (xuất hiện 2 lần)
-
-Câu 335:
-"khác biệt một trời một vực so với lúc trước."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 336:
-"Rất ít người từng gặp qua ba người,"
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 340:
-"Còn Tô Tiểu Soái lại bị Tô Dật mạnh mẽ nhét vào trong áo khoác,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 346:
-"Sau khi biết ý nghĩ của các thế lực lớn và các tán tu,"
-Từ trùng:
-  - "các" (xuất hiện 2 lần)
-
-Câu 376:
-"dĩ nhiên chính là giải thưởng hai mươi vạn nhị tinh nguyên thạch mà Thất Tinh Kiếm Tông treo thưởng để tìm ra mình,"
-Từ trùng:
-  - "tinh" (xuất hiện 2 lần)
-  - "thưởng" (xuất hiện 2 lần)
-
-Câu 378:
-"phải làm cho Thất Tinh Kiếm tông bồi thường tổn thất tinh thần vì truy nã mình."
-Từ trùng:
-  - "thất" (xuất hiện 2 lần)
-  - "tinh" (xuất hiện 2 lần)
-
-Câu 379:
-"Chẳng qua Tô Dật vừa đi qua rừng,"
-Từ trùng:
-  - "qua" (xuất hiện 2 lần)
-
-Câu 386:
-"Thất Tinh Kiếm tông và Kim Đao Tông tựa hồ muốn liên thủ,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 412:
-"tuyệt đối là kỳ tài khó gặp Lão hủ ta từng gặp vô số người,"
-Từ trùng:
-  - "gặp" (xuất hiện 2 lần)
-
-Câu 427:
-"mười năm đặt chân vào Nguyên Chân,"
-Từ trùng:
-  - "chân" (xuất hiện 2 lần)
-
-Câu 463:
-"Oa có phải có thịt nướng ăn không."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 465:
-"mấy người Tô Dật gặp phải một con man yêu thú Yêu Chân cảnh đột nhiên tập kích,"
-Từ trùng:
-  - "yêu" (xuất hiện 2 lần)
-
-Câu 468:
-"Tô Tiểu Soái chui từ trong ngực Tô Dật ra,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 480:
-"món thịt nướng và canh thịt rất nhanh bay ra mùi thơm nồng đậm,"
-Từ trùng:
-  - "thịt" (xuất hiện 2 lần)
-
-Câu 520:
-"không bằng mượn xiên thịt nướng của ngươi để đổi công pháp của ta thì thế nào."
-Từ trùng:
-  - "của" (xuất hiện 2 lần)
-
-Câu 523:
-"phất phất mấy cái trước mặt Tô Dật,"
-Từ trùng:
-  - "phất" (xuất hiện 2 lần)
-
-Câu 531:
-"Một xiên thịt nướng đổi lại một bộ công pháp,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 536:
-"lỗ mũi còn không ngừng hít hít,"
-Từ trùng:
-  - "hít" (xuất hiện 2 lần)
-
-Câu 541:
-"qua thôn này cũng không có phòng trọ Công pháp của lão hủ thiên hạ ít có,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 573:
-"Tô Dật không thể không hoài nghi,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 593:
-"còn có một vị Tô Tiểu Soái có thể so với Hoàng cấp,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 601:
-"Nhưng bất luận là khả năng nào cũng đại biểu người này có chỗ bất phàm."
-Từ trùng:
-  - "bất" (xuất hiện 2 lần)
-
-Câu 610:
-"có thể sẽ có hại nhiều hơn lợi."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 662:
-"ngược lại có Tô Tiểu Soái ở bên cạnh có thể sẽ không an toàn."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 686:
-"cho nên cho dù khoảng cách không quá xa,"
-Từ trùng:
-  - "cho" (xuất hiện 2 lần)
-
-Câu 697:
-"Năm tông môn mạnh nhất gần đây lần lượt là Huyền Kiếm Môn,"
-Từ trùng:
-  - "môn" (xuất hiện 2 lần)
-
-Câu 703:
-"trừ phi liên hiệp với thế lực khác mới có thể giành được ưu thế."
-Từ trùng:
-  - "thế" (xuất hiện 2 lần)
-
-Câu 707:
-"Cũng không biết mỏ tài nguyên kia có lớn không,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 715:
-"Thì ra Thất Tinh Kiếm Tông vừa phát hiện một mỏ tài nguyên nguyên thạch,"
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
-
-Câu 718:
-"một thế lực tam lưu như Thất Tinh Kiếm Tông lại lấy ra hai mươi vạn nhị tinh nguyên thạch để treo thưởng truy tìm tung tích của mình,"
-Từ trùng:
-  - "tinh" (xuất hiện 2 lần)
-
-Câu 721:
-"nếu đã có mỏ tài nguyên nguyên thạch kia,"
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
-
-Câu 724:
-"Nguyên thạch à nguyên thạch,"
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
-  - "thạch" (xuất hiện 2 lần)
-
-Câu 725:
-"Tô gia gia ta đến đây."
-Từ trùng:
-  - "gia" (xuất hiện 2 lần)
-
-Câu 728:
-"tham lam liếm liếm miệng."
-Từ trùng:
-  - "liếm" (xuất hiện 2 lần)
-
-Câu 732:
-"Ban đầu khi nghe được mình được Thất Tinh Kiếm Tông treo giải thưởng,"
-Từ trùng:
-  - "được" (xuất hiện 2 lần)
-
-Câu 740:
-"một mỏ tài nguyên nguyên thạch xuất hiện khiến cho hắn thấy được hi vọng."
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
 
 Câu 750:
-"đối phương tuyệt đối sẽ không bỏ qua cho hắn,"
-Từ trùng:
-  - "đối" (xuất hiện 2 lần)
-
-Câu 755:
-"lần này muốn tìm được mỏ tài nguyên nguyên thạch kia,"
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
-
-Câu 759:
-"đoạt được chút nào hay chút ấy,"
-Từ trùng:
-  - "chút" (xuất hiện 2 lần)
-
-Câu 772:
-"Nhìn trang phục của những người này chính là đệ tử của Thất Tinh Kiếm Tông."
-Từ trùng:
-  - "của" (xuất hiện 2 lần)
-
-Câu 776:
-"có thể mỏ tài nguyên nguyên thạch đang ở sâu trong ngọn núi này."
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
-
-Câu 785:
-"Thất Tinh Kiếm Tông khẳng định rất coi trọng mỏ tài nguyên nguyên thạch này,"
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
-
-Câu 787:
-"Muốn thần không biết quỷ không hay lẩn vào,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 797:
-"Cũng không biết Thất Tinh Kiếm Tông có thói quen bắt nô lệ không,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 798:
-"nếu có Tô Dật cảm giác mình có thể bán mình làm nô lệ,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-  - "mình" (xuất hiện 2 lần)
-
-Câu 800:
-"Không được không được,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-  - "được" (xuất hiện 2 lần)
-
-Câu 806:
-"lấy nguyên thạch từ quặng mỏ sẽ dễ dàng hơn nhiều so với lấy trong túi không gian của cường giả Hoàng cấp."
-Từ trùng:
-  - "lấy" (xuất hiện 2 lần)
-
-Câu 819:
-"Âm Dương Minh Hoàng và Hoàng Kiện từ trong không gian thần bí ra ngoài."
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 828:
-"Hắc hắc Tô Dật cười thần bí,"
-Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
-
-Câu 837:
-"Tô Tiểu Soái nhìn thoáng qua Tô Dật,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 841:
-"Tô Dật nhìn thấy ánh mắt khinh bỉ của Tô Tiểu Soái,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 845:
-"giơ một cái cánh vuốt vuốt đầu,"
-Từ trùng:
-  - "vuốt" (xuất hiện 2 lần)
-
-Câu 879:
-"Tô Dật và Tô Tiểu Soái ẩn mình,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 889:
-"Một người một chim,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 895:
-"một tiểu đội năm người phát hiện ra Tô Dật và Tô Tiểu Soái."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-  - "tiểu" (xuất hiện 2 lần)
-
-Câu 899:
-"Người cầm đầu nhóm người kia là một thanh niên chừng ba mươi tuổi,"
+"Mọi người là người tu luyện,"
 Từ trùng:
   - "người" (xuất hiện 2 lần)
 
-Câu 933:
-"trong nháy mắt chết không nhắm mắt."
+Câu 778:
+"Đi đầu là một thanh niên chừng hai mươi hai mốt tuổi,"
 Từ trùng:
-  - "mắt" (xuất hiện 2 lần)
+  - "hai" (xuất hiện 2 lần)
 
-Câu 942:
-"Một tên trong bốn tên hét lớn,"
+Câu 790:
+"đều chỉ chừng mười sáu mười bảy,"
 Từ trùng:
-  - "tên" (xuất hiện 2 lần)
+  - "mười" (xuất hiện 2 lần)
 
-Câu 954:
-"bốn vị đệ tử của Thất Tinh Kiếm Tông cũng rất nhanh bị hắn đánh cho bị thương,"
+Câu 898:
+"Một thiếu niên tuổi chừng mười sáu mười bảy bên cạnh Hổ Minh quét nhìn mấy người Thượng Quan Tú,"
 Từ trùng:
-  - "bị" (xuất hiện 2 lần)
+  - "mười" (xuất hiện 2 lần)
 
-Câu 956:
-"Tô Dật dĩ nhiên không phải không thể giết chết những người này,"
+Câu 929:
+"đừng lề mà lề mề,"
 Từ trùng:
-  - "không" (xuất hiện 2 lần)
+  - "lề" (xuất hiện 2 lần)
 
-Câu 964:
-"rất nhanh có thanh âm nhanh chóng đến gần,"
+Câu 953:
+"Đánh thì đánh,"
 Từ trùng:
-  - "nhanh" (xuất hiện 2 lần)
+  - "đánh" (xuất hiện 2 lần)
 
-Câu 988:
-"Trong tâm khảm bọn họ bất giác sinh ra cảm giác kinh hãi,"
-Từ trùng:
-  - "giác" (xuất hiện 2 lần)
-
-Câu 995:
-"nói Ta nhớ ra rồi Bọn chúng Là bọn chúng Là bọn chúng giết chết Thiếu tông chủ,"
-Từ trùng:
-  - "bọn" (xuất hiện 3 lần)
-  - "chúng" (xuất hiện 3 lần)
-  - "là" (xuất hiện 2 lần)
-
-Câu 997:
-"Tên đệ tử Thất Tinh Kiếm Tông rất nhanh thấy rõ tướng mạo của Tô Dật và Tô Tiểu Soái,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 998:
-"phát hiện một người một chim này chính là hai người hôm nay trong tông đang truy nã."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-  - "người" (xuất hiện 2 lần)
-
-Câu 999:
-"Nghĩ đến chuyện một người một chim này từng làm,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 1003:
-"sợ rằng chung quanh không có người nào không biết chuyện Tô Dật và Tô Tiểu Soái gây ra ở Kiếm Tinh thành."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1005:
-"một kích đánh chết Thiếu tông chủ Thất Tinh Kiếm Tông Nhiễm Diễm,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 1008:
-"Phó thành chủ Kiếm Tinh thành,"
-Từ trùng:
-  - "thành" (xuất hiện 2 lần)
-
-Câu 1014:
-"Là bọn chúng Thật sự là bọn chúng."
-Từ trùng:
-  - "là" (xuất hiện 2 lần)
-  - "bọn" (xuất hiện 2 lần)
-  - "chúng" (xuất hiện 2 lần)
-
-Câu 1016:
-"hung danh bên ngoài của một người một chim này khiến cho bọn họ hoảng sợ tới cực điểm,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 1026:
-"Nhưng lời nói của hắn giống như căn bản không hù sợ những đệ tử của Thất Tinh Kiếm Tông."
-Từ trùng:
-  - "của" (xuất hiện 2 lần)
-
-Câu 1053:
-"Trong một khe núi bí mật ở sâu trong sơn mạch,"
-Từ trùng:
-  - "trong" (xuất hiện 2 lần)
-
-Câu 1057:
-"Cảm nhận được một số khí tức không tầm thường từ treen không xẹt qua,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 1063:
-"đợi người đi ra rồi hãy đi vào."
-Từ trùng:
-  - "đi" (xuất hiện 2 lần)
-
-Câu 1072:
-"Hắc hắc Trong sơn mạch bên ngoài,"
-Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
-
-Câu 1074:
-"Tô Dật và Tô Tiểu Soái liếc nhìn nhau,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1076:
-"mùi vị như có một gian kế được như ý."
-Từ trùng:
-  - "như" (xuất hiện 2 lần)
-
-Câu 1078:
-"hắn chính là muốn kinh động cường giả chân chính của Thất Tinh Kiếm Tông."
-Từ trùng:
-  - "chính" (xuất hiện 2 lần)
-
-Câu 1086:
-"rút lui mau rút lui."
-Từ trùng:
-  - "rút" (xuất hiện 2 lần)
-  - "lui" (xuất hiện 2 lần)
-
-Câu 1153:
-"Ở khoảng cách gần nhất là một vị trung niên nhìn qua khoảng bốn mươi,"
-Từ trùng:
-  - "khoảng" (xuất hiện 2 lần)
-
-Câu 1164:
-"Người trung niên trong nháy mắt xông đến trước mắt,"
-Từ trùng:
-  - "mắt" (xuất hiện 2 lần)
-
-Câu 1168:
-"lực lượng này liền trói buộc Tô Dật và Tô Tiểu Soái ở bên trong."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1170:
-"ánh mắt nhìn về phía Tô Dật và Tô Tiểu Soái,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1174:
-"Khi người trung niên chuẩn bị xuất thủ đánh chết một người một chim,"
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-  - "một" (xuất hiện 2 lần)
-
-Câu 1188:
-"Hung thủ là hai kẻ hung hãn,"
-Từ trùng:
-  - "hung" (xuất hiện 2 lần)
-
-Câu 1194:
-"chỉ để nhận được một ít tin tức về tung tích của một người một chim này."
-Từ trùng:
-  - "một" (xuất hiện 3 lần)
-
-Câu 1199:
-"Lúc này này Đào hộ pháp chỉ có Nguyên Hư cảnh thất trọng,"
+Câu 973:
+"giờ này ngày này hắn đủ sức để đối phó Thượng Quan Nham."
 Từ trùng:
   - "này" (xuất hiện 2 lần)
 
-Câu 1201:
-"chống lại một người một chim này,"
+Câu 987:
+"Tên đã trên dây không thể không phát,"
 Từ trùng:
-  - "một" (xuất hiện 2 lần)
+  - "không" (xuất hiện 2 lần)
 
-Câu 1208:
-"Muốn chạy Ngươi chạy trốn được sao Nếu đã tới,"
+Câu 1109:
+"Tô Dật lại không vội không chậm,"
 Từ trùng:
-  - "chạy" (xuất hiện 2 lần)
+  - "không" (xuất hiện 2 lần)
 
-Câu 1215:
-"Sau khi một người một chim xông ra không lâu,"
+Câu 1128:
+"dưới ánh mắt mỗi người mỗi khác của song phương,"
 Từ trùng:
-  - "một" (xuất hiện 2 lần)
+  - "mỗi" (xuất hiện 2 lần)
 
-Câu 1235:
-"Hắc hắc Không chỉ có Thiếu tông chủ của các ngươi,"
+Câu 1152:
+"Giờ này khắc này,"
 Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
+  - "này" (xuất hiện 2 lần)
 
-Câu 1238:
-"Tô Tiểu Soái cười hắc hắc,"
+Câu 1183:
+"thanh âm càng lúc càng xa."
 Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
+  - "càng" (xuất hiện 2 lần)
 
-Câu 1245:
-"trong nháy mắt đã bao vây thân hình Đào hộ pháp ở bên trong."
-Từ trùng:
-  - "trong" (xuất hiện 2 lần)
-
-Câu 1267:
-"Tô Tiểu Soái trực tiếp thối lui đến bên cạnh Tô Dật."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1278:
-"còn cả vật cưỡi của tông chủ Hôm nay lại xông vào mỏ quặng của Thất Tinh Kiếm Tông ta,"
-Từ trùng:
-  - "của" (xuất hiện 2 lần)
-  - "tông" (xuất hiện 2 lần)
-
-Câu 1280:
-"Nhìn Tô Dật và Tô Tiểu Soái xoay người bỏ chạy,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1284:
-"thấy một người một chim chạy trốn,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 1299:
-"vì vậy trong lòng Tô Dật và Tô Tiểu Soái cực kỳ không vui."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1307:
-"cùng lúc đó còn bất chợt hô to về hướng Tô Dật và Tô Tiểu Soái."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1309:
-"chỉ cảm thấy một người một chim kia đã sợ mình đến run rẩy."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 1321:
-"nhưng hắn vẫn cảm giác linh hồn của mình nhói đau dưới sự thiêu đốt của ngọn lửa ác liệt này,"
-Từ trùng:
-  - "của" (xuất hiện 2 lần)
-
-Câu 1324:
-"Lão Đại lão quỷ này đuổi sát không buông,"
-Từ trùng:
-  - "lão" (xuất hiện 2 lần)
-
-Câu 1327:
-"vừa nói vừa xông về phía lão giả,"
-Từ trùng:
-  - "vừa" (xuất hiện 2 lần)
-
-Câu 1328:
-"bộ dạng nổi giận đùng đùng."
-Từ trùng:
-  - "đùng" (xuất hiện 2 lần)
-
-Câu 1343:
-"Dù sao đối phương có thể dùng một tát giết chết một vị Nguyên Hư cảnh bát trọng,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 1363:
-"hình như người của Kim Đao Tông cũng bị hại như vậy."
+Câu 1233:
+"thân ảnh như huyễn như thật,"
 Từ trùng:
   - "như" (xuất hiện 2 lần)
 
-Câu 1370:
-"hắn mới tiếp tục toàn lực đuổi theo Tô Dật và Tô Tiểu Soái,"
+Câu 1287:
+"tiểu tử này ném hai người Hổ Khâu Hổ Diệp xuống núi ngay trước mắt hắn,"
 Từ trùng:
-  - "tô" (xuất hiện 2 lần)
+  - "hổ" (xuất hiện 2 lần)
 
-Câu 1372:
-"khiến cho hắn nhất thời có chút khó có thể đuổi theo."
+Câu 1308:
+"hai đạo lưu quang một trước một sau lập tức lướt ra."
 Từ trùng:
-  - "có" (xuất hiện 2 lần)
+  - "một" (xuất hiện 2 lần)
 
-Câu 1376:
-"bên cạnh Tô Tiểu Soái cũng cười hắc hắc không dứt."
+Câu 1317:
+"là một đao một kiếm trên lưng do Tô Dật ném mạnh ra."
 Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
+  - "một" (xuất hiện 2 lần)
 
-Câu 1411:
-"cũng chính là người thoạt nhìn lớn tuổi nhất là Nguyên Hoàng cảnh lục trọng."
+Câu 1371:
+"tốc chiến tốc thắng,"
 Từ trùng:
-  - "là" (xuất hiện 2 lần)
+  - "tốc" (xuất hiện 2 lần)
 
-Câu 1427:
-"nhanh chóng đuổi theo Tô Dật và Tô Tiểu Soái."
+Câu 1374:
+"chọn cách lấy cứng đối cứng,"
 Từ trùng:
-  - "tô" (xuất hiện 2 lần)
+  - "cứng" (xuất hiện 2 lần)
 
-Câu 1430:
-"Tô Dật không ngừng thúc giục Tô Tiểu Soái chạy trốn,"
+Câu 1470:
+"ai cũng biết có tương sinh tương khắc."
 Từ trùng:
-  - "tô" (xuất hiện 2 lần)
+  - "tương" (xuất hiện 2 lần)
 
-Câu 1433:
-"Trước mắt diễn biến phát triển của chuyện này rất giống với dự đoán của hắn,"
+Câu 1502:
+"từng đợt từng đợt khí tức nóng bỏng như sóng lửa trực tiếp tuôn ra."
 Từ trùng:
-  - "của" (xuất hiện 2 lần)
-
-Câu 1440:
-"Âm Dương Minh Hoàng và Hoàng Kiện."
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 1443:
-"Âm Dương Minh Hoàng và Hoàng Kiện ẩn thân bên trong khe núi,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 1447:
-"Nhìn thấy bốn người kia một đường đuổi theo Tô Dật và Tô Tiểu Soái,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1450:
-"Bên trong có lẽ còn có tồn tại Nguyên Hoàng cảnh,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 1471:
-"nhưng đều bị bọn họ nhất nhất né tránh,"
-Từ trùng:
-  - "nhất" (xuất hiện 2 lần)
-
-Câu 1504:
-"Rất nhiều đệ tử của Thất Tinh Kiếm Tông cầm trong tay trường kiếm,"
-Từ trùng:
-  - "kiếm" (xuất hiện 2 lần)
-
-Câu 1507:
-"Âm Dương Minh Hoàng và Hoàng Kiện cảm thấy khiếp sợ,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
+  - "từng" (xuất hiện 2 lần)
+  - "đợt" (xuất hiện 2 lần)
 
 Câu 1508:
-"chính là kích thước ở đây phải lớn hơn ở trong tưởng tượng rất nhiều,"
+"Tô Dật chủ động lấy cứng đối cứng,"
 Từ trùng:
-  - "ở" (xuất hiện 2 lần)
+  - "cứng" (xuất hiện 2 lần)
 
-Câu 1542:
-"hi vọng nguyên thạch sẽ nằm trên người Nguyên Hoàng cảnh lục trọng."
+Câu 1524:
+"chính diện cứng đối cứng không khỏi chịu chút thiệt nhỏ."
 Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
+  - "cứng" (xuất hiện 2 lần)
 
-Câu 1564:
-"Thanh Hoàng trực tiếp đối chọi với cường giả Nguyên Hoàng cảnh lục trọng,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 1568:
-"còn có lực hủy diệt đáng sợ Chỉ có điều có thể rõ ràng nhìn ra,"
-Từ trùng:
-  - "có" (xuất hiện 3 lần)
-
-Câu 1569:
-"lúc này Thanh Hoàng đang gắt gao áp chế cường giả Nguyên Hoàng cảnh lục trọng."
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 1570:
-"Tu vi Nguyên Hoàng cảnh lục trọng chống lại man yêu thú Yêu Hoàng cảnh ngũ trọng,"
-Từ trùng:
-  - "yêu" (xuất hiện 2 lần)
-  - "hoàng" (xuất hiện 2 lần)
-  - "cảnh" (xuất hiện 2 lần)
-  - "trọng" (xuất hiện 2 lần)
-
-Câu 1596:
-"Với tu vi Nguyên Hoàng cảnh của Hoàng Kiện,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 1615:
-"Thực lực của Thanh Hoàng và Âm Dương Minh Hoàng khiến mọi người cảm thấy tuyệt vọng."
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 1636:
-"Hắc hắc Hiện tại mới phản ứng đã muộn rồi Lão gia này,"
-Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
-
-Câu 1637:
-"có trách thì trách ngươi là người của Thất Tinh Kiếm Tông,"
-Từ trùng:
-  - "trách" (xuất hiện 2 lần)
-
-Câu 1647:
-"Đi chết đi."
-Từ trùng:
-  - "đi" (xuất hiện 2 lần)
-
-Câu 1657:
-"xuất hiện một hiện tượng im lặng kỳ quái."
-Từ trùng:
-  - "hiện" (xuất hiện 2 lần)
-
-Câu 1690:
-"Thanh Hoàng tìm được mấy túi không gian trên người lão giả Nguyên Hoàng cảnh lục trọng,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 1701:
-"tìm kiếm một lần nữa trong mỏ tài nguyên nguyên thạch."
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
-
-Câu 1702:
-"Bên kia Tô Dật và Tô Tiểu Soái một người một chim chạy trốn cực nhanh."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-  - "một" (xuất hiện 2 lần)
-
-Câu 1707:
-"cũng có thể cảm giác được người đuổi giết phía sau càng ngày càng gần."
+Câu 1551:
+"Ngươi càng lúc càng khiến ta giật mình,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 1719:
-"thân hình Tô Dật và Tô Tiểu Soái trong nháy mắt nhoáng một cái,"
+Câu 1594:
+"sắc mặt Hổ Minh càng lúc càng tối sầm."
 Từ trùng:
-  - "tô" (xuất hiện 2 lần)
+  - "càng" (xuất hiện 2 lần)
+
+Câu 1599:
+"tên tiểu tử tu vị Nguyên Huyền cảnh bát trọng trước mắt vẫn trực tiếp lấy cứng đối cứng chống lại,"
+Từ trùng:
+  - "cứng" (xuất hiện 2 lần)
+
+Câu 1646:
+"Hơi nước càng lúc càng nồng nặc,"
+Từ trùng:
+  - "càng" (xuất hiện 2 lần)
+
+Câu 1673:
+"Từng vòng từng vòng năng lượng nguyên khí thuộc tính Thổ màu đen cuốn thốc ra như gợn sóng,"
+Từ trùng:
+  - "từng" (xuất hiện 2 lần)
+  - "vòng" (xuất hiện 2 lần)
+
+Câu 1705:
+"Nguyên Huyền cảnh bát trọng lại có thể có được thực lực như thế."
+Từ trùng:
+  - "có" (xuất hiện 2 lần)
 
 Câu 1741:
-"trực tiếp từ thiếu niên mười sáu mười bảy tuổi,"
-Từ trùng:
-  - "mười" (xuất hiện 2 lần)
-
-Câu 1757:
-"chiếm được chỗ tốtkhó có thể tưởng tượng từ chỗ Tô Dật,"
-Từ trùng:
-  - "chỗ" (xuất hiện 2 lần)
-
-Câu 1763:
-"hơn nữa làm chúng ta càng cách xa bọn họ càng tốt."
+"ánh sáng càng lúc càng thâm thúy,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 1811:
-"chúng ta đang tìm một vị thiếu niên và một con chim nhỏ,"
+Câu 1772:
+"như rồng như giao,"
 Từ trùng:
-  - "một" (xuất hiện 2 lần)
+  - "như" (xuất hiện 2 lần)
 
-Câu 1814:
-"Hắn một lòng chỉ muốn tìm được Tô Dật và Tô Tiểu Soái,"
+Câu 1806:
+"bộc phát từng mảnh từng mảnh ánh sáng."
 Từ trùng:
-  - "tô" (xuất hiện 2 lần)
+  - "từng" (xuất hiện 2 lần)
+  - "mảnh" (xuất hiện 2 lần)
 
-Câu 1824:
-"Các ngươi đuổi theo người các ngươi muốn đuổi đi,"
+Câu 1926:
+"cự hổ cự hùng hai bên cửa đá phát sáng,"
 Từ trùng:
-  - "các" (xuất hiện 2 lần)
-  - "ngươi" (xuất hiện 2 lần)
-  - "đuổi" (xuất hiện 2 lần)
+  - "cự" (xuất hiện 2 lần)
 
-Câu 1830:
-"Chư vị một người một chim các ngươi nói vừa rồi ta có nhìn thấy,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 1847:
-"Lão giả Nguyên Hoàng cảnh lục trọng của Thất Tinh Kiếm Tông vốn muốn nói điều kiện với Phệ Linh Hoàng,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 1852:
-"Được ta đáp ứng ngươi Nhưng ngươi phải nói cho chúng ta hướng đi của bọn chúng,"
-Từ trùng:
-  - "ngươi" (xuất hiện 2 lần)
-  - "ta" (xuất hiện 2 lần)
-  - "chúng" (xuất hiện 2 lần)
-
-Câu 1853:
-"đến lúc đó chúng ta sẽ dẫn ngươi cùng đi Nhưng nếu ngươi muốn gạt chúng ta,"
-Từ trùng:
-  - "ngươi" (xuất hiện 2 lần)
-  - "chúng" (xuất hiện 2 lần)
-  - "ta" (xuất hiện 2 lần)
-
-Câu 1859:
-"nếu như hán tử ba mươi tuổi này muốn muốn đi cùng bọn hắn,"
-Từ trùng:
-  - "muốn" (xuất hiện 2 lần)
-
-Câu 1886:
-"đi qua người ta mới bị ta nhìn thấy."
-Từ trùng:
-  - "ta" (xuất hiện 2 lần)
-
-Câu 1894:
-"lập tức tức giận quát lớn,"
-Từ trùng:
-  - "tức" (xuất hiện 2 lần)
-
-Câu 1900:
-"các ngươi mau dẫn ta đi đi."
-Từ trùng:
-  - "đi" (xuất hiện 2 lần)
-
-Câu 1925:
-"Hô Tô Dật vuốt vuốt cánh tay,"
-Từ trùng:
-  - "vuốt" (xuất hiện 2 lần)
-
-Câu 1938:
-"tốc độ của hắn so với lúc Tô Tiểu Soái mang theo Tô Dật vẫn nhanh hơn một chút."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 1941:
-"Phệ Linh Hoàng đã đột phá đến Yêu Hoàng cảnh ngũ trọng rồi."
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 1966:
-"người Thất Tinh Kiếm Tông cũng không thể không nể mặt hắn,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 1967:
-"bọn họ cũng không thể vìmột người không quen biết,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 1981:
-"bất giác sinh ra cảm giác mới mẻ."
-Từ trùng:
-  - "giác" (xuất hiện 2 lần)
-
-Câu 1995:
-"Âm Dương Minh Hoàng và Hoàng Kiện đã động thủ,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 2022:
-"Thanh Hoàng chỉ chỉ mấy quặng mỏ phía dưới,"
-Từ trùng:
-  - "chỉ" (xuất hiện 2 lần)
-
-Câu 2024:
-"những nơi khác vẫn chưa khai thác Xem chừng khu mỏ này chỉ mới khai thác,"
-Từ trùng:
-  - "khai" (xuất hiện 2 lần)
-  - "thác" (xuất hiện 2 lần)
-
-Câu 2053:
-"Cũng không phải bọn họ không buồn bực,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 2061:
-"Nhưng nghi ngờ thì nghi ngờ,"
-Từ trùng:
-  - "nghi" (xuất hiện 2 lần)
-  - "ngờ" (xuất hiện 2 lần)
-
-Câu 2062:
-"đám người Thanh Hoàng và Âm Dương Minh Hoàng vẫn hết sức tin tưởng Tô Dật,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 2074:
-"nguyên khí hùng hồn mang theo khí thế mãnh liệt,"
-Từ trùng:
-  - "khí" (xuất hiện 2 lần)
-
-Câu 2080:
-"Ùng ùng Trong nháy mắt tiếp theo,"
-Từ trùng:
-  - "ùng" (xuất hiện 2 lần)
-
-Câu 2091:
-"Động tĩnh này khiến cả một ngọn núi cũng đang chấn động,"
-Từ trùng:
-  - "động" (xuất hiện 2 lần)
-
-Câu 2094:
-"động tĩnh này còn càng lúc càng lớn,"
+Câu 1951:
+"ánh sáng càng lúc càng ảm đạm,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2095:
-"càng ngày càng mạnh."
+Câu 1952:
+"năng lượng đặc biệt quanh bốn phía lại càng lúc càng nồng nặc."
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2096:
-"Ùng ùng Chỉ trong thời gian ngắn ngủi,"
-Từ trùng:
-  - "ùng" (xuất hiện 2 lần)
-
-Câu 2128:
-"nếu có thể nhét vào toàn bộ thì cơ thể của hắn sẽ thế nào."
-Từ trùng:
-  - "thể" (xuất hiện 2 lần)
-
-Câu 2133:
-"cho nên cho dù tu vi kém hơn mấy người còn lại thì vẫn là người bình tĩnh nhất."
-Từ trùng:
-  - "cho" (xuất hiện 2 lần)
-  - "người" (xuất hiện 2 lần)
-
-Câu 2135:
-"những chuyện kinh người mà Tô Dật làm đều là chuyện đương nhiên."
-Từ trùng:
-  - "chuyện" (xuất hiện 2 lần)
-
-Câu 2137:
-"mấy người còn lại cũng yên lặng gật gật đầu,"
-Từ trùng:
-  - "gật" (xuất hiện 2 lần)
-
-Câu 2140:
-"Ùng ùng Cả tòa núi quặng mãnh liệt chấn động,"
-Từ trùng:
-  - "ùng" (xuất hiện 2 lần)
-
-Câu 2162:
-"ngoài bản thân Tô Dật có thể tự đối kháng với đám loạn thạch tán loạn,"
-Từ trùng:
-  - "loạn" (xuất hiện 2 lần)
-
-Câu 2166:
-"Ùng ùng Trong tiếng nổ khổng lồ,"
-Từ trùng:
-  - "ùng" (xuất hiện 2 lần)
-
-Câu 2180:
-"Thanh Hoàng và Âm Dương Minh Hoàng liền biến sắc,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 2185:
-"đuổi giết Tô Dật và Tô Tiểu Soái."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 2190:
-"nhưng lại không biết hắn làm sao làm được."
-Từ trùng:
-  - "làm" (xuất hiện 2 lần)
-
-Câu 2197:
-"sợ là sợ trong Thất Tinh Kiếm Tông sẽ có những người khác liên tiếp chạy tới."
-Từ trùng:
-  - "sợ" (xuất hiện 2 lần)
-
-Câu 2216:
-"đám người tông chủ Nhiễm Kiếm Hiêncủa Thất Tinh Kiếm Tông đã nhận được tín hiệu đệ tử truyền về."
-Từ trùng:
-  - "kiếm" (xuất hiện 2 lần)
-  - "tông" (xuất hiện 2 lần)
-
-Câu 2226:
-"tông chủ Thất Tinh Kiếm Tông là một vị trung niên nhìn qua không tới năm mươi,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 2256:
-"những thế lực khác cũng sẽ không vì một tòa tài nguyên nguyên thạch tới tấn công chúng ta."
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
-
-Câu 2290:
-"tất cả đều chết trong tay một người một chim."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 2296:
-"hắn sợ nhất vẫn là vật trọng yếu trong đó xuất hiện sơ xuất."
-Từ trùng:
-  - "xuất" (xuất hiện 2 lần)
-
-Câu 2311:
-"Năm người đấu năm người,"
-Từ trùng:
-  - "năm" (xuất hiện 2 lần)
-  - "người" (xuất hiện 2 lần)
-
-Câu 2318:
-"tại sao Thất Tinh Kiếm Tông trong có thể có nhiều cường giả Nguyên Hoàng cảnh như vậy,"
+Câu 1968:
+"có rắn có cổ báo,"
 Từ trùng:
   - "có" (xuất hiện 2 lần)
 
-Câu 2323:
-"dù sao đây là một thế lực tam lưu rất gần đến nhị lưu,"
-Từ trùng:
-  - "lưu" (xuất hiện 2 lần)
-
-Câu 2324:
-"có giấu diếm mấy vị cường giả cũng chẳng có gì lạ."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 2334:
-"đang ầm ầm rung trời,"
-Từ trùng:
-  - "ầm" (xuất hiện 2 lần)
-
-Câu 2341:
-"Hư không không ngừng động đất run rẩy,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 2356:
-"sau đó trực tiếp lại thu lại,"
-Từ trùng:
-  - "lại" (xuất hiện 2 lần)
-
-Câu 2366:
-"Tô Tiểu Soái vọt tới bên cạnh Tô Dật,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 2377:
-"Vừa nói Tô Dật vừa liếc mắt nhìn đại chiến phía trên,"
-Từ trùng:
-  - "vừa" (xuất hiện 2 lần)
-
-Câu 2404:
-"Lão Đại Tô Tiểu Soái nhìn động tác vội vàng của Tô Dật,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 2414:
-"có thể cảm giác được nơi này có một số chỗ đặc biệt,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 2419:
-"lấy năng lực của không gian thần bí cũng không cách nào hấp thu,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 2425:
-"thoáng cái đã tiến vào một cái hang."
-Từ trùng:
-  - "cái" (xuất hiện 2 lần)
-
-Câu 2440:
-"điều này nói rõ nơi này bị cố ý lấp lại."
-Từ trùng:
-  - "này" (xuất hiện 2 lần)
-
-Câu 2458:
-"Bảo vật tuyệt đối là bảo vật."
-Từ trùng:
-  - "bảo" (xuất hiện 2 lần)
-  - "vật" (xuất hiện 2 lần)
-
-Câu 2496:
-"nhưng cách đột phá vẫn còn một khoảng cách."
-Từ trùng:
-  - "cách" (xuất hiện 2 lần)
-
-Câu 2522:
-"muốn cầm đi cũng không cầm được."
-Từ trùng:
-  - "cầm" (xuất hiện 2 lần)
-
-Câu 2536:
-"sợ rằng có thể trong nháy mắt cắn nuốt linh hồn con người vào trong,"
-Từ trùng:
-  - "trong" (xuất hiện 2 lần)
-
-Câu 2539:
-"đám người Nhiễm Kiếm Hiêncủa Thất Tinh Kiếm Tông không lấy đi được cũng coi như bình thường."
-Từ trùng:
-  - "kiếm" (xuất hiện 2 lần)
-
-Câu 2541:
-"lực lượng linh hồn của hắn nhất định là cường đại hơn nhiều đám người của Thất Tinh Kiếm Tông,"
-Từ trùng:
-  - "của" (xuất hiện 2 lần)
-
-Câu 2553:
-"đại khái chỉ có thể trở về hỏi thăm đại ca Tây Vô Tình."
-Từ trùng:
-  - "đại" (xuất hiện 2 lần)
-
-Câu 2607:
-"đơn giản là phạm vi không gian một lần nữa khuếch trương lớn hơn rất nhiều lần."
-Từ trùng:
-  - "lần" (xuất hiện 2 lần)
-
-Câu 2631:
-"Bích Huyết Linh Sâm đã chạy tới ao nhỏ linh dịch bên cạnh."
-Từ trùng:
-  - "linh" (xuất hiện 2 lần)
-
-Câu 2635:
-"để lại cho ta một chút để sử dụng."
-Từ trùng:
-  - "để" (xuất hiện 2 lần)
-
-Câu 2648:
-"Tô Dật cũng không lưu lại trong không gian thần bí,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 2672:
-"Phệ Linh Hoàng và Hoàng Kiện."
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 2679:
-"với tu vi ba tôn thú hoàng của Thanh Hoàng,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 2684:
-"các ngươi đi trước đi,"
-Từ trùng:
-  - "đi" (xuất hiện 2 lần)
-
-Câu 2701:
-"cho dù là Thất Tinh Kiếm Tông cũng phải nói là đả thương gân động cốt."
-Từ trùng:
-  - "là" (xuất hiện 2 lần)
-
-Câu 2711:
-"nhìn thấy thân hình Tô Dật và Tô Tiểu Soái đi xa,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 2718:
-"không cần bao lâu là có thể đuổi theo Tô Dật và Tô Tiểu Soái."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 2738:
-"lão giả bên cạnh là một vị trưởng lão của Thất Tinh Kiếm Tông."
-Từ trùng:
-  - "lão" (xuất hiện 2 lần)
-
-Câu 2759:
-"Sau đó lão giả phủi phủi trên mặt đất,"
-Từ trùng:
-  - "phủi" (xuất hiện 2 lần)
-
-Câu 2771:
-"ai có khả năng có thể hủy diệt nơi này trong khoảng thời gian ngắn như thế,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 2772:
-"lượng năng lượng nguyên thạch khổng lồ này,"
-Từ trùng:
-  - "lượng" (xuất hiện 2 lần)
-
-Câu 2782:
-"từ một cái khe chui vào một cửa động."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 2796:
-"Rầm rầm rầm."
-Từ trùng:
-  - "rầm" (xuất hiện 3 lần)
-
-Câu 2810:
-"chúng ta không phải không có cơ hội lấy bảo vật trở về."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 2815:
-"Lão giả nhìn đôi mắt ti hí của Nhiễm Kiếm Hiên càng ngày càng nheo lại,"
+Câu 1993:
+"Khí tức càng lúc càng nồng nặc,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 2878:
-"nhích tới gần thực lực của lực nhị lưu thế,"
+Câu 2037:
+"đặc biệt là sau khi nhìn thấy sự tiến bộ của đám người Hổ Minh Hổ Khâu,"
 Từ trùng:
-  - "lực" (xuất hiện 2 lần)
+  - "hổ" (xuất hiện 2 lần)
 
-Câu 2890:
-"chênh lệch giữa mình và đám tam lưu thế lực kia thế nào,"
-Từ trùng:
-  - "thế" (xuất hiện 2 lần)
-
-Câu 2926:
-"một nhóm sáu người không bay trên không trung nữa,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 2970:
-"chính là thiếu niên đã đánh chết Nhiễm thiếu tông chủ,"
-Từ trùng:
-  - "thiếu" (xuất hiện 2 lần)
-
-Câu 2973:
-"Người nói chuyện nhất thời nhướng nhướng mày,"
-Từ trùng:
-  - "nhướng" (xuất hiện 2 lần)
-
-Câu 2977:
-"Làm sao có thể Hai người kia thực lực mạnh như vậy sao Một thiếu niên,"
-Từ trùng:
-  - "sao" (xuất hiện 2 lần)
-
-Câu 2982:
-"Sự tích một người một chim kia bọn họ dĩ nhiên cũng có nghe nói,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 2991:
-"oang oang nói."
-Từ trùng:
-  - "oang" (xuất hiện 2 lần)
-
-Câu 2994:
-"bên cạnh còn có mấy vị thú hoàng Yêu Hoàng cảnh đi theo Phệ Linh Hoàng biết chưa,"
-Từ trùng:
-  - "hoàng" (xuất hiện 3 lần)
-
-Câu 3022:
-"chuyện bàn tán cũng thỉnh thoảng phát sinh giữa các tán tu và thế lực lớn nhỏ phụ cận,"
-Từ trùng:
-  - "tán" (xuất hiện 2 lần)
-
-Câu 3027:
-"ngoài Quý Hàm Nặc và Quý Thiên Phục của Huyền Kiếm Môn,"
-Từ trùng:
-  - "quý" (xuất hiện 2 lần)
-
-Câu 3030:
-"Cho nên đám người của Thất Tinh Kiếm Tông và Kim Đao Tông đều gọi Tô Dật là Lòng lợn thối,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3058:
-"Cha chúng ta ra ngoài trải nghiệm đi Chỉ đi mấy ngày rồi chúng ta sẽ trở về,"
-Từ trùng:
-  - "đi" (xuất hiện 2 lần)
-  - "chúng" (xuất hiện 2 lần)
-  - "ta" (xuất hiện 2 lần)
-
-Câu 3061:
-"Quý Hàm Nặc phảng phất không để ý tới vẻ mặt Quý Thiên Phục,"
-Từ trùng:
-  - "quý" (xuất hiện 2 lần)
-
-Câu 3066:
-"Quý Thiên Phục đưa mắt nhìn Quý Hàm Nặc,"
-Từ trùng:
-  - "quý" (xuất hiện 2 lần)
-
-Câu 3069:
-"Thôi thôi,"
-Từ trùng:
-  - "thôi" (xuất hiện 2 lần)
-
-Câu 3082:
-"sợ người ta không biết hắn là sao chổi sao,"
-Từ trùng:
-  - "sao" (xuất hiện 2 lần)
-
-Câu 3083:
-"người nào đối đầu với hắn là người đó xui xẻo."
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 3098:
-"lần trước bọn họ chạy trốn trong tay hai người Thanh Hoàng và Âm Dương Minh Hoàng,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 3113:
-"Thực lực của Kim Đao Tông bọn họ vẫn kém hơn Thất Tinh Kiếm Tông,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3118:
-"thực lực của Kim Đao Tông cũng sẽ không thua Thất Tinh Kiếm Tông hiện giờ."
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3128:
-"Nhưng một tòa nguyên thạch như vậy chỉ trong thời gian ngắn trở thành một đống đất chết,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 3150:
-"tối thiểu người khác rất có thể hoài nghi trên người hắn tồn tại chí bảo,"
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 3151:
-"có thể hấp thu đại lượng năng lượng."
-Từ trùng:
-  - "lượng" (xuất hiện 2 lần)
-
-Câu 3160:
-"ầm ầm rơi xuống."
-Từ trùng:
-  - "ầm" (xuất hiện 2 lần)
-
-Câu 3193:
-"Cũng không phải thủ pháp ẩn núp của Tô Dật không thật minh,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 3207:
-"hắn không phải không thể lập tức trở về địa bàn của mình,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 3211:
-"Đi một bước nhìn một bước vậy."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-  - "bước" (xuất hiện 2 lần)
-
-Câu 3248:
-"hai bảy hai tám tuổi,"
-Từ trùng:
-  - "hai" (xuất hiện 2 lần)
-
-Câu 3254:
-"Thịt nướng và canh thịt,"
-Từ trùng:
-  - "thịt" (xuất hiện 2 lần)
-
-Câu 3259:
-"Tô Dật cười cười,"
-Từ trùng:
-  - "cười" (xuất hiện 2 lần)
-
-Câu 3264:
-"Điều này cũng nhờ có thanh niên mặt dày trước mặt,"
-Từ trùng:
-  - "mặt" (xuất hiện 2 lần)
-
-Câu 3271:
-"Không biết tiểu huynh đệ có từng nhìn thấy một thiếu niên mười sáu mười bảy tuổi ở chung quanh đây không."
-Từ trùng:
-  - "mười" (xuất hiện 2 lần)
-  - "không" (xuất hiện 2 lần)
-
-Câu 3290:
-"Nhưng có một điều có thể khẳng định,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 3299:
-"không ngờ mình tùy tiện đụng phải một nhóm người đang đi tìm kiếm mình,"
-Từ trùng:
-  - "mình" (xuất hiện 2 lần)
-
-Câu 3313:
-"có lẽ lúc này bộ dạng của hắn đã hoàn toàn thay đổi so với bộ dạng ngươi nói rồi."
-Từ trùng:
-  - "bộ" (xuất hiện 2 lần)
-  - "dạng" (xuất hiện 2 lần)
-
-Câu 3315:
-"trong lúc mơ hồ có nguyên khí cuồng mãnh du động trong cơ thể hắn,"
-Từ trùng:
-  - "trong" (xuất hiện 2 lần)
-
-Câu 3327:
-"cũng không thể không tiếp nhận sự thật này."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 3330:
-"những người này mặc dù không phải là người của Thất Tinh Kiếm Tông,"
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 3354:
-"hai vị lão giả và một vị trung niên,"
-Từ trùng:
-  - "vị" (xuất hiện 2 lần)
-
-Câu 3358:
-"trong tay một vị lão giả đồng dạng cầm một thanh trường đao,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 3370:
-"nếu chân chính chiến đấu một đấu một."
-Từ trùng:
-  - "đấu" (xuất hiện 2 lần)
-  - "một" (xuất hiện 2 lần)
-
-Câu 3374:
-"còn có mấy vị Hoàng cấp cường giả Thất Tinh Kiếm Tông bất cứ lúc nào cũng có thể đuổi theo đến đây."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 3376:
-"trong mấy người đối diện lại có người trực tiếp phát ra tín hiệu,"
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 3393:
-"Ba vị Nguyên Hư cảnh từ phía sau đồng thời cũng đánh về phía Tô Dật,"
-Từ trùng:
-  - "phía" (xuất hiện 2 lần)
-
-Câu 3407:
-"như trận trận phong lôi,"
-Từ trùng:
-  - "trận" (xuất hiện 2 lần)
-
-Câu 3410:
-"Xoẹt Đao đao va chạm,"
-Từ trùng:
-  - "đao" (xuất hiện 2 lần)
-
-Câu 3418:
-"nhưng dựa vào thân thể kim cương và khí lực đã trải qua máu huyết Kim Long rèn luyện,"
-Từ trùng:
-  - "kim" (xuất hiện 2 lần)
-
-Câu 3435:
-"tiểu tử này có muốn trốn cũng không trốn được."
-Từ trùng:
-  - "trốn" (xuất hiện 2 lần)
-
-Câu 3438:
-"dù sao trong tin đồn bên cạnh tiểu tử này còn tồn tại mấy vị Hoàng cấp cường giả cường đại,"
-Từ trùng:
-  - "cường" (xuất hiện 2 lần)
-
-Câu 3471:
-"Ngao Trong ánh đao còn một hư ảnh Xích Long lúc ẩn lúc hiện,"
-Từ trùng:
-  - "lúc" (xuất hiện 2 lần)
-
-Câu 3472:
-"phong duệ cuồng bạo ầm ầm nổ tung."
-Từ trùng:
-  - "ầm" (xuất hiện 2 lần)
-
-Câu 3477:
-"Ùng ùng Ánh đao chém xuống,"
-Từ trùng:
-  - "ùng" (xuất hiện 2 lần)
-
-Câu 3484:
-"cũng không chịu đả kích dưới uy thế như thế,"
-Từ trùng:
-  - "thế" (xuất hiện 2 lần)
-
-Câu 3493:
-"ngay sau đó liền vô thanh vô tức,"
-Từ trùng:
-  - "vô" (xuất hiện 2 lần)
-
-Câu 3499:
-"và ba người đang ở phía xa xem cuộc chiến đều cảm giác sợ hết hồn hết vía."
-Từ trùng:
-  - "hết" (xuất hiện 2 lần)
-
-Câu 3501:
-"thân pháp và đao pháp đều quỷ dị,"
-Từ trùng:
-  - "pháp" (xuất hiện 2 lần)
-
-Câu 3560:
-"không phải là chưởng môn Quý Thiên Phục của Huyền Kiếm Môn sao."
-Từ trùng:
-  - "môn" (xuất hiện 2 lần)
-
-Câu 3566:
-"Phụt Phụt Trong hai tiếng vang trầm muộn,"
-Từ trùng:
-  - "phụt" (xuất hiện 2 lần)
-
-Câu 3567:
-"hai vị lão giả trực tiếp nổ thành hai luồng huyết vụ."
-Từ trùng:
-  - "hai" (xuất hiện 2 lần)
-
-Câu 3576:
-"Trong bọn họ cũng có người từng gặp chưởng môn Quý Thiên Phục của Huyền Kiếm Môn,"
-Từ trùng:
-  - "môn" (xuất hiện 2 lần)
-
-Câu 3592:
-"cũng không quản hắn có muốn nói cái gì hay không,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 3623:
-"một lần nữa mang theo cường giả của Thất Tinh Kiếm Tông đuổi theo."
-Từ trùng:
-  - "theo" (xuất hiện 2 lần)
-
-Câu 3625:
-"ngươi có thể chạy trốn dưới sự đuổi giết của lưỡng đại tông môn Kim Đao Tông và Thất Tinh Kiếm Tông."
-Từ trùng:
-  - "tông" (xuất hiện 3 lần)
-
-Câu 3636:
-"truy tìm một tia khí cơ lúc có lúc không."
-Từ trùng:
-  - "lúc" (xuất hiện 2 lần)
-
-Câu 3638:
-"tông chủ Nhiễm Kiếm Hiên cùng một vị Nguyên Hoàng cảnh của Thất Tinh Kiếm tông cũng xuất hiện ở đây,"
-Từ trùng:
-  - "kiếm" (xuất hiện 2 lần)
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3650:
-"còn có mấy vị tuổi tác có vẻ đã cao,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 3659:
-"khiến cho Tô Dật cũng không cần gọi đám người Thanh Hoàng ra ngoài đánh chết những người kia,"
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 3678:
-"nhưng Tô Dật vẫn có thể nhìn ra tâm tình quan tâm đối với mình."
-Từ trùng:
-  - "tâm" (xuất hiện 2 lần)
-
-Câu 3711:
-"Sợi tóc ở bên thái dương thiếu nữ nhẹ nhàng bay bay trong gió,"
-Từ trùng:
-  - "bay" (xuất hiện 2 lần)
-
-Câu 3716:
-"người của Kim Đao Tông và Thất Tinh Kiếm Tông không bao lâu nữa khẳng định sex tìm tới đây Đến lúc đó ngươi làm bộ như đệ tử của Huyền Kiếm Môn là được rồi,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-  - "của" (xuất hiện 2 lần)
-  - "kiếm" (xuất hiện 2 lần)
-
-Câu 3729:
-"Thất Tinh Kiếm Tông và Kim Đao Tông cũng không có thâm cừu đại oán gì,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3737:
-"Người lúc trước ngăn cản ngươi chính là người của Kim Đao Tông,"
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 3741:
-"bọn họ có thể có thêm không ít nhân thủ."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 3750:
-"từ đó dễ dàng lẩn trốn khỏi tầm mắt của cường giả Nguyên Hoàng cảnh của Thất Tinh Kiếm Tông."
-Từ trùng:
-  - "của" (xuất hiện 2 lần)
-
-Câu 3759:
-"hoặc là một số đệ tử tông môn kết bè kết đội."
-Từ trùng:
-  - "kết" (xuất hiện 2 lần)
-
-Câu 3760:
-"Nhưng Tô Dật lúc ấy một thân một mình tiêu dao sung sướng,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 3780:
-"những người đó chắc chắn là nhóm Nguyên Hoàng cảnh của Kim Đao Tông và Thất Tinh Kiếm Tông."
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3781:
-"Bá bá bá."
-Từ trùng:
-  - "bá" (xuất hiện 3 lần)
-
-Câu 3784:
-"trên người bọn họ đều tràn ngập cường đại khí tức Nguyên Hoàng cảnh khí tức,"
-Từ trùng:
-  - "khí" (xuất hiện 2 lần)
-  - "tức" (xuất hiện 2 lần)
-
-Câu 3805:
-"không biết ngươi có nhìn thấy tiểu tử chúng ta đang tìm không."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 3807:
-"chính là tông chủ của Thất Tinh Kiếm Tông,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3809:
-"Ánh mắt của hắn trống rỗng híp mắt dựng lên,"
-Từ trùng:
-  - "mắt" (xuất hiện 2 lần)
-
-Câu 3827:
-"Hừ Quý Thiên Phục hừ lạnh một tiếng,"
-Từ trùng:
-  - "hừ" (xuất hiện 2 lần)
-
-Câu 3829:
-"tầng tầng quang huy màu xanh biếc lượn lờ quanh người hắn,"
-Từ trùng:
-  - "tầng" (xuất hiện 2 lần)
-
-Câu 3834:
-"nước giếng không phạm nước sông,"
-Từ trùng:
-  - "nước" (xuất hiện 2 lần)
-
-Câu 3851:
-"nhưng ánh mắt Nhiễm Kiếm Hiên vẫn quanh quẩn trong đám người Huyền Kiếm Môn một hồi lâu."
-Từ trùng:
-  - "kiếm" (xuất hiện 2 lần)
-
-Câu 3861:
-"Hai người này cũng không biết tin hay không tin,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-  - "tin" (xuất hiện 2 lần)
-
-Câu 3866:
-"Người thiếu niên bọn họ vẫn tìm kiếm vừa rồi đã đứng ngay trước mặt bọn hắn."
-Từ trùng:
-  - "bọn" (xuất hiện 2 lần)
-
-Câu 3867:
-"Phù Sau khi người của Kim Đao Tông và Thất Tinh Kiếm Tông rời đi,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3885:
-"Ta đã nói không cần cám ơn ta."
-Từ trùng:
-  - "ta" (xuất hiện 2 lần)
-
-Câu 3890:
-"Thất Tinh Kiếm Tông và Kim Đao Tông không thể dám vào đó lục soát."
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3904:
-"Vậy ngươi đi cùng chúng ta một đoạn đi,"
-Từ trùng:
-  - "đi" (xuất hiện 2 lần)
-
-Câu 3920:
-"Quý Thiên Phục vừa đi vừa nói với Tô Dật."
-Từ trùng:
-  - "vừa" (xuất hiện 2 lần)
-
-Câu 3923:
-"cứ xem như chúng ta không ai mắc nợ ai."
-Từ trùng:
-  - "ai" (xuất hiện 2 lần)
-
-Câu 3924:
-"Vừa nói Quý Thiên Phục lại chăm chú nhìn Quý Hàm Nặc ý tứ."
-Từ trùng:
-  - "quý" (xuất hiện 2 lần)
-
-Câu 3943:
-"nói Ta biết bên cạnh ngươi đã tụ tập mấy vị Nguyên Hoàng cảnh và Yêu Hoàng cảnh cường giả,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-  - "cảnh" (xuất hiện 2 lần)
-
-Câu 3945:
-"thực lực của ngươi có lẽ đã không thua gì thế lực tam lưu bình thường."
-Từ trùng:
-  - "lực" (xuất hiện 2 lần)
-
-Câu 3948:
-"nhưng hiện tại ta càng ngày càng coi trọng ngươi."
-Từ trùng:
-  - "càng" (xuất hiện 2 lần)
-
-Câu 3962:
-"Quý chưởng môn muốn liên thủ với ta Chẳng lẽ không sợ đồng thời trở thành kẻ địch với Thất Tinh Kiếm Tông và Kim Đao Tông sao."
-Từ trùng:
-  - "với" (xuất hiện 2 lần)
-  - "tông" (xuất hiện 2 lần)
-
-Câu 3986:
-"cũng cảm thấy thư thái vì thái độ của Quý Thiên Phục."
+Câu 2092:
+"hình thái tiểu thái dương của linh hồn khẽ chớp động,"
 Từ trùng:
   - "thái" (xuất hiện 2 lần)
 
-Câu 3994:
-"nhiều một chuyện không bằng bớt một chuyện."
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-  - "chuyện" (xuất hiện 2 lần)
-
-Câu 4031:
-"sau đó ôm quyền nói với Quý Thiên Phục và Quý Hàm Nặc."
-Từ trùng:
-  - "quý" (xuất hiện 2 lần)
-
-Câu 4035:
-"ta sắp đến nơi cần đến rồi,"
-Từ trùng:
-  - "đến" (xuất hiện 2 lần)
-
-Câu 4043:
-"cho nên lập tức nói lời từ biệt Quý Thiên Phục và Quý Hàm Nặc."
-Từ trùng:
-  - "quý" (xuất hiện 2 lần)
-
-Câu 4045:
-"Gặp lại Quý Thiên Phục và Quý Hàm Nặc cũng không giữ hắn,"
-Từ trùng:
-  - "quý" (xuất hiện 2 lần)
-
-Câu 4049:
-"Cha cha thật sự muốn liên thủ với hắn sao."
-Từ trùng:
-  - "cha" (xuất hiện 2 lần)
-
-Câu 4051:
-"Quý Hàm Nặc một hồi lâu sau mới phục hồi tinh thần,"
-Từ trùng:
-  - "hồi" (xuất hiện 2 lần)
-
-Câu 4054:
-"nhưng hôm nay hắn bày ra năng lượng hoàn toàn không giống như trước kia ta từng thấy Hắn trưởng thành quá nhanh,"
-Từ trùng:
-  - "hắn" (xuất hiện 2 lần)
-
-Câu 4078:
-"quả thật thành công cắt đuôi được truy sát của Thất Tinh Kiếm Tông và Kim Đao Tông."
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 4087:
-"không có người nào không có bối cảnh,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-  - "có" (xuất hiện 2 lần)
-
-Câu 4098:
-"Nhưng nói đi thì nói lại,"
-Từ trùng:
-  - "nói" (xuất hiện 2 lần)
-
-Câu 4106:
-"cảm thấy trong lòng Quý Thiên Phục có lẽ cũng có suy nghĩ đồng dạng."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4109:
-"ngay sau đó trực tiếp đi vào phía sau núi."
-Từ trùng:
-  - "sau" (xuất hiện 2 lần)
-
-Câu 4111:
-"đám man yêu thú Huyền Dương Kim Yêu Chuẩn,"
-Từ trùng:
-  - "yêu" (xuất hiện 2 lần)
-
-Câu 4142:
-"sau khi Tô Dật nói cho bọn họ biết Kim Đao Tông và Thất Tinh Kiếm Tông đã liên thủ,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 4164:
-"Tô Tiểu Soái bay đến đậu lên vai Tô Dật,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 4166:
-"chỉ chỉ linh dịch trong ao."
-Từ trùng:
-  - "chỉ" (xuất hiện 2 lần)
-
-Câu 4174:
-"Tô Dật trợn mắt nhìn Tô Tiểu Soái,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 4181:
-"Hắc hắc Thấy âm mưu của mình đã bị Tô Dật đoán được,"
-Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
-
-Câu 4182:
-"Tô Tiểu Soái liền cười hắc hắc nói."
-Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
-
-Câu 4205:
-"Bốn vị Hoàng cấp cường giả Thanh Hoàng,"
-Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
-
-Câu 4226:
-"Nhưng Tô Dật biết trong số bọn họ có những người có thể đột phá tới tu vi bây giờ cũng không dễ dàng."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4239:
-"nhưng tâm trạng kích động vì nhận được bảo vật vẫn khiến hắn không ngăn được hưng phấn."
-Từ trùng:
-  - "được" (xuất hiện 2 lần)
-
-Câu 4240:
-"Sâm ông Tô Dật không nặng bên này nhẹ bên kia,"
-Từ trùng:
-  - "bên" (xuất hiện 2 lần)
-
-Câu 4241:
-"cũng cho Bích Huyết Linh Sâm không ít linh dịch."
-Từ trùng:
-  - "linh" (xuất hiện 2 lần)
-
-Câu 4243:
-"nếu như thừa dịp mình không có ở đây trực tiếp ngâm mình trong linh dịch,"
-Từ trùng:
-  - "mình" (xuất hiện 2 lần)
-
-Câu 4266:
-"Cây Huyền Linh đào từ Huyền Kiếm Môn cũng sinh trưởng rất tốt."
-Từ trùng:
-  - "huyền" (xuất hiện 2 lần)
-
-Câu 4268:
-"cây ăn quả này vẫn không có dấu hiệu nở hoa kết quả."
-Từ trùng:
-  - "quả" (xuất hiện 2 lần)
-
-Câu 4274:
-"đến lúc đó mình có thể có linh dược vô tận."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4294:
-"không biết có biết nó từ đâu tới,"
-Từ trùng:
-  - "biết" (xuất hiện 2 lần)
-
-Câu 4302:
-"Sau đó Tô Dật cũng gọi đám man yêu thú Huyền Dương Kim Yêu Chuẩn,"
-Từ trùng:
-  - "yêu" (xuất hiện 2 lần)
-
-Câu 4329:
-"trên người Tô Dật tạo nên tầng tầng ba động năng lượng,"
-Từ trùng:
-  - "tầng" (xuất hiện 2 lần)
-
-Câu 4337:
-"khiến khí thế của Tô Dật càng ngày càng hùng tráng."
+Câu 2118:
+"ánh sáng càng lúc càng loá mắt,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 4346:
-"có thể dẫn động uy thế lớn như thế."
-Từ trùng:
-  - "thế" (xuất hiện 2 lần)
-
-Câu 4365:
-"sau này ngươi từ từ sẽ biết."
-Từ trùng:
-  - "từ" (xuất hiện 2 lần)
-
-Câu 4419:
-"Tòa tài nguyên nguyên thạch này cũng không biết to hơn bao nhiêu lần so với tòa của Hắc Sát môn trong rừng rậm man yêu."
-Từ trùng:
-  - "nguyên" (xuất hiện 2 lần)
-  - "tòa" (xuất hiện 2 lần)
-
-Câu 4444:
-"Hoàng Kiện tựa hồ cũng mơ hồ có tăng trưởng,"
-Từ trùng:
-  - "hồ" (xuất hiện 2 lần)
-
-Câu 4457:
-"Tô Dật không thấy rõ khí tức trên người Tô Tiểu Soái nhiều hơn đám người Thanh Hoàng."
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-  - "người" (xuất hiện 2 lần)
-
-Câu 4469:
-"Người so với người tức chết người,"
-Từ trùng:
-  - "người" (xuất hiện 3 lần)
-
-Câu 4473:
-"lại nhìn về phía đám man yêu thú Huyền Dương Kim Yêu Chuẩn,"
-Từ trùng:
-  - "yêu" (xuất hiện 2 lần)
-
-Câu 4481:
-"thấy lực lượng của những người bên cạnh càng ngày càng cường đại,"
+Câu 2139:
+"khiến linh hồn càng lúc càng ngưng thực và cường đại,"
 Từ trùng:
   - "càng" (xuất hiện 2 lần)
 
-Câu 4491:
-"Tô Dật tính toán phái Đạp Vân Ngân Báo và Xích Phong Hắc Tình Yêu Hầu tới Phong gia thôn trước."
+Câu 2265:
+"ánh sáng bao quanh thân Tô Dật càng lúc càng sáng chói,"
 Từ trùng:
-  - "phong" (xuất hiện 2 lần)
+  - "càng" (xuất hiện 2 lần)
 
-Câu 4498:
-"dứt khoát trực tiếp mang theo mấy người Thanh Hoàng trực tiếp chạy tới Cửu Tinh thành."
+Câu 2323:
+"ý niệm trở thành càng lúc càng kiên định,"
 Từ trùng:
-  - "trực" (xuất hiện 2 lần)
-  - "tiếp" (xuất hiện 2 lần)
+  - "càng" (xuất hiện 2 lần)
 
-Câu 4512:
-"Nguyên Nhất lại không đồng hành trở lại."
+Câu 2324:
+"càng lúc càng không thể lay động."
 Từ trùng:
-  - "lại" (xuất hiện 2 lần)
+  - "càng" (xuất hiện 2 lần)
 
-Câu 4537:
-"Tây Vô Tình cũng không thể không coi trọng."
+Câu 2357:
+"Ầm ầm Khí tức đó càng lúc càng nồng nặc,"
 Từ trùng:
-  - "không" (xuất hiện 2 lần)
+  - "càng" (xuất hiện 2 lần)
 
-Câu 4543:
-"sau khi phát hiện khí tức bàng bạc trên người Thanh Hoàng và Âm Dương Minh Hoàng,"
+Câu 2378:
+"ẩn ẩn có một thú ảnh như hổ như sư tử,"
 Từ trùng:
-  - "hoàng" (xuất hiện 2 lần)
+  - "như" (xuất hiện 2 lần)
 
-Câu 4550:
-"Tô Dật cười hắc hắc,"
+Câu 2379:
+"như rồng như phượng hiển lộ,"
 Từ trùng:
-  - "hắc" (xuất hiện 2 lần)
+  - "như" (xuất hiện 2 lần)
 
-Câu 4568:
-"có thể đưa đến tác dụng trọng đại đối với việc đại ca đột phá."
+Câu 2518:
+"nương theo đó là từng đạo từng đạo phù văn bay múa,"
 Từ trùng:
-  - "đại" (xuất hiện 2 lần)
+  - "từng" (xuất hiện 2 lần)
+  - "đạo" (xuất hiện 2 lần)
 
-Câu 4571:
-"Có thời gian ngươi có thể đến Phong Gia thôn một chút,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4595:
-"rất nhiều ngôi nhà của thôn dân rất đẹp đẽ,"
-Từ trùng:
-  - "rất" (xuất hiện 2 lần)
-
-Câu 4641:
-"sau khi Phong Kỳ Nhi biết mọi người ở Phong gia thôn bị đuổi đi,"
-Từ trùng:
-  - "phong" (xuất hiện 2 lần)
-
-Câu 4646:
-"Sau lại nghe Tây Vô Tình kể lại hắn mới biết,"
-Từ trùng:
-  - "lại" (xuất hiện 2 lần)
-
-Câu 4647:
-"Phong Kỳ Nhi không phải không khổ sở,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 4675:
-"Nhưng muốn tu luyện thành công môn công pháp này,"
-Từ trùng:
-  - "công" (xuất hiện 2 lần)
-
-Câu 4682:
-"Vù vù Tiếng gió thổi qua bên tai,"
-Từ trùng:
-  - "vù" (xuất hiện 2 lần)
-
-Câu 4684:
-"Lão Đại nếu không chúng ta dùng cửa không gian truyền tống trận Như vậy sẽ tiết kiệm rất nhiều thời gian."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-  - "gian" (xuất hiện 2 lần)
-
-Câu 4685:
-"Tô Tiểu Soái nhảy lên vai Tô Dật,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 4705:
-"Nhìn thấy một người một chim cãi nhau ầm ĩ,"
-Từ trùng:
-  - "một" (xuất hiện 2 lần)
-
-Câu 4724:
-"còn có thất đại thế lực nhị lưu và mấy chục thế lực tam lưu."
-Từ trùng:
-  - "thế" (xuất hiện 2 lần)
-  - "lực" (xuất hiện 2 lần)
-  - "lưu" (xuất hiện 2 lần)
-
-Câu 4725:
-"Mà tam đại thế lực nhất lưu và thất đại thế lực nhị lưu đều có danh sách tham gia Liên Minh đại hội."
-Từ trùng:
-  - "đại" (xuất hiện 3 lần)
-  - "thế" (xuất hiện 2 lần)
-  - "lực" (xuất hiện 2 lần)
-  - "lưu" (xuất hiện 2 lần)
-
-Câu 4726:
-"Về phần tán tu và thế lực tam lưu và tam lưu trở xuống cần thông qua tranh giành,"
-Từ trùng:
-  - "và" (xuất hiện 2 lần)
-  - "tam" (xuất hiện 2 lần)
-  - "lưu" (xuất hiện 2 lần)
-
-Câu 4731:
-"dọc theo con đường này mặc dù đường xá xa xôi,"
-Từ trùng:
-  - "đường" (xuất hiện 2 lần)
-
-Câu 4733:
-"Không biết có đụng phải người của Thất Tinh Kiếm Tông và Kim Đao Tông hay không."
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-  - "không" (xuất hiện 2 lần)
-
-Câu 4736:
-"Thất Tinh Kiếm Tông và Kim Đao Tông liên thủ,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 4743:
-"người nào chiếm tiện nghi người nào chịu thiệt vẫn chưa biết trước."
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-  - "nào" (xuất hiện 2 lần)
-
-Câu 4751:
-"Kim Đao Tông không chết không thôi,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 4753:
-"Tiểu tử lần này Liên Minh đại hội của Hỗn Loạn Vực là sự kiện năm mươi năm mới tổ chức một lần,"
-Từ trùng:
-  - "năm" (xuất hiện 2 lần)
-  - "lần" (xuất hiện 2 lần)
-
-Câu 4756:
-"lần này số tuổi hạn chế ở ba mươi tuổi,"
-Từ trùng:
-  - "tuổi" (xuất hiện 2 lần)
-
-Câu 4758:
-"có thể nói là có ưu thế cao nhất."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4763:
-"có thể có được chỗ tốt lớn nhất,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4767:
-"nhưng bí địa tu luyện là thứ có thể ngộ nhưng không thể cầu,"
-Từ trùng:
-  - "nhưng" (xuất hiện 2 lần)
-  - "thể" (xuất hiện 2 lần)
-
-Câu 4785:
-"nói Hắn nói xong,"
-Từ trùng:
-  - "nói" (xuất hiện 2 lần)
-
-Câu 4789:
-"ngoài mười thế lực đứng đầu của Hỗn Loạn Vực có thể trực tiếp có tư cách tham gia,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4793:
-"chẳng lẽ bọn họ không có cơ hội tham gia Liên Minh đại hội sao."
-Từ trùng:
-  - "hội" (xuất hiện 2 lần)
-
-Câu 4795:
-"tán tu ở Hỗn Loạn Vực nhiều hơn rất nhiều những nơi khác và Trung Châu."
-Từ trùng:
-  - "nhiều" (xuất hiện 2 lần)
-
-Câu 4804:
-"Ha ha Tây Vô Tình nghe nói,"
-Từ trùng:
-  - "ha" (xuất hiện 2 lần)
-
-Câu 4810:
-"cũng có thể có cơ hội tranh đoạt danh sách một trong mười thế lực đứng đầu."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4818:
-"Mười danh sách đại biểu cho mười thế lực,"
-Từ trùng:
-  - "mười" (xuất hiện 2 lần)
-
-Câu 4819:
-"mỗi danh sách có thể có hai mươi người,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4820:
-"có thể đại biểu thế lực của mình tham gia đại hội."
-Từ trùng:
-  - "đại" (xuất hiện 2 lần)
-
-Câu 4828:
-"có một số tán tu có thực lực nhất định,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4830:
-"sẽ chọn ra mấy người trong hai mươi người,"
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 4833:
-"cùng nhau tranh đoạt tư cách cuối cùng."
-Từ trùng:
-  - "cùng" (xuất hiện 2 lần)
-
-Câu 4862:
-"nhưng cũng tuyệt đối có thể được xưng tụng hợp tình hợp lý."
-Từ trùng:
-  - "hợp" (xuất hiện 2 lần)
-
-Câu 4871:
-"Tỷ như nếu Kim Đao Tông và Thất Tinh Kiếm Tông tiếp tục hợp tác trên Liên Minh đại hội."
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 4872:
-"bọn họ không thể nào đồng thời lấy hai danh nghĩa Kim Đao Tông và Thất Tinh Kiếm Tông tham gia,"
-Từ trùng:
-  - "tông" (xuất hiện 2 lần)
-
-Câu 4922:
-"mấy đệ tử mạnh nhất của thế lực nhất lưu,"
-Từ trùng:
-  - "nhất" (xuất hiện 2 lần)
-
-Câu 4932:
-"có lẽ cũng có rất nhiều tán tu nguyện ý liên thủ với hắn."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4966:
-"có phải cũng có ý lôi kéo hắn liên thủ."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 4975:
-"Hỗn Loạn Vực rất loạn,"
-Từ trùng:
-  - "loạn" (xuất hiện 2 lần)
-
-Câu 4985:
-"Huyền Dương Kim Yêu Chuẩn và Lang Đầu Yêu Bức cũng có chút mỏi mệt rồi,"
-Từ trùng:
-  - "yêu" (xuất hiện 2 lần)
-
-Câu 5016:
-"Hắn đưa cho Huyền Dương Kim Yêu Chuẩn và Lang Đầu Yêu Bức mấy viên đan dược khôi phục nguyên khí,"
-Từ trùng:
-  - "yêu" (xuất hiện 2 lần)
-
-Câu 5023:
-"lực chiến đấu chân chính tuyệt đối có thể có thể so sánh với man yêu thú Yêu Hoàng cảnh nhị tam trọng,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-  - "thể" (xuất hiện 2 lần)
-  - "yêu" (xuất hiện 2 lần)
-
-Câu 5026:
-"rất ít nhìn thấy có dấu vết có người đi qua,"
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 5049:
-"những cường giả thế hệ trước của các thế lực cường đại cũng sẽ xuất hiện không ít."
-Từ trùng:
-  - "thế" (xuất hiện 2 lần)
-  - "cường" (xuất hiện 2 lần)
-
-Câu 5082:
-"cho nên đại ca cũng có thể phân biệt được cái nào nhẹ cái nào nặng."
-Từ trùng:
-  - "cái" (xuất hiện 2 lần)
-  - "nào" (xuất hiện 2 lần)
-
-Câu 5084:
-"sau khi tìm được một vị trí tương đối bí mật mở không gian thần bí,"
-Từ trùng:
-  - "bí" (xuất hiện 2 lần)
-
-Câu 5086:
-"Sau đó hắn lại trở lại trong đám người."
-Từ trùng:
-  - "lại" (xuất hiện 2 lần)
-
-Câu 5093:
-"dĩ nhiên điều kiện tiên quyết là chung quanh đây có thể có."
-Từ trùng:
-  - "có" (xuất hiện 2 lần)
-
-Câu 5129:
-"rất nhiều người muốn tìm một vật cưỡi như vậy cũng rất khó,"
-Từ trùng:
-  - "rất" (xuất hiện 2 lần)
-
-Câu 5132:
-"Tô Tiểu Soái cao hứng bay đến trên vai Tô Dật,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 5138:
-"Tô Dật liếc Tô Tiểu Soái một cái,"
-Từ trùng:
-  - "tô" (xuất hiện 2 lần)
-
-Câu 5155:
-"Đại Đại nhân,"
-Từ trùng:
-  - "đại" (xuất hiện 2 lần)
-
-Câu 5156:
-"van cầu Van cầu các ngươi."
-Từ trùng:
-  - "van" (xuất hiện 2 lần)
-  - "cầu" (xuất hiện 2 lần)
-
-Câu 5172:
-"không phải không thể được."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 5182:
-"Đa Đa tạ đại nhân,"
-Từ trùng:
-  - "đa" (xuất hiện 2 lần)
-
-Câu 5184:
-"ta Ta Nghe thấy lời nói của Tô Dật,"
-Từ trùng:
-  - "ta" (xuất hiện 2 lần)
-
-Câu 5187:
-"Hắn không ngờ một người lại có thể nghe hiểu lời của hắn,"
-Từ trùng:
-  - "hắn" (xuất hiện 2 lần)
-
-Câu 5195:
-"Ngươi cái gì mà ngươi,"
-Từ trùng:
-  - "ngươi" (xuất hiện 2 lần)
-
-Câu 5209:
-"Ta Ta Bích Lân Ưng bị quát sợ đến co rụt cả cổ,"
-Từ trùng:
-  - "ta" (xuất hiện 2 lần)
-
-Câu 5217:
-"Ta Ta đã có chủ nhân rồi."
-Từ trùng:
-  - "ta" (xuất hiện 2 lần)
-
-Câu 5233:
-"toàn bộ bộ lông của Bích Lân Ưng đều dựng đứng."
-Từ trùng:
-  - "bộ" (xuất hiện 2 lần)
-
-Câu 5239:
-"chủ nhân của ta có đại ân với ta,"
-Từ trùng:
-  - "ta" (xuất hiện 2 lần)
-
-Câu 5262:
-"chủ nhân của hắn có ân huệ rất lớn với hắn,"
-Từ trùng:
-  - "hắn" (xuất hiện 2 lần)
-
-Câu 5264:
-"Không thể không nói,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 5280:
-"nói Đại nhân có yêu cầu gì cứ nói,"
-Từ trùng:
-  - "nói" (xuất hiện 2 lần)
-
-Câu 5283:
-"Một con man thú Yêu Tiên Cảnh lục trọng như ngươi có thể giúp được gì cho chúng ta Lão Đại nói thả ngươi đi,"
-Từ trùng:
-  - "ngươi" (xuất hiện 2 lần)
-
-Câu 5284:
-"ngươi tốt nhất nên đi nhanh đi."
-Từ trùng:
-  - "đi" (xuất hiện 2 lần)
-
-Câu 5287:
-"Tạ ơn tạ ơn đại nhân."
-Từ trùng:
-  - "tạ" (xuất hiện 2 lần)
-  - "ơn" (xuất hiện 2 lần)
-
-Câu 5289:
-"Hai cánh nó rung lên liền bay lên trời,"
-Từ trùng:
-  - "lên" (xuất hiện 2 lần)
-
-Câu 5305:
-"người xuất hiện là một nam tử trẻ tuổi nhìn qua hai sáu hai bảy tuổi."
-Từ trùng:
-  - "hai" (xuất hiện 2 lần)
-  - "tuổi" (xuất hiện 2 lần)
-
-Câu 5312:
-"chỉ riêng con chim lớn bằng bàn tay con người có thể mở miệng nói chuyện,"
-Từ trùng:
-  - "con" (xuất hiện 2 lần)
-
-Câu 5322:
-"Thực lực Nguyên Chân Cảnh lục trọng với tầm tuổi hai sáu hai bảy tuổi,"
-Từ trùng:
-  - "hai" (xuất hiện 2 lần)
-  - "tuổi" (xuất hiện 2 lần)
-
-Câu 5333:
-"Không biết có phải Tiểu Bích quấy nhiễu các vị hay không,"
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 5359:
-"nguyên khí cường đại trải trong trong hư không,"
-Từ trùng:
-  - "trong" (xuất hiện 2 lần)
-
-Câu 5373:
-"trên người người nào cũng tản ra ánh sáng."
-Từ trùng:
-  - "người" (xuất hiện 2 lần)
-
-Câu 5377:
-"các ngươi nhanh đi đi,"
-Từ trùng:
-  - "đi" (xuất hiện 2 lần)
-
-Câu 5382:
-"mà chằm chằm nhìn bốn người mới đến."
-Từ trùng:
-  - "chằm" (xuất hiện 2 lần)
-
-Câu 5387:
-"Nguyên Chân Cảnh lục trọng đến bát trọng."
-Từ trùng:
-  - "trọng" (xuất hiện 2 lần)
-
-Câu 5398:
-"nhưng cũng không thể không giải thích nhân nhượng người khác."
-Từ trùng:
-  - "không" (xuất hiện 2 lần)
-
-Câu 5409:
-"giết các ngươi như giết chó."
-Từ trùng:
-  - "giết" (xuất hiện 2 lần)
-
-Câu 5414:
-"làm sao hôm nay tìm được trợ thủ sao."
+Câu 2687:
+"sao ta sao có thể bỏ lại tộc nhân mình."
 Từ trùng:
   - "sao" (xuất hiện 2 lần)
 
-Câu 5415:
-"Tên hán tử tên Đằng Mậu hừ lạnh,"
-Từ trùng:
-  - "tên" (xuất hiện 2 lần)
-
-Câu 5417:
-"Chư vị các ngươi đi đi,"
-Từ trùng:
-  - "đi" (xuất hiện 2 lần)
-
-Câu 5421:
-"nói Muốn chiến thì chiến đi,"
-Từ trùng:
-  - "chiến" (xuất hiện 2 lần)
-
-Câu 5434:
-"bằng không ta không bảo đảm sống chết của các ngươi Chờ chúng ta giải quyết Trần Xử An xong,"
+Câu 2703:
+"Không ta không thể rời đi."
 Từ trùng:
   - "không" (xuất hiện 2 lần)
-  - "ta" (xuất hiện 2 lần)
 
-Câu 5450:
-"nhưng có lẽ có thể mò được chút chỗ tốt trên người."
+Câu 2706:
+"Hổ Trì Hổ Mạch cắn răng nói."
 Từ trùng:
-  - "có" (xuất hiện 2 lần)
+  - "hổ" (xuất hiện 2 lần)
+
+Câu 2971:
+"Không đi không nổi."
+Từ trùng:
+  - "không" (xuất hiện 2 lần)
+
+Câu 2990:
+"những tia nắng sau cùng hòa lẫn với sương chiều xám xịt như ẩn như hiện,"
+Từ trùng:
+  - "như" (xuất hiện 2 lần)
+
+Câu 3195:
+"càng lúc càng ngưng thực,"
+Từ trùng:
+  - "càng" (xuất hiện 2 lần)
+
+Câu 3209:
+"Còn có thân ảnh cường đại như ẩn như hiện trên hư không,"
+Từ trùng:
+  - "như" (xuất hiện 2 lần)
+
+Câu 3309:
+"khí tức cường đại như ẩn như hiện."
+Từ trùng:
+  - "như" (xuất hiện 2 lần)
+
+Câu 3344:
+"thân ảnh cường đại như ẩn như hiện giữa hư không,"
+Từ trùng:
+  - "như" (xuất hiện 2 lần)
+
+Câu 3364:
+"từng đạo từng đạo ánh sáng quanh người tản ra,"
+Từ trùng:
+  - "từng" (xuất hiện 2 lần)
+  - "đạo" (xuất hiện 2 lần)
+
+Câu 3530:
+"từng đạo từng đạo đao quang quỷ dị lơ lửng phá không,"
+Từ trùng:
+  - "từng" (xuất hiện 2 lần)
+  - "đạo" (xuất hiện 2 lần)
+
+Câu 3596:
+"Hổ Trì Hổ Minh Hổ Mạch của bộ lạc Liệp Hổ,"
+Từ trùng:
+  - "hổ" (xuất hiện 4 lần)
+
+Câu 3650:
+"Đám người Hùng Chiến lung la lung lay,"
+Từ trùng:
+  - "lung" (xuất hiện 2 lần)
+
+Câu 3676:
+"cùng lão giả loan đao một trước một sau bao vây thôn trưởng Thượng Quan Trình Nhã."
+Từ trùng:
+  - "một" (xuất hiện 2 lần)
+
+Câu 3685:
+"từng đạo từng đạo thân ảnh quen thuộc bị đánh giết giữa trời,"
+Từ trùng:
+  - "từng" (xuất hiện 2 lần)
+  - "đạo" (xuất hiện 2 lần)
+
+Câu 3773:
+"những đại địch trước mắt xa không phải Hắc Diêu Hắc Sát môn lúc trước có thể so,"
+Từ trùng:
+  - "hắc" (xuất hiện 2 lần)
+
+Câu 3838:
+"Đó là một thiếu niên bộ dáng chừng mười lăm mười sáu tuổi,"
+Từ trùng:
+  - "mười" (xuất hiện 2 lần)
 
 ============================================================
-Thời gian: 22:55:05 24/1/2026
+Thời gian: 23:13:29 24/1/2026

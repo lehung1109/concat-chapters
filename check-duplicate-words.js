@@ -37,27 +37,49 @@ function checkDuplicateWords(text) {
       .filter(word => word.length > 0)
       .map(word => word.toLowerCase()); // Chuyển về chữ thường để so sánh
 
-    // Đếm số lần xuất hiện của mỗi từ
-    const wordCount = {};
-    const duplicates = [];
+    // Lưu vị trí của mỗi từ
+    const wordPositions = {};
+    words.forEach((word, pos) => {
+      if (!wordPositions[word]) {
+        wordPositions[word] = [];
+      }
+      wordPositions[word].push(pos);
+    });
 
-    words.forEach(word => {
-      wordCount[word] = (wordCount[word] || 0) + 1;
-      if (wordCount[word] === 2) {
-        // Chỉ thêm vào danh sách duplicate một lần
-        duplicates.push(word);
+    // Kiểm tra từ trùng với khoảng cách = 1 (không báo lỗi nếu liền nhau)
+    const duplicates = [];
+    
+    Object.keys(wordPositions).forEach(word => {
+      const positions = wordPositions[word];
+      
+      // Nếu từ xuất hiện ít nhất 2 lần
+      if (positions.length >= 2) {
+        // Kiểm tra xem có cặp nào cách nhau đúng 1 từ không (không báo lỗi nếu liền nhau)
+        let hasCloseDuplicate = false;
+        for (let i = 0; i < positions.length - 1; i++) {
+          const distance = positions[i + 1] - positions[i] - 1;
+          if (distance === 1) {
+            hasCloseDuplicate = true;
+            break;
+          }
+        }
+        
+        if (hasCloseDuplicate) {
+          duplicates.push({
+            word: word,
+            count: positions.length,
+            positions: positions
+          });
+        }
       }
     });
 
-    // Nếu có từ trùng, thêm vào kết quả
+    // Nếu có từ trùng gần nhau, thêm vào kết quả
     if (duplicates.length > 0) {
       results.push({
         sentenceIndex: index + 1,
         sentence: sentence.trim(),
-        duplicateWords: duplicates.map(word => ({
-          word: word,
-          count: wordCount[word]
-        }))
+        duplicateWords: duplicates
       });
     }
   });
@@ -102,7 +124,14 @@ function checkAllOutputFiles() {
 
   const files = fs.readdirSync(OUTPUT_FOLDER)
     .filter(file => file.endsWith('.txt'))
-    .sort();
+    .sort((a, b) => {
+      // Trích xuất số đầu tiên từ tên file (ví dụ: output_C0-C19.txt -> 0)
+      const getFirstNumber = (filename) => {
+        const match = filename.match(/C(\d+)/);
+        return match ? parseInt(match[1], 10) : 0;
+      };
+      return getFirstNumber(a) - getFirstNumber(b);
+    });
 
   if (files.length === 0) {
     console.log(`❌ Không tìm thấy file .txt nào trong thư mục: ${OUTPUT_FOLDER}`);
