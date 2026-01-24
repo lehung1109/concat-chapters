@@ -7,7 +7,7 @@ const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
 const prefixChapter = 'C';
 const extension = 'xhtml';
 const batchSize = 20;
-const startChapter = 0;
+const startChapter = 1;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
