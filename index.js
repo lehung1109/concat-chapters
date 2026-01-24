@@ -93,7 +93,7 @@ function mergeHTMLBatch(startNum, endNum) {
   console.log(`✅ Xuất ra: ${outputFile}`);
 }
 
-function xuLyVanBan(text, maxLen = 20) {
+function xuLyVanBan(text, maxLen = 10) {
   // Regex match nội dung + delimiter (bao gồm space sau)
   const pattern = /([^.,:]+?)([.,:]\s*)/g;
   let result = '';
