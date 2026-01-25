@@ -86,10 +86,18 @@ function mergeHTMLBatch(startNum, endNum) {
     
     console.log(`✓ Đã xử lý ${fileName}`);
   }
+
+  combinedText = combinedText.replaceAll(/\s+/g, ' ').trim();
+  
+  // Thêm dấu phẩy giữa 2 từ trùng nhau cách nhau bởi 1 từ
+  combinedText = themDauPhayGiuaTuTrungLap(combinedText);
+  
+  // Xóa cặp từ trùng lặp trước khi xuất file
+  combinedText = xoaCapTuTrungLap(combinedText);
   
   // Tạo output file trong cùng thư mục
   const outputFile = path.join(OUTPUT_FOLDER, `output_${prefixChapter}${startNum}-${prefixChapter}${endNum}.txt`);
-  fs.writeFileSync(outputFile, combinedText.replaceAll(/\s+/g, ' ').trim(), 'utf-8');
+  fs.writeFileSync(outputFile, combinedText, 'utf-8');
   console.log(`✅ Xuất ra: ${outputFile}`);
 }
 
@@ -123,6 +131,81 @@ function xuLyVanBan(text, maxLen = 2) {
   }
 
   return result.trim();
+}
+
+function xoaCapTuTrungLap(text) {
+  // Tìm và xóa cặp từ trùng lặp ngăn cách bởi dấu . hoặc , hoặc khoảng trắng
+  // Pattern: (word1 word2) [delimiter] (word1 word2)
+  // Delimiter có thể là: . hoặc , hoặc khoảng trắng
+  
+  // Regex để tìm cặp từ (ít nhất 2 từ) lặp lại sau delimiter
+  // \b để đảm bảo match từ đầy đủ, không phải phần của từ khác
+  const pattern = /\b(\S+\s+\S+)([.,]\s*|\s+)\1\b/g;
+  
+  let result = text;
+  let hasChanged = true;
+  let maxIterations = 100; // Giới hạn số lần lặp để tránh vòng lặp vô hạn
+  let iterations = 0;
+  
+  // Lặp lại cho đến khi không còn thay đổi nào
+  while (hasChanged && iterations < maxIterations) {
+    hasChanged = false;
+    const newResult = result.replace(pattern, (match, p1, p2) => {
+      hasChanged = true;
+      return p1; // Chỉ giữ lại cặp từ đầu tiên
+    });
+    
+    if (hasChanged) {
+      result = newResult;
+      iterations++;
+    }
+  }
+  
+  if (iterations >= maxIterations) {
+    console.warn(`⚠️ Cảnh báo: xoaCapTuTrungLap đạt giới hạn ${maxIterations} lần lặp. Có thể còn pattern chưa xử lý hết.`);
+  }
+  
+  return result;
+}
+
+function themDauPhayGiuaTuTrungLap(text) {
+  // Tìm và thêm dấu phẩy vào cuối từ ở giữa 2 từ trùng nhau
+  // Pattern: (word1) (word2) (word1)
+  // Ví dụ: "càng ngày càng" → "càng ngày, càng"
+  
+  // Regex để tìm pattern: từ1 từ2 từ1 (chỉ match nếu chưa có dấu phẩy sau từ2)
+  // \b để đảm bảo match từ đầy đủ, không phải phần của từ khác
+  // Tránh match nếu đã có dấu phẩy hoặc dấu chấm sau từ ở giữa
+  const pattern = /\b(\S+)\s+(\S+)(?![,\.])\s+\1\b/g;
+  
+  let result = text;
+  let hasChanged = true;
+  let maxIterations = 100; // Giới hạn số lần lặp để tránh vòng lặp vô hạn
+  let iterations = 0;
+  
+  // Lặp lại cho đến khi không còn thay đổi nào
+  while (hasChanged && iterations < maxIterations) {
+    hasChanged = false;
+    const newResult = result.replace(pattern, (match, p1, p2) => {
+      // Kiểm tra xem đã có dấu phẩy chưa để tránh xử lý lại
+      if (!match.includes(',')) {
+        hasChanged = true;
+        return `${p1} ${p2}, ${p1}`;
+      }
+      return match;
+    });
+    
+    if (hasChanged) {
+      result = newResult;
+      iterations++;
+    }
+  }
+  
+  if (iterations >= maxIterations) {
+    console.warn(`⚠️ Cảnh báo: themDauPhayGiuaTuTrungLap đạt giới hạn ${maxIterations} lần lặp. Có thể còn pattern chưa xử lý hết.`);
+  }
+  
+  return result;
 }
 
 function processAllBatches() {
