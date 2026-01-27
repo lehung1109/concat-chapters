@@ -2,11 +2,11 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'than-de-vu-phong', 'OEBPS', "Text");
-const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
-const prefixChapter = 'C';
-const extension = 'xhtml';
-const batchSize = 20;
+const FOLDER_PATH = path.join(__dirname, 'ta-co-the-nhin-thay-an-tang-co-duyen');
+const OUTPUT_FOLDER = path.join(FOLDER_PATH, 'combined-txt');
+const prefixChapter = 'index_split_00';
+const extension = 'html';
+const batchSize = 2;
 const startChapter = 1;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
@@ -70,6 +70,7 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll('’', '');
       text = text.replaceAll('(', '');
       text = text.replaceAll(')', '');
+      text = text.replaceAll('——', '');
 
       return text === '.' ? '' : text;
     }).get().reduce((acc, line) => {
@@ -171,12 +172,19 @@ function xoaCapTuTrungLap(text) {
 function themDauPhayGiuaTuTrungLap(text) {
   // Tìm và thêm dấu phẩy vào cuối từ ở giữa 2 từ trùng nhau
   // Pattern: (word1) (word2) (word1)
-  // Ví dụ: "càng ngày càng" → "càng ngày, càng"
+  // Ví dụ: " càng ngày càng " → " càng ngày, càng "
+  // Đảm bảo từ hoàn chỉnh: phía trước và phía sau đều có khoảng trắng hoặc đầu/cuối chuỗi
   
-  // Regex để tìm pattern: từ1 từ2 từ1 (chỉ match nếu chưa có dấu phẩy sau từ2)
-  // \b để đảm bảo match từ đầy đủ, không phải phần của từ khác
-  // Tránh match nếu đã có dấu phẩy hoặc dấu chấm sau từ ở giữa
-  const pattern = /\b(\S+)\s+(\S+)(?![,\.])\s+\1\b/g;
+  // Regex pattern:
+  // (^|\s) - đầu chuỗi hoặc khoảng trắng trước từ đầu tiên
+  // (\S+) - từ đầu tiên (word1)
+  // \s+ - khoảng trắng giữa
+  // (\S+) - từ ở giữa (word2)
+  // (?![,\.]) - không có dấu phẩy hoặc dấu chấm ngay sau từ giữa
+  // \s+ - khoảng trắng giữa
+  // \2 - từ đầu tiên lặp lại (backreference)
+  // (\s|$) - khoảng trắng hoặc cuối chuỗi sau từ cuối cùng
+  const pattern = /(^|\s)(\S+)\s+(\S+)(?![,\.])\s+\2(\s|$)/g;
   
   let result = text;
   let hasChanged = true;
@@ -186,11 +194,12 @@ function themDauPhayGiuaTuTrungLap(text) {
   // Lặp lại cho đến khi không còn thay đổi nào
   while (hasChanged && iterations < maxIterations) {
     hasChanged = false;
-    const newResult = result.replace(pattern, (match, p1, p2) => {
+    const newResult = result.replace(pattern, (match, beforeSpace, word1, word2, afterSpace) => {
       // Kiểm tra xem đã có dấu phẩy chưa để tránh xử lý lại
       if (!match.includes(',')) {
         hasChanged = true;
-        return `${p1} ${p2}, ${p1}`;
+        // Giữ lại khoảng trắng hoặc đầu/cuối chuỗi, thêm dấu phẩy sau từ giữa
+        return `${beforeSpace}${word1} ${word2}, ${word1}${afterSpace}`;
       }
       return match;
     });
