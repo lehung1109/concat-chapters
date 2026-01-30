@@ -51,7 +51,7 @@ function mergeHTMLBatch(startNum, endNum) {
     const $ = cheerio.load(html);
     
     const bodyText = $('p, h1').map((index, element) => {
-      let text = $(element).text();
+      let text = $(element).text().trim();
 
       text = text.replaceAll(/["'!?-]/g, '');
       text = text.replaceAll('《', '');
@@ -71,8 +71,9 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll('(', '');
       text = text.replaceAll(')', '');
       text = text.replaceAll('——', '');
+      text = text.replaceAll('DTVEBOOK', '');
 
-      return text === '.' ? '' : text;
+      return text === '.' ? '' : text.endsWith('.') ? text : text + '.';
     }).get().reduce((acc, line) => {
       if (line) {
         return `${acc}${line === '.' ? ' ' : line}${line.endsWith('.') || line.endsWith(',') ? ' ' : '. '}`;
@@ -102,7 +103,7 @@ function mergeHTMLBatch(startNum, endNum) {
   console.log(`✅ Xuất ra: ${outputFile}`);
 }
 
-function xuLyVanBan(text, maxLen = 2) {
+function xuLyVanBan(text, maxLen = 1) {
   // Regex match nội dung + delimiter (bao gồm space sau)
   const pattern = /([^.,:]+?)([.,:]\s*)/g;
   let result = '';
