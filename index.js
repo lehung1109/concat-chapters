@@ -2,12 +2,12 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'ta-co-the-nhin-thay-an-tang-co-duyen');
-const OUTPUT_FOLDER = path.join(FOLDER_PATH, 'combined-txt');
-const prefixChapter = 'index_split_00';
+const FOLDER_PATH = path.join(__dirname, 'thong-thien-vu-toan-da-van-doan', 'Text');
+const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
+const prefixChapter = 'C';
 const extension = 'html';
-const batchSize = 2;
-const startChapter = 1;
+const batchSize = 20;
+const startChapter = 0;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
