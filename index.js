@@ -2,12 +2,12 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'toi-cuong-tien-de-tai-do-thi', 'OEBPS', 'Text');
+const FOLDER_PATH = path.join(__dirname, 'van-toc-chi-kiep', '1');
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
-const prefixChapter = 'C';
-const extension = 'xhtml';
+const prefixChapter = 'index_split_';
+const extension = 'html';
 const batchSize = 20;
-const startChapter = 0;
+const startChapter = 100;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -226,8 +226,11 @@ function processAllBatches() {
     return;
   }
 
-  for (let start = startChapter; start <= totalFiles.length; start += batchSize) {
-    const end = Math.min(start + batchSize - 1, totalFiles.length);
+  // Số chương lớn nhất = số lấy từ tên chương cuối cùng trong danh sách
+  const maxChapterNum = Math.max(...totalFiles);
+
+  for (let start = startChapter; start <= maxChapterNum; start += batchSize) {
+    const end = Math.min(start + batchSize - 1, maxChapterNum);
     mergeHTMLBatch(start, end);
   }
   
