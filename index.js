@@ -2,10 +2,10 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'thong-thien-vu-toan-da-van-doan', 'Text');
+const FOLDER_PATH = path.join(__dirname, 'toi-cuong-tien-de-tai-do-thi', 'OEBPS', 'Text');
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
 const prefixChapter = 'C';
-const extension = 'html';
+const extension = 'xhtml';
 const batchSize = 20;
 const startChapter = 0;
 
