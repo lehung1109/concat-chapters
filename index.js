@@ -2,12 +2,12 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'van-toc-chi-kiep', '1');
+const FOLDER_PATH = path.join(__dirname, 'ta-o-nhan-gian-lap-dia-thanh-tien', 'OEBPS', "Text");
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
-const prefixChapter = 'index_split_';
-const extension = 'html';
-const batchSize = 20;
-const startChapter = 100;
+const prefixChapter = 'C';
+const extension = 'xhtml';
+const batchSize = 2;
+const startChapter = 1;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -37,6 +37,7 @@ function countHTMLFiles(folderPath) {
 
 function mergeHTMLBatch(startNum, endNum) {
   let combinedText = 'Cảm ơn anh em đã luôn đồng hành và ủng hộ kênh Minh An Đạo Trưởng, Nếu mọi người có gợi ý về những bộ truyện hay, hợp với kênh thì cứ bình luận bên dưới nhé. Đạo Trưởng sẽ chọn ra bộ hay nhất để đưa lên kênh. ';
+  const startText = 'Cảm ơn anh em đã ủng hộ kệnh Minh An Đạo Trưởng.'
   
   for (let i = startNum; i <= endNum; i++) {
     const fileName = `${prefixChapter}${i}.${extension}`;
@@ -52,6 +53,10 @@ function mergeHTMLBatch(startNum, endNum) {
     
     const bodyText = $('p, h1').map((index, element) => {
       let text = $(element).text().trim();
+
+      if(index == 0 && i > startNum) {
+        combinedText = combinedText + ' ' + startText;
+      }
 
       text = text.replaceAll(/["'!?-]/g, '');
       text = text.replaceAll('《', '');
