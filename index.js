@@ -2,12 +2,12 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'ta-o-nhan-gian-lap-dia-thanh-tien', 'OEBPS', "Text");
-const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
-const prefixChapter = 'C';
-const extension = 'xhtml';
-const batchSize = 2;
-const startChapter = 1;
+const FOLDER_PATH = path.join(__dirname, 'can-su-de-deu-la-dai-lao');
+const OUTPUT_FOLDER = path.join(FOLDER_PATH, 'combined-txt');
+const prefixChapter = 'OEBPS_page-';
+const extension = 'html';
+const batchSize = 20;
+const startChapter = 0;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -54,8 +54,8 @@ function mergeHTMLBatch(startNum, endNum) {
     const bodyText = $('p, h1').map((index, element) => {
       let text = $(element).text().trim();
 
-      if(index == 0 && i > startNum) {
-        combinedText = combinedText + ' ' + startText;
+      if(index == 0 && i > startNum && i % 3 == 0) {
+        combinedText = combinedText + '\n' + startText;
       }
 
       text = text.replaceAll(/["'!?-]/g, '');
@@ -77,30 +77,21 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll(')', '');
       text = text.replaceAll('——', '');
       text = text.replaceAll('DTVEBOOK', '');
+      text = text.replaceAll('~', '');
 
-      return text === '.' ? '' : text.endsWith('.') ? text : text + '.';
-    }).get().reduce((acc, line) => {
-      if (line) {
-        return `${acc}${line === '.' ? ' ' : line}${line.endsWith('.') || line.endsWith(',') ? ' ' : '. '}`;
+      if(text.endsWith('.') || text.endsWith(',')) {
+        text = text.slice(0, -1);
       }
 
-      return acc + ' ';
-    }, '');
+      return text;
+    }).get().join('\n');
     
     if (bodyText) {
-      combinedText = combinedText + ' ' + xuLyVanBan(bodyText.replaceAll(/ \./g, ' ').replaceAll(/\s+/g, ' '));
+      combinedText = combinedText + '\n' + bodyText;
     }
     
     console.log(`✓ Đã xử lý ${fileName}`);
   }
-
-  combinedText = combinedText.replaceAll(/\s+/g, ' ').trim();
-  
-  // Thêm dấu phẩy giữa 2 từ trùng nhau cách nhau bởi 1 từ
-  combinedText = themDauPhayGiuaTuTrungLap(combinedText);
-  
-  // Xóa cặp từ trùng lặp trước khi xuất file
-  combinedText = xoaCapTuTrungLap(combinedText);
   
   // Tạo output file trong cùng thư mục
   const outputFile = path.join(OUTPUT_FOLDER, `output_${prefixChapter}${startNum}-${prefixChapter}${endNum}.txt`);
