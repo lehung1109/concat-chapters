@@ -78,6 +78,7 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll('——', '');
       text = text.replaceAll('DTVEBOOK', '');
       text = text.replaceAll('~', '');
+      text = text.replaceAll('Tàng Thư Viện', 'Minh An Đao Trưởng');
 
       if(text.endsWith('.') || text.endsWith(',')) {
         text = text.slice(0, -1);
