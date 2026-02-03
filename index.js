@@ -2,12 +2,12 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'can-su-de-deu-la-dai-lao');
-const OUTPUT_FOLDER = path.join(FOLDER_PATH, 'combined-txt');
-const prefixChapter = 'OEBPS_page-';
-const extension = 'html';
+const FOLDER_PATH = path.join(__dirname, 'than-de-vu-phong', 'OEBPS', 'Text');
+const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
+const prefixChapter = 'C';
+const extension = 'xhtml';
 const batchSize = 20;
-const startChapter = 0;
+const startChapter = 1;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -83,7 +83,7 @@ function mergeHTMLBatch(startNum, endNum) {
         text = text.slice(0, -1);
       }
 
-      return text;
+      return text.trim();
     }).get().join('\n');
     
     if (bodyText) {
