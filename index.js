@@ -84,7 +84,7 @@ function mergeHTMLBatch(startNum, endNum) {
       }
 
       return text.trim();
-    }).get().join('\n');
+    }).get().filter(text => text.length > 0).join('\n');
     
     if (bodyText) {
       combinedText = combinedText + '\n' + bodyText;
