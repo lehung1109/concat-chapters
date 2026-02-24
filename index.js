@@ -2,11 +2,11 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'than-de-vu-phong', 'OEBPS', 'Text');
-const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', 'combined-txt');
+const FOLDER_PATH = path.join(__dirname, 'nhan-dao-dai-thanh-mac-mac', 'OEBPS', 'Text');
+const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', '..', 'combined-txt');
 const prefixChapter = 'C';
 const extension = 'xhtml';
-const batchSize = 20;
+const batchSize = 1;
 const startChapter = 1;
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
@@ -36,8 +36,7 @@ function countHTMLFiles(folderPath) {
   }
 
 function mergeHTMLBatch(startNum, endNum) {
-  let combinedText = 'Cảm ơn anh em đã luôn đồng hành và ủng hộ kênh Minh An Đạo Trưởng, Nếu mọi người có gợi ý về những bộ truyện hay, hợp với kênh thì cứ bình luận bên dưới nhé. Đạo Trưởng sẽ chọn ra bộ hay nhất để đưa lên kênh. ';
-  const startText = 'Cảm ơn anh em đã ủng hộ kệnh Minh An Đạo Trưởng.'
+  let combinedText = '';
   
   for (let i = startNum; i <= endNum; i++) {
     const fileName = `${prefixChapter}${i}.${extension}`;
@@ -51,12 +50,8 @@ function mergeHTMLBatch(startNum, endNum) {
     const html = fs.readFileSync(filePath, 'utf-8');
     const $ = cheerio.load(html);
     
-    const bodyText = $('p, h1').map((index, element) => {
+    const bodyText = $('p').map((index, element) => {
       let text = $(element).text().trim();
-
-      if(index == 0 && i > startNum && i % 3 == 0) {
-        combinedText = combinedText + '\n' + startText;
-      }
 
       text = text.replaceAll(/["'!?-]/g, '');
       text = text.replaceAll('《', '');
@@ -87,8 +82,10 @@ function mergeHTMLBatch(startNum, endNum) {
       return text.trim();
     }).get().filter(text => text.length > 0).join('\n');
     
-    if (bodyText) {
+    if (bodyText && combinedText) {
       combinedText = combinedText + '\n' + bodyText;
+    } else if (bodyText) {
+      combinedText = bodyText;
     }
     
     console.log(`✓ Đã xử lý ${fileName}`);
