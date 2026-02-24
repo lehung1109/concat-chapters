@@ -53,6 +53,7 @@ function mergeHTMLBatch(startNum, endNum) {
     const bodyText = $('p').map((index, element) => {
       let text = $(element).text().trim();
 
+      text = text.replaceAll(/&/g, '');
       text = text.replaceAll(/["'!?-]/g, '');
       text = text.replaceAll('《', '');
       text = text.replaceAll('【', '');
