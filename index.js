@@ -53,7 +53,7 @@ function mergeHTMLBatch(startNum, endNum) {
     const bodyText = $('p').map((index, element) => {
       let text = $(element).text().trim();
 
-      text = text.replaceAll(/&/g, '');
+      text = text.replaceAll(/&/g, 'và');
       text = text.replaceAll(/["'!?-]/g, '');
       text = text.replaceAll('《', '');
       text = text.replaceAll('【', '');
@@ -72,9 +72,13 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll('(', '');
       text = text.replaceAll(')', '');
       text = text.replaceAll('——', '');
-      text = text.replaceAll('DTVEBOOK', '');
+      text = text.replace(/DTVEBOOK/gi, '');
       text = text.replaceAll('~', '');
-      text = text.replaceAll('Tàng Thư Viện', 'Minh An Đao Trưởng');
+      text = text.replace(/Tàng Thư Viện/gi, 'Minh An Đao Trưởng');
+      text = text.replace(/dungeons/gi, 'quái vật');
+      text = text.replace(/dragons/gi, 'rồng');
+      text = text.replace(/yy/gi, 'Y Y');
+      text = text.replace(/binbinhh/gi, 'Bình Bình');
 
       if(text.endsWith('.') || text.endsWith(',')) {
         text = text.slice(0, -1);
