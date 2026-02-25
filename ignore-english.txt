@@ -1,12 +1,10 @@
 
 xum
 hoan
-yy
 huy
 hi
 thong
 leng
-binbinhh
 gao
 qu
 lien
@@ -39,7 +37,6 @@ cunghai
 loanh
 mnhf
 copng
-xongsau
 loay
 hoay
 thoang
@@ -91,7 +88,7 @@ bvux
 ya
 dau
 ddan
-tata
+vv
 giaps
 sp0
 luan

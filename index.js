@@ -2,7 +2,7 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'nhan-dao-dai-thanh-mac-mac', 'OEBPS', 'Text');
+const FOLDER_PATH = path.join(__dirname, 'doc-bo-thanh-tien', 'OEBPS', 'Text');
 const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', '..', 'combined-txt');
 const prefixChapter = 'C';
 const extension = 'xhtml';
@@ -54,7 +54,7 @@ function mergeHTMLBatch(startNum, endNum) {
       let text = $(element).text().trim();
 
       text = text.replaceAll(/&/g, 'và');
-      text = text.replaceAll(/["'!?-]/g, '');
+      text = text.replaceAll(/["'-]/g, '');
       text = text.replaceAll('《', '');
       text = text.replaceAll('【', '');
       text = text.replaceAll('】', '');
@@ -66,7 +66,6 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll(/\s+/g, ' ');
       text = text.replaceAll('“', '');
       text = text.replaceAll('”', '');
-      text = text.replaceAll(':', '');
       text = text.replaceAll('‘', '');
       text = text.replaceAll('’', '');
       text = text.replaceAll('(', '');
@@ -79,6 +78,25 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/dragons/gi, 'rồng');
       text = text.replace(/yy/gi, 'Y Y');
       text = text.replace(/binbinhh/gi, 'Bình Bình');
+      text = text.replace(/\./gi, '\n');
+      text = text.replace(/:/gi, '\n');
+      text = text.replace(/;/gi, '\n');
+      text = text.replace(/!/gi, '\n');
+      text = text.replace(/\?/gi, '\n');
+      text = text.split('\n').map(text => {
+        let newText = text.trim();
+
+        // neu newText lớn hơn 130 ký tự, thì tìm kiếm dấu , từ ký tự 130 trở đi thay bằng \n
+        if(newText.length > 130) {
+          const index = newText.indexOf(',', 130);
+
+          if(index !== -1) {
+            newText = newText.slice(0, index).trim() + '\n' + newText.slice(index + 1).trim();
+          }
+        }
+
+        return newText;
+      }).join('\n');
 
       if(text.endsWith('.') || text.endsWith(',')) {
         text = text.slice(0, -1);
