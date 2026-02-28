@@ -97,6 +97,17 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/†/gi, 't');
       text = text.replace(/q@/gi, '');
       text = text.replace(/qual/gi, 'qua');
+      text = text.replace(/haiz/gi, 'hai');
+      text = text.replace(/meow/gi, 'meo');
+      text = text.replace(/hazz/gi, 'hai');
+      text = text.replace(/vag/gi, 'vang');
+      text = text.replace(/ng ười/gi, 'người');
+      text = text.replace(/dcm/gi, 'Đờ cờ mờ');
+      text = text.replace(/hhieenj/gi, 'hiện');
+      text = text.replace(/ngaoooo/gi, 'ngao');
+      text = text.replace(/tuonrg/gi, 'tưởng');
+      text = text.replace(/hhai/gi, 'hai');
+      text = text.replace(/iq/gi, 'ai quy');
       text = text.replace(/\./gi, '\n');
       text = text.replace(/:/gi, '\n');
       text = text.replace(/;/gi, '\n');
