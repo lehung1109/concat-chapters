@@ -2,12 +2,15 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const path = require('path');
 
-const FOLDER_PATH = path.join(__dirname, 'doc-bo-thanh-tien', 'OEBPS', 'Text');
-const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', '..', 'combined-txt');
-const prefixChapter = 'C';
-const extension = 'xhtml';
-const batchSize = 1;
-const startChapter = 1;
+require('dotenv').config()
+
+const FOLDER_PATH = process.env.FOLDER_PATH;
+const OUTPUT_FOLDER = process.env.OUTPUT_FOLDER;
+const prefixChapter = process.env.PREFIX_CHAPTER;
+const extension = process.env.EXTENSION;
+const batchSize = Number.parseInt(process.env.BATCH_SIZE);
+const startChapter = Number.parseInt(process.env.START_CHAPTER);
+const maxCharacterPerFile = Number.parseInt(process.env.MAX_CHARACTER_PER_FILE);
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -78,6 +81,22 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/dragons/gi, 'rồng');
       text = text.replace(/yy/gi, 'Y Y');
       text = text.replace(/binbinhh/gi, 'Bình Bình');
+      text = text.replace(/Setaria/gi, 'se-ta-ri-a');
+      text = text.replace(/italica/gi, 'i-ta-li-ca');
+      text = text.replace(/\*1/gi, '');
+      text = text.replace(/\*2/gi, '');
+      text = text.replace(/\*3/gi, '');
+      text = text.replace(/\*4/gi, '');
+      text = text.replace(/\*/gi, '');
+      text = text.replace(/8m/gi, '8 mét');
+      text = text.replace(/google/gi, 'gu gồ');
+      text = text.replace(/wo/gi, 'woa');
+      text = text.replace(/xoauy/gi, 'xoay');
+      text = text.replace(/chiii/gi, 'chi');
+      text = text.replace(/aizz/gi, 'hai');
+      text = text.replace(/†/gi, 't');
+      text = text.replace(/q@/gi, '');
+      text = text.replace(/qual/gi, 'qua');
       text = text.replace(/\./gi, '\n');
       text = text.replace(/:/gi, '\n');
       text = text.replace(/;/gi, '\n');
@@ -87,8 +106,8 @@ function mergeHTMLBatch(startNum, endNum) {
         let newText = text.trim();
 
         // neu newText lớn hơn 130 ký tự, thì tìm kiếm dấu , từ ký tự 130 trở đi thay bằng \n
-        if(newText.length > 130) {
-          const index = newText.indexOf(',', 130);
+        if(newText.length > maxCharacterPerFile) {
+          const index = newText.indexOf(',', maxCharacterPerFile);
 
           if(index !== -1) {
             newText = newText.slice(0, index).trim() + '\n' + newText.slice(index + 1).trim();

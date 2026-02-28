@@ -2,8 +2,10 @@ const path = require('path');
 const fs = require('fs');
 const dictionary = require('@vntk/dictionary');
 
-const FOLDER_PATH = path.join(__dirname, 'nhan-dao-dai-thanh-mac-mac', 'OEBPS', 'Text');
-const OUTPUT_FOLDER = path.join(FOLDER_PATH, '..', '..', 'combined-txt');
+require('dotenv').config()
+
+const FOLDER_PATH = process.env.FOLDER_PATH;
+const OUTPUT_FOLDER = process.env.OUTPUT_FOLDER;
 
 function findEnglishWords(sentence) {
   const words = sentence.split(/\s+/).map(word => {
