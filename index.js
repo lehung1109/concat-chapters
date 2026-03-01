@@ -167,6 +167,17 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/Vân Chi/gi, 'Vân Tố Chi');
       text = text.replace(/Cam Điềm/gi, 'Cam Lộ Điềm');
       text = text.replace(/Võ Nghiêu/gi, 'Võ Chính Nghiêu');
+      text = text.replace(/xumg/gi, 'xung');
+      text = text.replace(/dejavu/gi, 'đê gia vu');
+      text = text.replace(/khura/gi, 'khuya');
+      text = text.replace(/menu/gi, 'mê nu');
+      text = text.replace(/haii/gi, 'hai');
+      text = text.replace(/com/gi, 'cơm');
+      text = text.replace(/rra/gi, 'ra');
+      text = text.replace(/thuye/gi, 'thuyên');
+      text = text.replace(/ozawa/gi, 'ô gia woa');
+      text = text.replace(/maria/gi, 'ma ri a');
+      text = text.replace(/khoit/gi, 'khỏi');
       text = text.split('\n').map(text => {
         let newText = text.trim();
 
