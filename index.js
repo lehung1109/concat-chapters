@@ -163,6 +163,10 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/cmn/gi, 'c m n');
       text = text.replace(/‎/gi, '');
       text = text.replace(/boss/gi, 'bót');
+      text = text.replace(/Lục Dương/gi, 'Lục Hàn Dương');
+      text = text.replace(/Vân Chi/gi, 'Vân Tố Chi');
+      text = text.replace(/Cam Điềm/gi, 'Cam Lộ Điềm');
+      text = text.replace(/Võ Nghiêu/gi, 'Võ Chính Nghiêu');
       text = text.split('\n').map(text => {
         let newText = text.trim();
 
