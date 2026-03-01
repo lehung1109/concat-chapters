@@ -74,6 +74,8 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll('(', '');
       text = text.replaceAll(')', '');
       text = text.replaceAll('——', '');
+      text = text.replaceAll('[', '');
+      text = text.replaceAll(']', '');
       text = text.replace(/DTVEBOOK/gi, '');
       text = text.replaceAll('~', '');
       text = text.replace(/Tàng Thư Viện/gi, 'Minh An Đao Trưởng');
@@ -178,6 +180,14 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/ozawa/gi, 'ô gia woa');
       text = text.replace(/maria/gi, 'ma ri a');
       text = text.replace(/khoit/gi, 'khỏi');
+      text = text.replace(/crar/gi, 'của');
+      text = text.replace(/tronh/gi, 'trong');
+      text = text.replace(/hamster/gi, 'ham tơ');
+      text = text.replace(/series/gi, 'sê ri');
+      text = text.replace(/thig/gi, 'thì');
+      text = text.replace(/hanshui/gi, 'han sui');
+      text = text.replace(/chunh/gi, 'chung');
+      text = text.replace(/hydro/gi, 'hy đờ rô');
       text = text.split('\n').map(text => {
         let newText = text.trim();
 
