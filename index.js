@@ -188,6 +188,18 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/hanshui/gi, 'han sui');
       text = text.replace(/chunh/gi, 'chung');
       text = text.replace(/hydro/gi, 'hy đờ rô');
+      text = text.replace(/tronga/gi, 'trong');
+      text = text.replace(/kh /gi, 'khi ');
+      text = text.replace(/phongm/gi, 'phong');
+      text = text.replace(/kh8/gi, 'khi');
+      text = text.replace(/luii/gi, 'lui');
+      text = text.replace(/yei6/gi, 'yeu');
+      text = text.replace(/hona/gi, 'hoan');
+      text = text.replace(/tohng/gi, 'thong');
+      text = text.replace(/ea/gi, 'e');
+      text = text.replace(/khii/gi, 'khi');
+      text = text.replace(/nhna/gi, 'nhanh');
+      text = text.replace(/snh/gi, 'sinh');
       text = text.split('\n').map(text => {
         let newText = text.trim();
 
