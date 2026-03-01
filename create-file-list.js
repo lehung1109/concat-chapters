@@ -59,7 +59,7 @@ console.log(`Total minutes: ${totalMinutes}`);
 // create video files list by images files
 const images = fs.readdirSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'images', 'with-logo'));
 const videoFileList = [
-  `file 'thumbnail.jpeg'`,
+  `file 'thumbnail.png'`,
   'duration 12'
 ];
 
@@ -77,7 +77,7 @@ for (let i = 0; i < totalMinutes; i += 30) {
   videoFileList.push(`file '${imageList[imageIndex]}'`, 'duration 1800');
 }
 
-videoFileList.push(`file 'thumbnail.jpeg'`, 'duration 3', `file 'thumbnail.jpeg'`, 'duration 3');
+videoFileList.push(`file 'thumbnail.png'`, 'duration 3', `file 'thumbnail.png'`, 'duration 3');
 
 // write audioFileList to file
 fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'audios', audioFileListName), audioFileList.join('\n'));
@@ -86,7 +86,7 @@ fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'audios', audioFileListName)
 console.log('Audio file list:', audioFileList);
 
 // write videoFileList to file
-fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'image-to-video-file-list.txt'), videoFileList.join('\n'));
+fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'images', 'with-logo', 'image-to-video-file-list.txt'), videoFileList.join('\n'));
 
 // log meaning full for video file list
 console.log('Video file list:', videoFileList);
