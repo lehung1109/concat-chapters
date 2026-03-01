@@ -28,12 +28,14 @@ function getWavDuration(filePath) {
 
 // create audio file list
 const files = fs.readdirSync(AUDIO_FOLDER);
+const audioFileListName = 'audio-file-list.txt';
 let audioFileList = [
-  'mo-dau.wav',
+  `file 'mo-dau.wav'`,
 ];
 const ignoreAudioFiles = new Set([
   'mo-dau.wav',
   'giua-doan.wav',
+  audioFileListName,
 ]);
 let totalMinutes = 0;
 
@@ -42,7 +44,7 @@ for (const file of files) {
     continue;
   }
 
-  audioFileList.push(file, 'giua-doan.wav');
+  audioFileList.push(`file '${file}'`, `file 'giua-doan.wav'`);
 
   const duration = getWavDuration(path.join(AUDIO_FOLDER, file));
   totalMinutes += Number.parseFloat(duration.minutes);
@@ -78,7 +80,13 @@ for (let i = 0; i < totalMinutes; i += 30) {
 videoFileList.push(`file 'thumbnail.jpeg'`, 'duration 3', `file 'thumbnail.jpeg'`, 'duration 3');
 
 // write audioFileList to file
-fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'audio-file-list.txt'), audioFileList.join('\n'));
+fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'audios', audioFileListName), audioFileList.join('\n'));
+
+// log meaning full for audio file list
+console.log('Audio file list:', audioFileList);
 
 // write videoFileList to file
 fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'image-to-video-file-list.txt'), videoFileList.join('\n'));
+
+// log meaning full for video file list
+console.log('Video file list:', videoFileList);
