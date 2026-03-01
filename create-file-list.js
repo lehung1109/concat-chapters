@@ -51,6 +51,9 @@ for (const file of files) {
 // offset some minutes
 totalMinutes += 3;
 
+// log total minutes
+console.log(`Total minutes: ${totalMinutes}`);
+
 // create video files list by images files
 const images = fs.readdirSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'images', 'with-logo'));
 const videoFileList = [
