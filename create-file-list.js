@@ -5,6 +5,7 @@ require('dotenv').config()
 
 const AUDIO_FOLDER = process.env.AUDIO_FOLDER;
 const OUTPUT_FILE_LIST_FOLDER = process.env.OUTPUT_FILE_LIST_FOLDER;
+const NUMBER_FILE_TO_ADD_STOP = process.env.NUMBER_FILE_TO_ADD_STOP;
 
 function getWavDuration(filePath) {
   const buffer = Buffer.alloc(44);
@@ -39,16 +40,24 @@ const ignoreAudioFiles = new Set([
 ]);
 let totalMinutes = 0;
 
-for (const file of files) {
+for (let i = 0; i < files.length; i++) {
+  const file = files[i];
+
   if(ignoreAudioFiles.has(file)) {
     continue;
   }
 
-  audioFileList.push(`file '${file}'`, `file 'giua-doan.wav'`);
+  audioFileList.push(`file '${file}'`);
+
+  if(i % NUMBER_FILE_TO_ADD_STOP === 0) {
+    audioFileList.push(`file 'giua-doan.wav'`);
+  }
 
   const duration = getWavDuration(path.join(AUDIO_FOLDER, file));
   totalMinutes += Number.parseFloat(duration.minutes);
 }
+
+audioFileList.push(`file 'giua-doan.wav'`); // add stop at the end
 
 // offset some minutes
 totalMinutes += 3;
@@ -59,7 +68,7 @@ console.log(`Total minutes: ${totalMinutes}`);
 // create video files list by images files
 const images = fs.readdirSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'images', 'with-logo'));
 const videoFileList = [
-  `file 'thumbnail.png'`,
+  `file 'thumbnail.jpg'`,
   'duration 12'
 ];
 
@@ -77,7 +86,7 @@ for (let i = 0; i < totalMinutes; i += 30) {
   videoFileList.push(`file '${imageList[imageIndex]}'`, 'duration 1800');
 }
 
-videoFileList.push(`file 'thumbnail.png'`, 'duration 3', `file 'thumbnail.png'`, 'duration 3');
+videoFileList.push(`file 'thumbnail.jpg'`, 'duration 3', `file 'thumbnail.jpg'`, 'duration 3');
 
 // write audioFileList to file
 fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'audios', audioFileListName), audioFileList.join('\n'));
