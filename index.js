@@ -366,6 +366,28 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/vuong/gi, 'vương');
       text = text.replace(/ngtao/gi, 'người tạo');
       text = text.replace(/gian\//gi, 'gian');
+      text = text.replace(/oh/gi, 'ồ');
+      text = text.replace(/ea/gi, 'ê');
+      text = text.replace(/cuar/gi, 'của');
+      text = text.replace(/ahh/gi, 'à');
+      text = text.replace(/eq/gi, 'ê');
+      text = text.replace(/3d/gi, '3 chiều');
+      text = text.replace(/zombie/gi, 'xác sống');
+      text = text.replace(/fan/gi, 'người hâm mộ');
+      text = text.replace(/follow/gi, 'theo dõi');
+      text = text.replace(/fanclub/gi, 'câu lạc bộ');
+      text = text.replace(/chip/gi, 'mạch vi xử lý');
+      text = text.replace(/sunfuric/gi, 'a xít');
+      text = text.replace(/bowling/gi, 'ném bi');
+      text = text.replace(/rubik/gi, 'ru bích');
+      text = text.replace(/internet/gi, 'mạng');
+      text = text.replace(/sofa/gi, 'ghế đệm');
+      text = text.replace(/hd/gi, 'độ phân giải cao');
+      text = text.replace(/silicon/gi, 'si líc');
+      text = text.replace(/blogger/gi, 'người viết bờ lóc');
+      text = text.replace(/online/gi, 'trực tuyến');
+      text = text.replace(/livestrem/gi, 'phát trực tiếp');
+
       text = text.split('\n').map(text => {
         let newText = text.trim();
 
