@@ -11,6 +11,35 @@ const extension = process.env.EXTENSION;
 const batchSize = Number.parseInt(process.env.BATCH_SIZE);
 const startChapter = Number.parseInt(process.env.START_CHAPTER);
 const maxCharacterPerFile = Number.parseInt(process.env.MAX_CHARACTER_PER_FILE);
+const REPLACE_CSV_PATH = process.env.REPLACE_CSV_PATH || ''; // đường dẫn file CSV (tùy chọn)
+
+/**
+ * Escape ký tự đặc biệt regex để dùng làm literal trong RegExp.
+ */
+function escapeRe(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * Đọc danh sách thay thế từ file CSV.
+ * Định dạng: mỗi dòng "từ_cần_tìm,thay_bằng" (cột 1 = tìm, cột 2 = thay).
+ * Nếu cột 2 rỗng = xóa chuỗi tìm. Trả về [] nếu file không tồn tại hoặc rỗng.
+ */
+function loadReplacementsFromCSV(filePath) {
+  if (!filePath || !fs.existsSync(filePath)) return [];
+  const content = fs.readFileSync(filePath, 'utf-8');
+  const lines = content.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+  const pairs = [];
+  for (const line of lines) {
+    const firstComma = line.indexOf(',');
+    if (firstComma === -1) continue;
+    const from = line.slice(0, firstComma).trim();
+    const to = line.slice(firstComma + 1).trim();
+    // Cho phép "to" chứa dấu phẩy (phần sau dấu phẩy đầu tiên là to)
+    pairs.push([from, to]);
+  }
+  return pairs;
+}
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
   fs.mkdirSync(OUTPUT_FOLDER, { recursive: true });
@@ -39,6 +68,11 @@ function countHTMLFiles(folderPath) {
   }
 
 function mergeHTMLBatch(startNum, endNum) {
+  const replacementPairs = loadReplacementsFromCSV(REPLACE_CSV_PATH);
+  if (replacementPairs.length > 0) {
+    console.log(`📝 Áp dụng ${replacementPairs.length} quy tắc thay thế từ CSV: ${REPLACE_CSV_PATH}`);
+  }
+
   let combinedText = '';
   
   for (let i = startNum; i <= endNum; i++) {
@@ -89,7 +123,11 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/;/gi, '\n');
       text = text.replace(/!/gi, '\n');
       text = text.replace(/\?/gi, '\n');
-      text = text.replace(/‎/gi, '');
+
+      // Áp dụng thay thế từ file CSV (tìm = cột 1, thay = cột 2, không phân biệt hoa thường)
+      for (const [from, to] of replacementPairs) {
+        text = text.replace(new RegExp(escapeRe(from), 'gi'), to);
+      }
 
       text = text.split('\n').map(text => {
         let newText = text.trim();
