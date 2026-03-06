@@ -141,9 +141,7 @@ function mergeHTMLBatch(startNum, endNum) {
           const index = newText.indexOf(',', maxCharacterPerFile);
 
           if(index !== -1) {
-            const partBefore = newText.slice(0, index).trim();
-            const partAfter = newText.slice(index + 1).replace(/^[\s,]+/, '').trim();
-            newText = partBefore + '\n' + partAfter;
+            newText = newText.slice(0, index).trim() + '\n' + newText.slice(index + 1).trim();
           }
         }
 
