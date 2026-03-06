@@ -1,270 +1,480 @@
-lv,cấp độ
-colddown,hồi chiêu
-boss,trùm
-b+,b cộng
-gao,gao
-hy,hy
-up,lên
-thong,thông
-sofa,sa lông
-d+,d cộng
-combo,liên kích
-hp,máu
-c+,c cộng
-mmp,mẹ nó
-augustin,âu gút tin
-huy,huy
-iq,chỉ số thông minh
-a+,a cộng
-online,trực tuyến
-e+,e cộng
-norton,no tơn
-naga,na ga
-phyllis,phy lít
-florence,flo ren
-elias,e li át
-baisha,bạch sa
-hodgson,hót sơn
-thunder,sấm sét
-house,nhà
-howl,tiếng hú
-maud,mót
-harry,ha ri
-sinier,si ni ơ
-ellis,e lít
-cyril,xi rin
-chuy,chùy
+Chu Trạch Xuyên,Lâm Khải Viễn
+Oai Câu Câu,Tiểu Miêu
+Bã Đậu,Hạt Dẻ
+Hệ Thống NPC,Hệ Thống Quản Trị Thế Giới
+Điểm Tích Lũy NPC,Điểm Vận Hành
+Cửa Hàng Trò Chơi Trực Tuyến,Kho Vật Phẩm Thế Giới
+Khuôn mẫu,Bản Thiết Kế
+Lam Tinh,Thanh Tinh
+Thế giới mạt thế,Thế Giới Tàn Hoang
+Âm Phủ,Vực Tối
+Khu phố cũ,Khu Phế Tích Đông
+zombies,Xác sống
+Zombie,Xác sống
+Sinh vật biến dị,Quái Thể
+Dị tộc,Tộc Ngoại Lai
+Long tộc,Tộc Lân Giáp
+Đồ Long Chi Tâm,Hạch Tâm Lân Giáp
+Cỏ Tường Kiến Tạo,Nhiệm Vụ Dựng Phòng Tuyến
+Làm Ruộng Nhiệm Vụ,Nhiệm Vụ Khai Khẩn Đất Đai
+Toàn dân xây tường phong trào,Sự Kiện Tổng Động Viên Phòng Thủ
+Đấu giá vật phẩm,Sự Kiện Phiên Chợ Đổi Chác
+zombie,Xác sống
+npc,nờ pê sê
+elder scrolls,huyền thoại cổ xưa
+league of legends,liên minh huyền thoại
+dark souls,linh hồn bóng tối
+plants vs zombies,hoa quả nổi giận
+dont starve,đừng để bị đói
+world of warcraft,thế giới warcraft
+tale immortal,tu tiên truyện
+client,bản cài đặt
+chat,trò chuyện
 game,trò chơi
-haizz,hai
-100m,100 mét
-cmn,con mẹ nó
-hii,hì hì
-lsp,lão sắc phôi
-20m,20 mét
-f+,f cộng
-chat,nhắn tin
-chit,chít
-shaman,pháp sư
-10km,10 ki lô mét
-s+,s cộng
-ss,cấp s s
-hoan,hoàn
-exp,kinh nghiệm
-ander,an đơ
-olivia,ô li vi a
-andel,an đen
-tch,chậc
-saint,thánh
-aire,ái rơ
-salina,sa li na
-sasakolin,sa sa kô lin
-teite,tê tê
-ilyich,i lích
-hart,hát
-freeman,phờ ri man
-chinh,chinh
+mana,năng lượng
+skill,kỹ năng
+huy,huy
+hack,gian lận
+g virus,vi rút G
+pvp,đấu người với người
+boss,trùm
+tarkov,ta ko
+fan,người hâm mộ
+online,trực tuyến
+meme,ảnh chế
+streamer,người phát trực tiếp
+level,cấp độ
+stark,sơ tách
+usp,súng lục usp
+id,mã định danh
+4x4x10,4 nhân 4 nhân 10
+server,máy chủ
+pk,đồ sát
+thong,thông
+akm,súng trường a k m
+62mm,62mm
+rpg,gêm nhập vai
+hy,hy
+haizz,thở dài
+livestream,phát trực tiếp
+p18c,súng lục p 18 c
+kha,khá
+live stream,phát trực tiếp
+hot,nổi bật
+elite,tinh nhuệ
+solo,đấu đơn
+hardcore,chế độ khó
+gao,gạo
 tanker,người đỡ đòn
-locke,lốc
-jeff,giép
-gunter,găn tơ
-arthur,a thơ
-wadsworth,oát uốt
-riva,ri va
-babato,ba ba tô
-coolness,độ ngầu
-currist,cư rít
-centimet,xen ti mét
-altona,an tô na
-santa,ông già no en
-weicliffe,vây clíp
-nua,nữa
-wraith,oán linh
-morey,mô rây
-diaz,đi át
-maugham,mâu găm
-emmanuel,em ma nu ên
-hadman,hát man
-dewar,đê oa
-dodd,đót
-meditation,thiền định
-dickens,đích kên
-cover,yểm trợ
-slanlipa,xờ lan li pa
-sari,áo sa ri
-kenneth,ken nét
-burt,bớt
-randolph,ran đôn
-gravel,sỏi cát
-dante,đan tê
-morris,mô rít
-judith,giu đít
-paul,pôn
-lahm,lam
-tyron,ty rôn
-doris,đô rít
-gunther,gun tơ
-barribas,ba ri bát
-beth,bét
-wright,rai
-swift,nhanh nhẹn
-butt,báng súng
-fal00,phi lô
-c0m,chấm com
-loanh,loanh
-salon,tiệm uốn tóc
-500m,500 mét
-thoang,thoảng
-xuyyyt,xuỵt
-barris,ba rít
-congreve,công rê vơ
-viviane,vi vi an
-jeffrey,giép ri
-joe,giô
-middleton,mít đơn tơn
-gall,gan
-dora,đô ra
-frankie,phờ ran ki
-dell,đeo
-lv10,cấp 10
-35/s,35 trên giây
-ss+,s s cộng
-buff,tăng ích
-diocletian,đi ô clê ti an
-rosalind,rô sa lin
-jim,gim
-brady,bra đi
-sss,cấp s s s
-job,nghề
-buniel,bu ni ên
-davy,đa vi
-mana,ma lực
-josh,giót
-abel,a bên
+loot,nhặt đồ
+kilogram,ki lô gam
+5a,5 a
+combo,chuỗi chiêu thức
+4x,ống ngắm 4 x
+guild,bang hội
+gg,đầu hàng
+moba,gêm đấu trường trực tuyến
+oa,oa
+bikini,đồ bơi
+mosaic,khảm
+loli,bé gái
+5cm,5 xăng ti mét
+thoang,thoáng
+gene,gen di truyền
+loki,lô ki
+furry,nhân vật thú
+miranda,mi ran đa
+tri,trí
+evelynn,e vơ lin
+haiz,thở dài
+auto chess,cờ tự động
+hp,máu
 mp,năng lượng
-bruce,bờ rút
-alo,a lô
-collins,cô lin
-rossi,rốt xi
-khang,kháng
+toanh,toanh
+farm,cày cuốc
+gm,quản trị viên gêm
+f1,phím f 1
+f3,phím f 3
+anti,chống lại
+thermite,nhiệt nhôm
+haizzz,thở dài
+centimet,xăng ti mét
+dragon ball,7 viên ngọc rồng
+wtf,cái quái gì thế
+adamantium,kim loại siêu cứng
+npc ai,trí tuệ nhân tạo nhân vật
+hall,đại sảnh
+eir,e
+debuff,hiệu ứng bất lợi
+deadpool,đít bun
+scarlet witch,phù thủy đỏ
+flash,tia chớp
+buff,tăng sức mạnh
+quicksilver,nhanh như chớp
+ai npc,nhân vật ây ai
+web,trang mạng
+loanh,loanh
+big,lớn
+umbrella,tập đoàn ô dù
+heisenberg,hei se be
+moreau,mo re au
+donna,đôn na
+aoe,sát thương diện rộng
+alo,nghe đây
+wolverine,người sói
+offline,ngoại tuyến
+tank,xe tăng
+woa,oa
+lolicon,người thích lô li
+sekiro,se ki rô
+topic,chủ đề
+team,đội
+search,tìm kiếm
+20cm,20 xăng ti mét
+dps,sát thương theo giây
+super idol,thần tượng
+check in,điểm danh
+ppt,bản trình chiếu
+vip,khách hàng quan trọng
+powerpoint,phần mềm trình chiếu
+pop up,bảng hiện lên
+email,thư điện tử
+hoan,hoan
+laptop,máy tính xách tay
+jesus,chúa dê sút
+belis,be lít
+sanity,độ tỉnh táo
+gaara,ga ra
+gato,ghen tị
+chip,vi mạch
+zone,vòng bo
+pve,đấu với máy
+olympic,thế vận hội
+awm,súng bắn tỉa a w m
+m24,súng bắn tỉa m 24
+kar98k,súng bắn tỉa ka 98 ka
+woaaa,oa
+playstation,máy chơi gêm sô ny
+nintendo switch,máy chơi gêm nin te đô
+steam,nền tảng sơ tim
+epic,nền tảng e pích
+origin,nền tảng o ri gin
+wargaming,hãng gêm wa gêm minh
+a4,giấy a 4
+haki,bá khí
+susanoo,thần hộ vệ su sa ô
+anime,hoạt hình nhật bản
+magnum,súng lục mác num
+7mm,đạn 7 li
+x2,nhân hai
+internet,mạng
+gank,đảo đường
+feed,chết nhiều
+yasuo,ra su ô
+t1,đội tuyển t 1
+gym,phòng tập
+harlan,ha lan
+aba,a ba
+iq,chỉ số thông minh
+bug,lỗi gêm
+post,bài đăng
+haier,hãng hai ờ
+captain america,đội trưởng mỹ
+hulk,người khổng lồ xanh
+nba,giải bóng rổ nhà nghề mỹ
+qq,tài khoản q q
+demo,bản chơi thử
+club,câu lạc bộ
+gameplay,cách chơi
+awp,súng bắn tỉa a w p
+3d,ba chiều
+18cm,18 xăng ti mét
+xxx,nội dung người lớn
+monoxide,mô nô xít
+bit,đơn vị bít
+city,thành phố
+voldemort,chúa tể vôn mốc
 cui,cùi
-maxwell,mắc ô en
-jpg,ảnh nền
-sss+,s s s cộng
-haha,ha ha
-faulkner,phốc nơ
-emmm,ờm
-hon,hơn
-samson,sam sơn
-hogan,hô gân
-bach,bạch
-eri,e ri
-kate,két
-carey,ca rây
-kitt,kít
-jais,giai
-leng,leng
-babel,ba bên
-sluku,sờ lu ku
-balliston,ba lít tôn
-browning,súng bờ rôn ninh
-saxon,sắc xông
-steinbeck,xờ tai bếch
-tobey,tô bi
-stabaek,xờ ta bếch
-quackmila,quác mi la
-cuckoos,chim cu gáy
-gavin,ga vin
-aubrey,ô bờ ri
-fielding,phiêu đinh
-naham,na ham
-ps,tái bút
+9mm,đạn 9 li
+ps50,ps50
+wi fi,mạng không dây
+kingdom rush,vương quốc đột kích
+fieldrunners,người chạy trên đồng
+orcs must die,quái vật phải chết
+plants zombies,hoa quả nổi giận
+they are billions,chúng ta là hàng tỉ
+bloons td,thủ thành bóng bay
+roth,ro
+suv,xe thể thao đa dụng
+parkour,môn thể thao nhảy nhót
+sss,xếp hạng s s s
+chinh,chinh
+map,bản đồ
+arthur,vua a thu
+gomu,cao su
+mod,bản chỉnh sửa gêm
+cyberpunk,tương lai cơ khí
+diy,tự làm
+uzi,súng tiểu liên u ri
+avatar,ảnh đại diện
+mager,pháp sư
+excel,bảng tính ích seo
+spam,gửi tin nhắn liên tục
+hoodie,áo mũ
+mvp,người chơi xuất sắc nhất
+pro player,gêm thủ chuyên nghiệp
+wc,nhà vệ sinh
+c4,thuốc nổ c 4
+keane,ke ne
+gear,trang bị
+second,thứ hai
+third,thứ ba
+fourth,thứ tư
+kawasaki h2,xe ka wa sa ki h 2
+marvel,vũ trụ ma vờ
+lag,giật lag
+fps,khung hình trên giây
+cs,đột kích
+sakura,hoa anh đào
+overwatch,đặc vụ ô vờ át
+apex legends,huyền thoại a bếch
+pitt,pitt
+modern warfare,chiến tranh hiện đại
+ice and fire,băng và lửa
+ace,người giỏi nhất
+frieza,đại ca phờ ri e za
+xay da,tộc say a
+erin,e rin
+sofa,ghế sô pha
+class,lớp nhân vật
+5kg,5 ki lô gam
+kg,k g
+blouse,áo bờ lu
+nick,tên nhân vật
+acc,tài khoản
+x1,nhân một
+1x1,một đấu một
+barrett,súng bắn tỉa ba re
+gatling,súng máy sáu nòng
+star wars,chiến tranh giữa các vì sao
+pet,thú cưng
+m4a1,súng trường m 4 a 1
+luiz,lui
+berg,be
+vela,ve la
+kassandra,ka sa đa
+ny,người yêu
+fandom,cộng đồng người hâm mộ
+dadan,dadan
+zelda,công chúa ze đa
+genshin impact,nguyên thần
+dave,đa ve
+ping,độ trễ mạng
+nice,tuyệt
+griffin,thiên điểu
+shotgun,súng sót găn
+aa 12,súng sót găn tự động a a 12
+gryphon rider,kỵ sĩ thiên điểu
+peashooter,súng đậu hà lan
+soul,linh hồn
+mithril,kim loại mi ri
+reset,thiết lập lại
+nba2k,gêm bóng rổ n b a 2 k
+rott,rót
+cg,đồ họa máy tính
+3a,gêm bom tấn 3 a
+kanojo,bạn gái
+review,đánh giá
+drone,thiết bị bay không người lái
+dlc,nội dung mở rộng
+iron,sắt
+net,mạng
+ks,cướp mạng
+console,máy chơi gêm cầm tay
+pc,máy tính cá nhân
+ss,xếp hạng s s
+cybertron,hành tinh robot
+16x,ống ngắm 16 x
+50cm,50 xăng ti mét
+senju hashirama,senju ha si ra ma
+atto,atto
+silla,silla
+tool,công cụ
+gacha,quay số may mắn
+huhu,tiếng khóc
+ssr,cực kỳ hiếm
+full,đầy
+up,nâng cấp
+dna,mã gen
+asili,a si li
+ad,xạ thủ
+over,kết thúc
+hilco,hi co
+csgo,gêm c s gâu
+overwatch,gêm ô vờ át
+austin,austin
+asli,asli
+webgame,gêm chơi trên ép
+astley,át lêy
+silco,sin cô
+xayda,tộc xay a
+build,xây dựng nhân vật
+aggro,thu hút quái vật
+ars,ars
+hill,đồi
+saiyan,tộc xay a
+auto,tự động
+hasagi,ha sa gi
+aaa,gêm bom tấn
+cob,cob
+cannon,đại bác
+jello,thạch
+ninja,nhẫn giả
+hegel,hê gen
+afk,treo máy
+hack cheat,gian lận
+casual,người chơi phổ thông
+phui,phui
+noelle,nô en
+mmorpg,gêm nhập vai trực tuyến nhiều người chơi
+edward,edward
+job,nghề nghiệp
+open,mở
+voice,giọng nói
+desert eagle,súng lục lục bạc
+ak 47,súng trường a k 47
+aiya,ái chà
+friday,thứ sáu
+tcho tcho,cho cho
+toss,tung
+ktv,ka ra ô kê
+poster,áp phích
+lyoda,ly ô da
+king kong,vua khỉ kong
+godzilla,quái vật gô zi la
+ghidorah,rồng ba đầu gi đô ra
+yoda,bậc thầy rô đa
+soul like,dòng gêm giống đác sâu
+krypton,tinh thể cờ ríp ton
+harry potter,phù thủy ha ri pót tơ
+metaverse,vũ trụ ảo
+tencent,tập đoàn ten sen
+buffet,tiệc đứng
+miyazaki,ông mi a
+holo,hình chiếu 3 d
+8x,ống ngắm 8 x
+louis,lô ít
+set,bộ trang bị
+zaun,thành phố ra um
+plus,cộng thêm
+lilith,ác nữ li thích
+poker,bài xì tố
+tv,vô tuyến
+thresh,thresh
+goku,goku
+short,ngắn
+bgm,nhạc nền
+heines,hây nờ
+pain,nỗi đau
+hamilton,ha min ton
+pilaf,đại vương pi la
+phanes,pha né
+lisa,li sa
+duriel,du ri ờ
+ward,mắt kiểm soát
+drift,lướt bánh xe
+undead,bất tử
+baltic,vùng ba tích
+katana,kiếm nhật
+chuunibyou,hội chứng tuổi dậy thì
+khaleesi,mẹ rồng
+thones,vương quyền
+hologram,hình chiếu ảo
+taobao,trang mua sắm tao bao
+belem,be lem
+lv,cấp độ
+70cm,70 xăng ti mét
 max,tối đa
-taba,ta ba
-huhu,hu hu
-cocacola,cô ca cô la
-lizzie,li ri
-rafilago,ra phi la gô
-barbie,búp bê ba bi
-xxx,cảnh nóng
-cool,ngầu
-gregory,gờ rê gô ri
-druid,đức lỗ y
-anime,hoạt hình
-Lâm Vũ,Diệp Tinh
-Lưu Bình,Trần Kiệt
-Lý Tiểu Lệ,Chu Giai
-Trương Dương,Tôn Hạo
-Vương Sương Tuyết,Lâm Thu Nguyệt
-Viêm Cơ,Hỏa Linh Nhi
-Tả Mục Ca,Bạch Lộ
-Lý Nguyên,Thầy Vương
-Lữ Nham,Triệu Cương
-Lý Ngả,Ngô Tiễn
-Trang Vũ Hoa,Phùng Lôi
-Thẩm Hồng Phi,Tạ Vân
-Trầm Phi Hồng,Tạ Vân
-Lam Tinh,Thiên Lam Tinh
-Thứ Nguyên Môn,Cổng Dị Giới
-Vi Quang thành,Tinh Hỏa thành
-Đệ nhất cao trung,Trung học số 1
-Nhất Trung,Trường Số 1
-Lăng Tiêu,Thiên Phong
-Không Minh,Tinh Uyên
-Khô Cốt Bình Nguyên,Đồng Bằng Hài Cốt
-Vong Linh Đại Điện,Điện Thờ Vong Hồn
-Tử Linh Đại Điện,Điện Thờ Vong Hồn
-Khô Lâu Bãi Đá,Bãi Đá Bạch Cốt
-Không Gian Đại Sảnh,Sảnh Không Gian
-Không Gian Bí Cảnh,Vùng Đất Khép Kín
-Viêm Long thế gia,Hỏa Phượng gia tộc
-Viêm gia,Hỏa gia
-Tả gia,Bạch gia
-Mạo Hiểm Giả Công Hội,Hội Lính Đánh Thuê
-Tử Vũ Mạo Hiểm Đoàn,Hắc Yến Dong Binh Đoàn
-Bích Vân Mạo Hiểm Đoàn,Thanh Thạch Dong Binh Đoàn
-Thức Tỉnh Thạch,Đá Khải Huyền
-Vạn vật tăng phúc,Siêu Cấp Cường Hóa
-Viêm Long kỵ sĩ,Hỏa Phượng Kỵ Sĩ
-Viêm Long Kỵ Sĩ,Hỏa Phượng Kỵ Sĩ
-Thánh Ngôn mục sư,Quang Minh Tu Sĩ
-Tiểu Hỏa Cầu,Hỏa Cầu Nhỏ
-Viêm Bạo Thừật,Bạo Viêm Thuật
-Cốt Thừẫn,Khiên Cốt
-Vong Cốt Chiến Giáp,Khải Giáp Hài Cốt
-Hỏa Cầu Thừật,Thuật Cầu Lửa
-Cuồng Bạo Liên Kích,Tật Phong Liên Kích
-Bạo Nộ Ngũ Liên Kích,Lôi Đình Ngũ Kích
-Thánh Ngôn Thừật Thừẫn,Khiên Ánh Sáng
-Thánh Ngôn Thừật Dũ,Thuật Trị Liệu
-Viêm Long Trùng Phơng,Hỏa Phượng Xung Kích
-Thực tập pháp trượng,Gậy Phép Tân Thủ
-Thực tập pháp bào,Áo Choàng Tân Thủ
-Tiểu Pháp Sư Cấp Hồn Trượng,Gậy Hút Hồn Sơ Cấp
-Tiểu Pháp Sư Xuy Hỏa Y,Áo Choàng Lửa Đỏ
-Vong Linh Pháp Sư Tiểu Cốt,Bùa Cốt Tử Linh
-Vong Linh Pháp Sư Tinh Xảo Tiểu Cốt,Bùa Cốt Tinh Xảo Tử Linh
-Bạo Quân Xương Ngón Tay,Nhẫn Đốt Ngón Tay Cự Sát
-Vong Cốt Quân Vương Giới Chỉ,Nhẫn Vua Hài Cốt
-Cương Cốt Hộ Phù,Bùa Hộ Mệnh Bạch Cốt
-Không Bạch Kỹ Năng Thạch,Đá Lưu Kỹ Năng
-Vong Cốt Chi Hồn,Linh Hồn Khô Lâu
-Tinh Luyện Thi Nha,Răng Nanh Xác Sống
-Minh Giới Chi Trần,Bụi Âm Ti
-Khô Lâu Quái,Quái Bộ Xương
-Cương Thi,Xác Sống
-Khô Lâu Khừyển,Chó Khô Lâu
-Khô Lâu Chiến Sĩ,Chiến Binh Xương
-Khô Lâu Pháp Sư,Pháp Sư Xương
-Thanh Cốt Bạo Quân,Hung Vua Xương Xanh
-Vong Linh Triệu Hoán Sư,Kẻ Gọi Hồn
-Khô Lâu Hải,Biển Bộ Xương
-f-,ép trừ
-cold-down,thời gian làm lạnh
-a-,a trừ
-c-,c trừ
-s-,s trừ
-b-,b trừ
-d-,d trừ
-ss-,ss trừ
-e-,e trừ
-coca-cola,cô ca cô la
+hon,hon
+wall,tường
+aimbot,phần mềm tự ngắm
+1x1x1,1 x 1 x 1
+minecraft,thế giới khối vuông
+bmd,bmd
+x20,nhân hai mươi
+singapore,sin ga po
+what,cái gì
+your,của bạn
+you,bạn
+have,có
+tanq,tanq
+water,nước
+shit,chết tiệt
+drink,uống
+st,vị trí tiền đạo
+girl,cô gái
+gel,gel
+saw,cái cưa
+capo,thủ lĩnh
+55km,55 ki lô mét
+9dm,9 đề xi mét
+netease,hãng gêm ne ti se
+cctgi,c c t g i
+jump,nhảy
+platformer,gêm đi cảnh
+cosplay,hóa trang
+p1911,súng lục p 1911
+overcooked,gêm nấu ăn hỗn loạn
+plants,thực vật
+vs,với
+warcraft,chiến chanh
+tale,tale
+of,của
+immortal,quan trọng
+g-virus,gờ vi rút
+cctg,c c t g
+usp,u s p
+62mm,62 mm
+live,lai
+awsl,a w s l
+danheo,danh
+danhol,danh
+check-in,kiểm tra
+15x,15 x
+manvi,man vi
+danhe,danh
+ps50,p s 50
+wi-fi,wai phai
+rind,tinh
+barry,ba ry
+lag,lác
+pitt,bít
+warfare,wa
+xay-da,say ra
+ii,i i
+iii,i i i
+ze
+aa-12,a a 12
+gryphon,gờ ry phon
+danher,danh
+senju,sen ru
+atto,át to
+silla,si la
+sr,s r
+asli,át li
+ars,a r s
+ak-47,a ka 47
+danhay,danh
+tcho-tcho,
+danhorah,danh
+thresh,tờ rét
+goku,gô ku
+dgram,đờ ram
+bmd,d m d
+hai0,hai
+tanq,tang
+ps,p s
+gel,gen
+king,vua
+tale,ta le
+danhr,danh
