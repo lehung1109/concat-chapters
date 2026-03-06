@@ -31,11 +31,11 @@ function getWavDuration(filePath) {
 const HOURS_PER_FILE_LIST = 11;
 const MINUTES_PER_FILE_LIST = HOURS_PER_FILE_LIST * 60; // 660
 
-const files = fs.readdirSync(AUDIO_FOLDER).filter(isAudioFile).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
 const ignoreAudioFiles = new Set([
   'mo-dau.mp3',
   'giua-doan.mp3',
 ]);
+const files = fs.readdirSync(AUDIO_FOLDER).filter(isAudioFile).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
 
 function isAudioFile(name) {
   if (ignoreAudioFiles.has(name)) return false;
@@ -91,7 +91,7 @@ if (currentList.length > 0) {
   const fileName = `audio-file-list-${listIndex}.txt`;
 
   fs.writeFileSync(path.join(audiosDir, fileName), currentList.join('\n'));
-  
+
   console.log(`✓ ${fileName} (~${currentMinutes.toFixed(0)} phút)`);
 }
 
