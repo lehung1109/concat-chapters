@@ -91,7 +91,8 @@ function mergeHTMLBatch(startNum, endNum) {
       let text = $(element).text().trim();
 
       text = text.replaceAll(/&/g, 'và');
-      text = text.replaceAll(/["'-]/g, '');
+      text = text.replaceAll(/\+/g, ' + ');
+      text = text.replaceAll(/["']/g, '');
       text = text.replaceAll('《', '');
       text = text.replaceAll('【', '');
       text = text.replaceAll('】', '');
@@ -105,7 +106,7 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll('”', '');
       text = text.replaceAll('‘', '');
       text = text.replaceAll('’', '');
-      text = text.replaceAll('(', '');
+      text = text.replaceAll('(', ', ');
       text = text.replaceAll(')', '');
       text = text.replaceAll('——', '');
       text = text.replaceAll('[', '');
