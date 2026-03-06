@@ -31,11 +31,11 @@ function getWavDuration(filePath) {
 const files = fs.readdirSync(AUDIO_FOLDER);
 const audioFileListName = 'audio-file-list.txt';
 let audioFileList = [
-  `file 'mo-dau.wav'`,
+  `file 'mo-dau.mp3'`,
 ];
 const ignoreAudioFiles = new Set([
-  'mo-dau.wav',
-  'giua-doan.wav',
+  'mo-dau.mp3',
+  'giua-doan.mp3',
   audioFileListName,
 ]);
 let totalMinutes = 0;
@@ -50,14 +50,14 @@ for (let i = 0; i < files.length; i++) {
   audioFileList.push(`file '${file}'`);
 
   if(i % NUMBER_FILE_TO_ADD_STOP === 0) {
-    audioFileList.push(`file 'giua-doan.wav'`);
+    audioFileList.push(`file 'giua-doan.mp3'`);
   }
 
   const duration = getWavDuration(path.join(AUDIO_FOLDER, file));
   totalMinutes += Number.parseFloat(duration.minutes);
 }
 
-audioFileList.push(`file 'giua-doan.wav'`); // add stop at the end
+audioFileList.push(`file 'giua-doan.mp3'`); // add stop at the end
 
 // offset some minutes
 totalMinutes += 3;
