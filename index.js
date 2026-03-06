@@ -102,6 +102,7 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll('》', '');
       text = text.replaceAll('–', '');
       text = text.replaceAll('…', '');
+      text = text.replaceAll('”,', '”');
       text = text.replaceAll(/\.+/g, '.');
       text = text.replaceAll(/ \./g, ' ');
       text = text.replaceAll(/\s+/g, ' ');
