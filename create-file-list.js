@@ -27,43 +27,78 @@ function getWavDuration(filePath) {
   };
 }
 
-// create audio file list
-const files = fs.readdirSync(AUDIO_FOLDER);
-const audioFileListName = 'audio-file-list.txt';
-let audioFileList = [
-  `file 'mo-dau.mp3'`,
-];
+// Mỗi 11h tạo 1 file list
+const HOURS_PER_FILE_LIST = 11;
+const MINUTES_PER_FILE_LIST = HOURS_PER_FILE_LIST * 60; // 660
+
+const files = fs.readdirSync(AUDIO_FOLDER).filter(isAudioFile).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
 const ignoreAudioFiles = new Set([
   'mo-dau.mp3',
   'giua-doan.mp3',
-  audioFileListName,
 ]);
+
+function isAudioFile(name) {
+  if (ignoreAudioFiles.has(name)) return false;
+  if (name.startsWith('audio-file-list') && name.endsWith('.txt')) return false;
+  return /\.(wav|mp3|m4a|flac)$/i.test(name);
+}
+
+const audiosDir = path.join(OUTPUT_FILE_LIST_FOLDER, 'audios');
+
+if (!fs.existsSync(audiosDir)) {
+  fs.mkdirSync(audiosDir, { recursive: true });
+}
+
+let currentList = [`file 'mo-dau.mp3'`];
+let currentMinutes = 0;
+let listIndex = 1;
 let totalMinutes = 0;
 
 for (let i = 0; i < files.length; i++) {
   const file = files[i];
 
-  if(ignoreAudioFiles.has(file)) {
-    continue;
-  }
+  currentList.push(`file '${file}'`);
 
-  audioFileList.push(`file '${file}'`);
-
-  if(i % NUMBER_FILE_TO_ADD_STOP === 0) {
-    audioFileList.push(`file 'giua-doan.mp3'`);
+  if (i % Number(NUMBER_FILE_TO_ADD_STOP) === 0) {
+    currentList.push(`file 'giua-doan.mp3'`);
   }
 
   const duration = getWavDuration(path.join(AUDIO_FOLDER, file));
-  totalMinutes += Number.parseFloat(duration.minutes);
+  const mins = Number.parseFloat(duration.minutes);
+  currentMinutes += mins;
+  totalMinutes += mins;
+
+  // Đủ 11h → ghi file list hiện tại, bắt đầu list mới
+  if (currentMinutes >= MINUTES_PER_FILE_LIST) {
+    currentList.push(`file 'giua-doan.mp3'`);
+
+    const fileName = `audio-file-list-${listIndex}.txt`;
+
+    fs.writeFileSync(path.join(audiosDir, fileName), currentList.join('\n'));
+
+    console.log(`✓ ${fileName} (~${currentMinutes.toFixed(0)} phút)`);
+
+    listIndex++;
+    currentList = [];
+    currentMinutes = 0;
+  }
 }
 
-audioFileList.push(`file 'giua-doan.mp3'`); // add stop at the end
+// Phần còn lại (< 11h)
+if (currentList.length > 0) {
+  currentList.push(`file 'giua-doan.mp3'`);
+
+  const fileName = `audio-file-list-${listIndex}.txt`;
+
+  fs.writeFileSync(path.join(audiosDir, fileName), currentList.join('\n'));
+  
+  console.log(`✓ ${fileName} (~${currentMinutes.toFixed(0)} phút)`);
+}
 
 // offset some minutes
 totalMinutes += 3;
 
-// log total minutes
-console.log(`Total minutes: ${totalMinutes}`);
+console.log(`Tổng: ${listIndex} file list, tổng ~${totalMinutes.toFixed(0)} phút`);
 
 // create video files list by images files
 const images = fs.readdirSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'images', 'with-logo'));
@@ -87,12 +122,6 @@ for (let i = 0; i < totalMinutes; i += 30) {
 }
 
 videoFileList.push(`file 'thumbnail.jpg'`, 'duration 3', `file 'thumbnail.jpg'`, 'duration 3');
-
-// write audioFileList to file
-fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'audios', audioFileListName), audioFileList.join('\n'));
-
-// log meaning full for audio file list
-console.log('Audio file list:', audioFileList);
 
 // write videoFileList to file
 fs.writeFileSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'images', 'with-logo', 'image-to-video-file-list.txt'), videoFileList.join('\n'));
