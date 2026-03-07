@@ -12,5 +12,7 @@ oong
 ui
 cheng
 oa
+nhan
+ro
 hon
 hu
