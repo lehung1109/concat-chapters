@@ -28,7 +28,7 @@ function getWavDuration(filePath) {
 }
 
 // Mỗi 11h tạo 1 file list
-const HOURS_PER_FILE_LIST = 11;
+const HOURS_PER_FILE_LIST = 10;
 const MINUTES_PER_FILE_LIST = HOURS_PER_FILE_LIST * 60; // 660
 
 const ignoreAudioFiles = new Set([
@@ -101,7 +101,7 @@ totalMinutes += 3;
 console.log(`Tổng: ${listIndex} file list, tổng ~${totalMinutes.toFixed(0)} phút`);
 
 // create video files list by images files
-const images = fs.readdirSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'images', 'with-logo'));
+const images = fs.readdirSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'images', 'with-logo')).filter(image => image.endsWith('.jpg'));
 const videoFileList = [
   `file 'thumbnail.jpg'`,
   'duration 12'
