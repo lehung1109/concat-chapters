@@ -128,6 +128,7 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replace(/;/gi, '\n');
       text = text.replace(/!/gi, '\n');
       text = text.replace(/\?/gi, '\n');
+      text = text.replace(/cm/gi, ' c m');
 
       // Áp dụng thay thế từ file CSV (tìm = cột 1, thay = cột 2, không phân biệt hoa thường)
       for (const [from, to] of replacementPairs) {
