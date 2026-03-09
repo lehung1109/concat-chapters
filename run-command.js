@@ -115,12 +115,11 @@ const createBaseVideoCommand = [
       "yuv420p",
       "-t",
       process.env.MAX_MINUTES,
-      path.join(FINAL_OUTPUT_FOLDER, "base-video.mp4"),
+      path.join(FINAL_OUTPUT_FOLDER, "base1.mp4"),
     ],
   },
 ];
 
-console.log(createBaseVideoCommand);return;
 
 // run command create base video
 runPool(createBaseVideoCommand, 1)
@@ -151,7 +150,7 @@ for (let index = 1; index <= audioFilesTxt.length; index++) {
 }
 
 // run command add audio to video
-runPool(addAudioToVideoCommand, 1)
+runPool(addAudioToVideoCommand, 3)
   .then(() => {
     console.log("Add audio to video command completed");
   })
