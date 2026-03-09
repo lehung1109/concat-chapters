@@ -53,6 +53,7 @@ let currentList = [`file 'mo-dau.wav'`];
 let currentMinutes = 0;
 let listIndex = 1;
 let totalMinutes = 0;
+let maxMinutes = 0;
 
 for (let i = 0; i < files.length; i++) {
   const file = files[i];
@@ -70,6 +71,8 @@ for (let i = 0; i < files.length; i++) {
 
   // Đủ 11h → ghi file list hiện tại, bắt đầu list mới
   if (currentMinutes >= MINUTES_PER_FILE_LIST) {
+    maxMinutes = Math.max(maxMinutes, currentMinutes);
+
     currentList.push(`file 'giua-doan.wav'`);
 
     const fileName = `audio-file-list-${listIndex}.txt`;
@@ -99,6 +102,8 @@ if (currentList.length > 0) {
 totalMinutes += 3;
 
 console.log(`Tổng: ${listIndex} file list, tổng ~${totalMinutes.toFixed(0)} phút`);
+
+console.log(`Max minutes: ${maxMinutes.toFixed(0)} phút`);
 
 // create video files list by images files
 const images = fs.readdirSync(path.join(OUTPUT_FILE_LIST_FOLDER, 'images', 'with-logo')).filter(image => image.endsWith('.jpg'));
