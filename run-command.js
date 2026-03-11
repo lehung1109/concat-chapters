@@ -80,15 +80,6 @@ const audioFilesTxt = fs.readdirSync(AUDIO_FOLDER)
     });
   });
 
-// run append audio command
-runPool(appendAudioCommand, 1)
-  .then(() => {
-    console.log("Append audio command completed");
-  })
-  .catch((error) => {
-    console.error("Error append audio command", error);
-  });
-
 // run command create base video
 const createBaseVideoCommand = [
   {
@@ -120,16 +111,6 @@ const createBaseVideoCommand = [
   },
 ];
 
-
-// run command create base video
-runPool(createBaseVideoCommand, 1)
-  .then(() => {
-    console.log("Create base video command completed");
-  })
-  .catch((error) => {
-    console.error("Error create base video command", error);
-  });
-
 // create command add audio to video
 const addAudioToVideoCommand = [];
 
@@ -149,11 +130,14 @@ for (let index = 1; index <= audioFilesTxt.length; index++) {
   });
 }
 
-// run command add audio to video
-runPool(addAudioToVideoCommand, 3)
-  .then(() => {
-    console.log("Add audio to video command completed");
-  })
-  .catch((error) => {
-    console.error("Error add audio to video command", error);
-  });
+// run all command
+async function runAllCommand() {
+  await runPool(appendAudioCommand, 1);
+  console.log("\x1b[32m%s\x1b[0m", "Append audio command completed");
+  await runPool(createBaseVideoCommand, 1);
+  console.log("\x1b[32m%s\x1b[0m", "Create base video command completed");
+  await runPool(addAudioToVideoCommand, 3);
+  console.log("\x1b[32m%s\x1b[0m", "Add audio to video command completed");
+}
+
+runAllCommand();
