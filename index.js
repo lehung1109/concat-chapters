@@ -17,7 +17,7 @@ const REPLACE_CSV_PATH = process.env.REPLACE_CSV_PATH || ''; // đường dẫn 
  * Escape ký tự đặc biệt regex để dùng làm literal trong RegExp.
  */
 function escapeRe(str) {
-  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return str.replaceAll(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 /**
@@ -39,6 +39,43 @@ function loadReplacementsFromCSV(filePath) {
     pairs.push([from, to]);
   }
   return pairs;
+}
+
+/**
+ * Tạo hàm thay thế nhanh: gom nhiều "from" vào regex theo cụm,
+ * tránh loop từng rule + tạo RegExp lặp lại cho mỗi đoạn text.
+ */
+function buildReplacementApplier(pairs, { chunkSize = 250 } = {}) {
+  if (!pairs || pairs.length === 0) return null;
+
+  const cleaned = pairs
+    .map(([from, to]) => [String(from ?? '').trim(), String(to ?? '')])
+    .filter(([from]) => from.length > 0);
+
+  if (cleaned.length === 0) return null;
+
+  // Ưu tiên match chuỗi dài hơn nếu có overlap (vd: "abc" và "ab")
+  cleaned.sort((a, b) => b[0].length - a[0].length);
+
+  const chunks = [];
+  for (let i = 0; i < cleaned.length; i += chunkSize) {
+    const slice = cleaned.slice(i, i + chunkSize);
+    const map = new Map(slice.map(([from, to]) => [from.toLowerCase(), to]));
+    const pattern = slice.map(([from]) => escapeRe(from)).join('|');
+    const re = new RegExp(pattern, 'gi');
+    chunks.push({ re, map });
+  }
+
+  return (text) => {
+    let out = text;
+    for (const { re, map } of chunks) {
+      out = out.replaceAll(re, (m) => {
+        const repl = map.get(m.toLowerCase());
+        return repl === undefined ? m : repl;
+      });
+    }
+    return out;
+  };
 }
 
 if (!fs.existsSync(OUTPUT_FOLDER)) {
@@ -72,6 +109,7 @@ function mergeHTMLBatch(startNum, endNum) {
   if (replacementPairs.length > 0) {
     console.log(`📝 Áp dụng ${replacementPairs.length} quy tắc thay thế từ CSV: ${REPLACE_CSV_PATH}`);
   }
+  const applyReplacements = buildReplacementApplier(replacementPairs);
 
   let combinedText = '';
   
@@ -115,26 +153,27 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll('——', '');
       text = text.replaceAll('[', '');
       text = text.replaceAll(']', '');
-      text = text.replace(/DTVEBOOK/gi, '');
+      text = text.replaceAll(/DTVEBOOK/gi, '');
       text = text.replaceAll('~', '');
-      text = text.replace(/Tàng Thư Viện/gi, 'Minh An Đao Trưởng');
-      text = text.replace(/\*1/gi, '');
-      text = text.replace(/\*2/gi, '');
-      text = text.replace(/\*3/gi, '');
-      text = text.replace(/\*4/gi, '');
-      text = text.replace(/\*/gi, '');
-      text = text.replace(/\./gi, '\n');
-      text = text.replace(/:/gi, '\n');
-      text = text.replace(/;/gi, '\n');
-      text = text.replace(/!/gi, '\n');
-      text = text.replace(/\?/gi, '\n');
-      text = text.replace(/cm/gi, ' c m');
-      text = text.replace(/`/gi, ' ');
-      text = text.replace(/·/gi, '');
+      text = text.replaceAll(/Tàng Thư Viện/gi, 'Minh An Đao Trưởng');
+      text = text.replaceAll(/\*1/gi, '');
+      text = text.replaceAll(/\*2/gi, '');
+      text = text.replaceAll(/\*3/gi, '');
+      text = text.replaceAll(/\*4/gi, '');
+      text = text.replaceAll(/\*/gi, '');
+      text = text.replaceAll(/\./gi, '\n');
+      text = text.replaceAll(/:/gi, '\n');
+      text = text.replaceAll(/;/gi, '\n');
+      text = text.replaceAll(/!/gi, '\n');
+      text = text.replaceAll(/\?/gi, '\n');
+      text = text.replaceAll(/cm/gi, ' c m');
+      text = text.replaceAll(/`/gi, ' ');
+      text = text.replaceAll(/·/gi, '');
 
       // Áp dụng thay thế từ file CSV (tìm = cột 1, thay = cột 2, không phân biệt hoa thường)
-      for (const [from, to] of replacementPairs) {
-        text = text.replace(new RegExp(escapeRe(from), 'gi'), to);
+      // Nhanh hơn đáng kể nhờ precompile regex theo cụm.
+      if (applyReplacements) {
+        text = applyReplacements(text);
       }
 
       text = text.split('\n').map(text => {
@@ -223,7 +262,7 @@ function xoaCapTuTrungLap(text) {
   // Lặp lại cho đến khi không còn thay đổi nào
   while (hasChanged && iterations < maxIterations) {
     hasChanged = false;
-    const newResult = result.replace(pattern, (match, p1, p2) => {
+    const newResult = result.replaceAll(pattern, (match, p1, p2) => {
       hasChanged = true;
       return p1; // Chỉ giữ lại cặp từ đầu tiên
     });
@@ -266,7 +305,7 @@ function themDauPhayGiuaTuTrungLap(text) {
   // Lặp lại cho đến khi không còn thay đổi nào
   while (hasChanged && iterations < maxIterations) {
     hasChanged = false;
-    const newResult = result.replace(pattern, (match, beforeSpace, word1, word2, afterSpace) => {
+    const newResult = result.replaceAll(pattern, (match, beforeSpace, word1, word2, afterSpace) => {
       // Kiểm tra xem đã có dấu phẩy chưa để tránh xử lý lại
       if (!match.includes(',')) {
         hasChanged = true;
