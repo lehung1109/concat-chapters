@@ -28,8 +28,8 @@ function getWavDuration(filePath) {
 }
 
 // Mỗi 11h tạo 1 file list
-const HOURS_PER_FILE_LIST = 10;
-const MINUTES_PER_FILE_LIST = HOURS_PER_FILE_LIST * 60; // 660
+const HOURS_PER_FILE_LIST = process.env.HOURS_PER_FILE_LIST;
+const MINUTES_PER_FILE_LIST = Number(HOURS_PER_FILE_LIST) * 60; // 660
 
 const ignoreAudioFiles = new Set([
   'mo-dau.wav',
@@ -49,7 +49,7 @@ if (!fs.existsSync(audiosDir)) {
   fs.mkdirSync(audiosDir, { recursive: true });
 }
 
-let currentList = [`file 'mo-dau.wav'`];
+let currentList = [`file 'E:\\truyen\\concat-audio\\mo-dau.wav'`];
 let currentMinutes = 0;
 let listIndex = 1;
 let totalMinutes = 0;
@@ -61,7 +61,7 @@ for (let i = 0; i < files.length; i++) {
   currentList.push(`file '${file}'`);
 
   if (i % Number(NUMBER_FILE_TO_ADD_STOP) === 0) {
-    currentList.push(`file 'giua-doan.wav'`);
+    currentList.push(`file 'E:\\truyen\\concat-audio\\giua-doan.wav'`);
   }
 
   const duration = getWavDuration(path.join(AUDIO_FOLDER, file));
@@ -73,7 +73,7 @@ for (let i = 0; i < files.length; i++) {
   if (currentMinutes >= MINUTES_PER_FILE_LIST) {
     maxMinutes = Math.max(maxMinutes, currentMinutes);
 
-    currentList.push(`file 'giua-doan.wav'`);
+    currentList.push(`file 'E:\\truyen\\concat-audio\\giua-doan.wav'`);
 
     const fileName = `audio-file-list-${listIndex}.txt`;
 
@@ -89,7 +89,7 @@ for (let i = 0; i < files.length; i++) {
 
 // Phần còn lại (< 11h)
 if (currentList.length > 0) {
-  currentList.push(`file 'giua-doan.wav'`);
+  currentList.push(`file 'E:\\truyen\\concat-audio\\giua-doan.wav'`);
 
   const fileName = `audio-file-list-${listIndex}.txt`;
 
