@@ -49,7 +49,7 @@ if (!fs.existsSync(audiosDir)) {
   fs.mkdirSync(audiosDir, { recursive: true });
 }
 
-let currentList = [`file 'E:\\truyen\\concat-audio\\mo-dau.wav'`];
+let currentList = [`file 'C:\\Users\\hung0\\OneDrive\\Documents\\Downloads\\ai\\truyen\\concat-audio\\mo-dau.wav'`];
 let currentMinutes = 0;
 let listIndex = 1;
 let totalMinutes = 0;
@@ -61,7 +61,7 @@ for (let i = 0; i < files.length; i++) {
   currentList.push(`file '${file}'`);
 
   if (i % Number(NUMBER_FILE_TO_ADD_STOP) === 0) {
-    currentList.push(`file 'E:\\truyen\\concat-audio\\giua-doan.wav'`);
+    currentList.push(`file 'C:\\Users\\hung0\\OneDrive\\Documents\\Downloads\\ai\\truyen\\concat-audio\\giua-doan.wav'`);
   }
 
   const duration = getWavDuration(path.join(AUDIO_FOLDER, file));
@@ -73,7 +73,7 @@ for (let i = 0; i < files.length; i++) {
   if (currentMinutes >= MINUTES_PER_FILE_LIST) {
     maxMinutes = Math.max(maxMinutes, currentMinutes);
 
-    currentList.push(`file 'E:\\truyen\\concat-audio\\giua-doan.wav'`);
+    currentList.push(`file 'C:\\Users\\hung0\\OneDrive\\Documents\\Downloads\\ai\\truyen\\concat-audio\\giua-doan.wav'`);
 
     const fileName = `audio-file-list-${listIndex}.txt`;
 
@@ -89,7 +89,7 @@ for (let i = 0; i < files.length; i++) {
 
 // Phần còn lại (< 11h)
 if (currentList.length > 0) {
-  currentList.push(`file 'E:\\truyen\\concat-audio\\giua-doan.wav'`);
+  currentList.push(`file 'C:\\Users\\hung0\\OneDrive\\Documents\\Downloads\\ai\\truyen\\concat-audio\\giua-doan.wav'`);
 
   const fileName = `audio-file-list-${listIndex}.txt`;
 
