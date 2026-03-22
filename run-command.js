@@ -8,7 +8,7 @@ function spawnAsync(cmd, args) {
   return new Promise((resolve, reject) => {
     const proc = spawn(cmd, args, { stdio: "inherit" });
     proc.on("close", (code) =>
-      code === 0 ? resolve() : reject(new Error(`Exit ${code}`)),
+      code === 0 ? setTimeout(() => resolve(), 3000) : reject(new Error(`Exit ${code}`)),
     );
   });
 }
