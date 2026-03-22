@@ -23,18 +23,19 @@ function escapeRe(str) {
 /**
  * Đọc danh sách thay thế từ file CSV.
  * Định dạng: mỗi dòng "từ_cần_tìm,thay_bằng" (cột 1 = tìm, cột 2 = thay).
- * Nếu cột 2 rỗng = xóa chuỗi tìm. Trả về [] nếu file không tồn tại hoặc rỗng.
+ * Nếu cột 2 rỗng = xóa chuỗi tìm. Không trim — giữ space đầu/cuối để khớp có hoặc không có khoảng trắng.
+ * Trả về [] nếu file không tồn tại hoặc rỗng.
  */
 function loadReplacementsFromCSV(filePath) {
   if (!filePath || !fs.existsSync(filePath)) return [];
   const content = fs.readFileSync(filePath, 'utf-8');
-  const lines = content.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+  const lines = content.split(/\r?\n/).filter((l) => l.length > 0);
   const pairs = [];
   for (const line of lines) {
     const firstComma = line.indexOf(',');
     if (firstComma === -1) continue;
-    const from = line.slice(0, firstComma).trim();
-    const to = line.slice(firstComma + 1).trim();
+    const from = line.slice(0, firstComma);
+    const to = line.slice(firstComma + 1);
     // Cho phép "to" chứa dấu phẩy (phần sau dấu phẩy đầu tiên là to)
     pairs.push([from, to]);
   }
@@ -49,7 +50,7 @@ function buildReplacementApplier(pairs, { chunkSize = 250 } = {}) {
   if (!pairs || pairs.length === 0) return null;
 
   const cleaned = pairs
-    .map(([from, to]) => [String(from ?? '').trim(), String(to ?? '')])
+    .map(([from, to]) => [String(from ?? ''), String(to ?? '')])
     .filter(([from]) => from.length > 0);
 
   if (cleaned.length === 0) return null;
