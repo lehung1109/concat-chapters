@@ -129,6 +129,12 @@ function mergeHTMLBatch(startNum, endNum) {
     const bodyText = $('p').map((index, element) => {
       let text = $(element).text().trim();
 
+      // Áp dụng thay thế từ file CSV (tìm = cột 1, thay = cột 2, không phân biệt hoa thường)
+      // Nhanh hơn đáng kể nhờ precompile regex theo cụm.
+      if (applyReplacements) {
+        text = applyReplacements(text);
+      }
+
       text = text.replaceAll(/&/g, 'và');
       text = text.replaceAll(/@/g, 'a còng');
       text = text.replaceAll(/\+/g, ' + ');
@@ -170,12 +176,6 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll(/cm/gi, ' c m');
       text = text.replaceAll(/`/gi, ' ');
       text = text.replaceAll(/·/gi, '');
-
-      // Áp dụng thay thế từ file CSV (tìm = cột 1, thay = cột 2, không phân biệt hoa thường)
-      // Nhanh hơn đáng kể nhờ precompile regex theo cụm.
-      if (applyReplacements) {
-        text = applyReplacements(text);
-      }
 
       text = text.split('\n').map(text => {
         let newText = text.trim();

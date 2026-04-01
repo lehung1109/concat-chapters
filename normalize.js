@@ -8,7 +8,7 @@ const FOLDER_PATH = process.env.FOLDER_PATH;
 const OUTPUT_FOLDER = process.env.OUTPUT_FOLDER;
 
 function findEnglishWords(sentence) {
-  const words = sentence.split(/\s+/).map(word => {
+  const words = sentence.split(/\s+|,|\./).map(word => {
     const cleaned = word.replaceAll(/[.,!?"']/g, '');
 
     return cleaned.toLowerCase();
