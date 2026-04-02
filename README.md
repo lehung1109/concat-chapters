@@ -1,0 +1,3 @@
+- npm start to create chapter text
+- node create-file-list.js to create file list, required thumbnail and 8 images
+- node run-command.js to create video file
