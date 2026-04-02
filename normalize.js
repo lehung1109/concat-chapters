@@ -7,6 +7,14 @@ require('dotenv').config()
 const FOLDER_PATH = process.env.FOLDER_PATH;
 const OUTPUT_FOLDER = process.env.OUTPUT_FOLDER;
 
+// read words in dictionary/words.txt, 1 line in txt like this: {"text": "Bản mẫu:-vie-", "source": "wiktionary"}
+// so we need to parse to get text only in each line, dont use JSON.parse because it will throw error
+const dictionaryWords = fs.readFileSync('dictionary/words.txt', 'utf-8').split('\n').map(line => {
+  const text = line.split(',')[0].split(':')[1].trim().replaceAll('"', '');
+
+  return text;
+});
+
 function findEnglishWords(sentence) {
   const words = sentence.split(/\s+|,|\./).map(word => {
     const cleaned = word.replaceAll(/[.,!?"']/g, '');
@@ -15,9 +23,12 @@ function findEnglishWords(sentence) {
   });
 
   return words.filter(word => {
-    const cleaned = word.replaceAll(/[^a-zA-ZÀ-ỹ]/g, ''); // xóa cả các ký tự kết thúc câu như ., !, ?
+    // ignore if word is string number
+    if(/^\d+$/.test(word)) {
+      return false;
+    }
 
-    return /^[a-zA-Z]+$/.test(cleaned) && cleaned.length > 0;
+    return word.length > 0;
   });
 }
 
@@ -33,12 +44,16 @@ for (const file of files) {
   const text = fs.readFileSync(filePath, 'utf-8');
   const englishWords = findEnglishWords(text);
 
+  if(file.includes('page-104')) {
+    console.log('test');
+  }
+
   // remove duplicate english word
   const uniqueEnglishWords = [...new Set(englishWords)];
 
   // check if word is not in ignore-english.txt then add to ignore-english.txt
   const ignoreEnglishWords = fs.readFileSync('ignore-english.txt', 'utf-8').split('\n');
-  const newIgnoreEnglishWords = uniqueEnglishWords.filter(word => !ignoreEnglishWords.includes(word) && !dictionary.has(word));
+  const newIgnoreEnglishWords = uniqueEnglishWords.filter(word => !ignoreEnglishWords.includes(word) && !dictionary.has(word) && !dictionaryWords.includes(word));
 
   // write word to ignore-english.txt but not overwrite the file
   if (newIgnoreEnglishWords.length > 0) {

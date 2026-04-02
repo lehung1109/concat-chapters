@@ -135,8 +135,14 @@ function mergeHTMLBatch(startNum, endNum) {
         text = applyReplacements(text);
       }
 
-      text = text.replaceAll(/&/g, 'và');
-      text = text.replaceAll(/@/g, 'a còng');
+      text = text.replaceAll(/&/g, ' và ');
+      text = text.replaceAll(/@/g, ' a còng ');
+      text = text.replaceAll(/-/g, ' gạch ngang ');
+      text = text.replaceAll(/%/g, ' phần trăm ');
+      text = text.replaceAll(/\//g, ' trên ');
+      text = text.replaceAll(/℃/g, ' độ c ');
+      text = text.replaceAll(/\$/g, ' đô la ');
+      text = text.replaceAll(/#/g, ' khác ');
       text = text.replaceAll(/\+/g, ' + ');
       text = text.replaceAll(/["']/g, '');
       text = text.replaceAll(/»/g, '');
