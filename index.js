@@ -55,9 +55,6 @@ function buildReplacementApplier(pairs, { chunkSize = 250 } = {}) {
 
   if (cleaned.length === 0) return null;
 
-  // Ưu tiên match chuỗi dài hơn nếu có overlap (vd: "abc" và "ab")
-  cleaned.sort((a, b) => b[0].length - a[0].length);
-
   const chunks = [];
   for (let i = 0; i < cleaned.length; i += chunkSize) {
     const slice = cleaned.slice(i, i + chunkSize);
@@ -181,7 +178,7 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll(/\?/gi, '\n');
       text = text.replaceAll(/cm/gi, ' c m');
       text = text.replaceAll(/`/gi, ' ');
-      text = text.replaceAll(/·/gi, '');
+      text = text.replaceAll(/·/gi, ' ');
 
       text = text.split('\n').map(text => {
         let newText = text.trim();
