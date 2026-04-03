@@ -13,6 +13,9 @@
   "dependencies": {
     "@cspell/dict-vi-vn": "^3.0.6",
     "cheerio": "^1.1.2",
-    "dotenv": "^17.3.1"
+    "dictionary-vi": "^3.0.0",
+    "dotenv": "^17.3.1",
+    "glob": "^13.0.6",
+    "nspell": "^2.1.5"
   }
 }
