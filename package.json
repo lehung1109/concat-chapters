@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js && npx cspell \"toan-dan-me-vu-cau-sinh/combined-txt/*.txt\""
+    "start": "node index.js && node spellcheck.mjs"
   },
   "dependencies": {
     "@cspell/dict-vi-vn": "^3.0.6",
