@@ -1,0 +1,19 @@
+{
+  "import": ["https://cdn.jsdelivr.net/npm/@cspell/dict-vi-vn/cspell-ext.json"],
+  "language": "vi",
+  "reporters": [
+    ["./my-reporter.js"]
+  ],
+  "dictionaries": ["custom-words"],
+  "dictionaryDefinitions": [
+    {
+      // The name of the dictionary is used to look it up.
+      "name": "custom-words",
+      // Path to the custom word file. Relative to this `cspell.json` file.
+      "path": "./custom-words.txt",
+      // Some editor extensions will use `addWords` for adding words to your
+      // personal dictionary.
+      "addWords": true
+    }
+  ]
+}

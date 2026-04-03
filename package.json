@@ -8,11 +8,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js && node normalize.js"
+    "start": "node index.js && npx cspell \"toan-dan-me-vu-cau-sinh/combined-txt/*.txt\""
   },
   "dependencies": {
-    "@iamtraction/google-translate": "^2.0.1",
-    "@vntk/dictionary": "^1.0.0",
+    "@cspell/dict-vi-vn": "^3.0.6",
     "cheerio": "^1.1.2",
     "dotenv": "^17.3.1"
   }
