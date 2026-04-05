@@ -181,6 +181,8 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.replaceAll(/`/gi, ' ');
       text = text.replaceAll(/·/gi, ' ');
       text = text.replaceAll(/m²/gi, ' mét vuông ');
+      text = text.replaceAll(/°c/gi, ' độ sê ');
+      text = text.replaceAll(/kg/gi, ' ki lô gam ');
 
       text = text.split('\n').map(text => {
         let newText = text.trim();

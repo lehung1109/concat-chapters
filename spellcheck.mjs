@@ -1,5 +1,5 @@
 // spellcheck.mjs
-import { readFileSync, writeFileSync } from 'node:fs'
+import { readFileSync, writeFileSync, appendFileSync } from 'node:fs'
 import { globSync } from 'glob'
 import nspell from 'nspell'
 import vi from 'dictionary-vi'
@@ -22,6 +22,8 @@ const spell = nspell(vi)
 const personalDict1 = readFileSync('./custom-words.txt', 'utf-8')
 const personalDict2 = readFileSync('./dictionary/words-clean.txt', 'utf-8')
 
+writeFileSync('unknown-words.txt', '', 'utf-8');
+
 spell.personal(personalDict1 + '\n' + personalDict2)
 
 const results = new Map();
@@ -36,8 +38,14 @@ for (const filePath of files) {
 
   for (const word of words) {
     if (!spell.correct(word)) {
-      errors.set(word, spell.suggest(word)[0])
-      results.set(word, spell.suggest(word)[0])
+      const oldSize = results.size;
+      const suggestion = spell.suggest(word)[0]
+      errors.set(word, suggestion)
+      results.set(word, suggestion)
+
+      if (results.size > oldSize) {
+        appendFileSync('unknown-words.txt', `${word},${suggestion}\n`, 'utf-8')
+      }
     }
   }
 
@@ -50,6 +58,5 @@ for (const filePath of files) {
   }
 }
 
-writeFileSync('unknown-words.txt', Array.from(results.entries()).map(([word, suggestion]) => `${word},${suggestion}`).join('\n'), 'utf-8')
 console.log(`\n📊 Tổng cộng: ${results.size} lỗi trong ${files.length} file`)
 console.log('💾 Đã lưu báo cáo → unknown-words.txt')
