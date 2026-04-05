@@ -44,7 +44,7 @@ for (const filePath of files) {
       results.set(word, suggestion)
 
       if (results.size > oldSize) {
-        appendFileSync('unknown-words.txt', `${word},${suggestion}\n`, 'utf-8')
+        appendFileSync('unknown-words.txt', `${word}\n`, 'utf-8')
       }
     }
   }
