@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js && node spellcheck.mjs"
+    "convert": "node index.js",
+    "replace": "node spellcheck.mjs"
   },
   "dependencies": {
     "@cspell/dict-vi-vn": "^3.0.6",
