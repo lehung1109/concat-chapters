@@ -45,10 +45,10 @@ for (const filePath of files) {
   const errors = new Set();
   let newContent = "";
 
-  content.split(/\n/).forEach((line) => {
+  content.split(/[\n,.]/).forEach((line) => {
     let newLine = '';
 
-    line.split(/[\s,.]+/).forEach((word) => {
+    line.split(/\s/).forEach((word) => {
       const trimWord = word.trim();
       let newWord = trimWord.toLowerCase();
 
@@ -66,7 +66,9 @@ for (const filePath of files) {
       newLine += newWord + ' ';
     });
 
-    newContent += newLine + "\n";
+    if(newLine.trim().length > 0) {
+      newContent += newLine + "\n";
+    }
   });
 
   if (errors.size > 0) {
