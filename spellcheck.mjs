@@ -45,29 +45,39 @@ for (const filePath of files) {
   const errors = new Set();
   let newContent = "";
 
-  content.split(/[\n,.]/).forEach((line) => {
+  content.split(/\n/).forEach((line) => {
     let newLine = '';
 
-    line.split(/\s/).forEach((word) => {
-      const trimWord = word.trim();
-      let newWord = trimWord.toLowerCase();
+    line.split(/,/).forEach((sentence) => {
+      let newSentence = '';
 
-      if (trimWord.length <= 1 || trimWord.match(/^\d+$/)) {
-        return;
+      sentence.split(/\s/).forEach((word) => {
+        const trimWord = word.trim();
+        let newWord = trimWord.toLowerCase();
+  
+        if (trimWord.length <= 1 || trimWord.match(/^\d+$/)) {
+          return;
+        }
+  
+        if (!spell.correct(trimWord)) {
+          newWord = replacementPairs.get(trimWord) || '';
+          errors.add(trimWord);
+          results.add(trimWord);
+          appendFileSync("unknown-words.txt", `${word}\n`, "utf-8");
+        }
+  
+        if(newWord.trim().length > 0) {
+          newSentence += newWord + ' ';
+        }
+      });
+
+      if(newSentence.trim().length > 0) {
+        newLine = newLine ? newLine + ', ' + newSentence : newSentence;
       }
-
-      if (!spell.correct(trimWord)) {
-        newWord = replacementPairs.get(trimWord) || '';
-        errors.add(trimWord);
-        results.add(trimWord);
-        appendFileSync("unknown-words.txt", `${word}\n`, "utf-8");
-      }
-
-      newLine += newWord + ' ';
     });
 
     if(newLine.trim().length > 0) {
-      newContent += newLine + "\n";
+      newContent = newContent ? newContent + '\n' + newLine : newLine;
     }
   });
 
