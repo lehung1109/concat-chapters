@@ -90,7 +90,7 @@ function mergeHTMLBatch(startNum, endNum) {
 
       text = text.replaceAll(/&/g, ' và ');
       text = text.replaceAll(/@/g, ' a còng ');
-      text = text.replaceAll(/-/g, ' gạch ngang ');
+      text = text.replaceAll(/-/g, ' ');
       text = text.replaceAll(/%/g, ' phần trăm ');
       text = text.replaceAll(/\//g, ' trên ');
       text = text.replaceAll(/℃/g, ' độ c ');

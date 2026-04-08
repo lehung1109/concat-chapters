@@ -60,7 +60,7 @@ for (const filePath of files) {
         }
   
         if (!spell.correct(trimWord)) {
-          newWord = replacementPairs.get(trimWord) || '';
+          newWord = replacementPairs.has(trimWord) ? replacementPairs.get(trimWord) : newWord;
           errors.add(trimWord);
           results.add(trimWord);
           appendFileSync("unknown-words.txt", `${word}\n`, "utf-8");
@@ -91,6 +91,11 @@ for (const filePath of files) {
 
   writeFileSync(filePath, newContent, "utf-8");
 }
+
+// re read unknown-words.txt and remove words that are duplicate
+const unknownWords = readFileSync("unknown-words.txt", "utf-8").split("\n");
+const uniqueUnknownWords = [...new Set(unknownWords)];
+writeFileSync("unknown-words.txt", uniqueUnknownWords.join("\n"), "utf-8");
 
 console.log(`\n📊 Tổng cộng: ${results.size} lỗi trong ${files.length} file`);
 console.log("💾 Đã lưu báo cáo → unknown-words.txt");
