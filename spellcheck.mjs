@@ -55,7 +55,13 @@ for (const filePath of files) {
         const trimWord = word.trim();
         let newWord = trimWord.toLowerCase();
   
-        if (trimWord.length <= 1 || trimWord.match(/^\d+$/)) {
+        if (!trimWord.length) {
+          return;
+        }
+
+        if (trimWord.match(/^\d+$/)) {
+          newSentence += trimWord + ' ';
+
           return;
         }
   
