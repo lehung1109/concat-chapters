@@ -425,6 +425,10 @@ job
 thank
 pớt
 xíc
+dớt
+lun
+dẹo
+hoằn
 blouse
 topic
 ship
