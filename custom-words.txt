@@ -411,6 +411,8 @@ phạc
 photo
 roạt
 hinh
+xường
+téng
 chổm
 pet
 like
