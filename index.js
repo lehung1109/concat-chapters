@@ -80,10 +80,11 @@ function mergeHTMLBatch(startNum, endNum) {
       continue;
     }
     
-    const html = fs.readFileSync(filePath, 'utf-8');
+    let html = fs.readFileSync(filePath, 'utf-8');
+    html = html.replaceAll(/<p>[^<]*&#160;[^<]*<\/p>/g, '');
     const $ = cheerio.load(html);
     
-    const bodyText = $('p').map((index, element) => {
+    const bodyText = $('p:not(.firstpara)').map((index, element) => {
       let text = $(element).text().trim();
 
       text = replaceText(text);
