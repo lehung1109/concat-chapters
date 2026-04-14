@@ -144,9 +144,10 @@ function mergeHTMLBatch(startNum, endNum) {
       text = text.split('\n').map(text => {
         let newText = text.trim();
 
-        // neu newText lớn hơn 130 ký tự, thì tìm kiếm dấu , từ ký tự 130 trở đi thay bằng \n
+        // neu newText lớn hơn maxCharacterPerFile ký tự, thì tìm kiếm dấu , từ ký tự maxCharacterPerFile trở đi thay bằng \n
         if(newText.length > maxCharacterPerFile) {
-          const index = newText.indexOf(',', maxCharacterPerFile);
+          let index = newText.indexOf(',', maxCharacterPerFile);
+          index = index === -1 ? newText.lastIndexOf(',') : index;
 
           if(index !== -1) {
             newText = newText.slice(0, index).trim() + '\n' + newText.slice(index + 1).trim().split(',').map(text => text.trim()).join('\n');
